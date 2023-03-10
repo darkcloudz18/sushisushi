@@ -1,0 +1,41 @@
+.hero-title {
+	font-size: 3.5rem;
+}
+
+.section-title {
+	font-size: 3rem;
+}
+
+.hero-container {
+	background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+
+}
+
+.subtitle {
+	font-size: 1.25rem;
+}
+
+.faves-container {
+	background: url('/images/marble-white.jpeg');
+	background-size: cover;
+	background-position: center;
+}
+
+.scroll-row {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+}
+
+.scroll-col {
+    flex: 1 0;
+}
+
+
+
+@media (max-width: 575.98px) {
+	.scroll-col {
+		flex: 0 0 auto;
+		max-width: 380px;
+	}
+}

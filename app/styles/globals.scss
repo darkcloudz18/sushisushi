@@ -1,0 +1,39 @@
+@import 'overrides';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url(/fonts/CircularStd-Bold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url(/fonts/CircularStd-Book.woff2) format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Gazpacho';
+    src: url(/fonts/Gazpacho-Bold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+body {
+  font-family: 'Circular Std Book';
+  font-weight: normal;
+}
+
+h1, h2 {
+  font-family: 'Gazpacho';
+}
