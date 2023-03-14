@@ -15,19 +15,22 @@ $raspberry: #D81159;
 
 @font-face {
     font-family: 'Circular Std';
-    src: url(/fonts/CircularStd-Bold.woff2) format('woff2');
+    src: url('/fonts/CircularStd-Bold.woff2') format('woff2'),
+         url('/fonts/CircularStd-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Circular Std';
-    src: url(/fonts/CircularStd-Book.woff2) format('woff2');
+    src: url('/fonts/CircularStd-Book.woff2') format('woff2'),
+         url('/fonts/CircularStd-Book.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Gazpacho';
-    src: url(/fonts/Gazpacho-Bold.woff2) format('woff2');
+    src: url('/fonts/Gazpacho-Bold.woff2') format('woff2'),
+         url('/fonts/Gazpacho-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
