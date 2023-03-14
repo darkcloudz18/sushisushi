@@ -39,3 +39,85 @@
 		max-width: 380px;
 	}
 }
+
+.swatch {
+  display: block;
+  text-align: center;
+  position: relative;
+  margin: 100px;
+  
+  div {
+    width: 202px;
+    height: 462px;
+    position: absolute;
+    top: 0px;
+    background: url('/images/sushi-roll.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    box-sizing: border-box;
+    transform-origin: center 90%;
+    display: inline-block;
+    backface-visibility: hidden;
+    margin-left: -35px;
+    transform: rotate(0deg);
+  }
+  
+  div:nth-child(1) {
+    animation: swatch-purple-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+  div:nth-child(2) {
+    animation: swatch-blue-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+  div:nth-child(3) {
+    animation: swatch-green-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+  div:nth-child(4) {
+    animation: swatch-yellow-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+  div:nth-child(5) {
+    animation: swatch-orange-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+  div:nth-child(6) {
+    animation: swatch-red-motion 5s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+  }
+}
+
+@mixin transform($fromDeg, $toDeg){
+  0% {
+    transform: rotate($fromDeg);
+  }
+  30%,
+  70% {
+    transform: rotate($toDeg);
+  }
+  90%,
+  10% {
+    transform: rotate($fromDeg);
+  }
+}
+
+@keyframes swatch-purple-motion {
+  @include transform(0deg, -65deg);
+}
+
+@keyframes swatch-blue-motion {
+  @include transform(0deg, -40deg);
+}
+
+@keyframes swatch-green-motion {
+  @include transform(0deg, -15deg);
+}
+
+@keyframes swatch-yellow-motion {
+  @include transform(0deg, 15deg);
+}
+
+@keyframes swatch-orange-motion {
+  @include transform(0deg, 40deg);
+}
+
+@keyframes swatch-red-motion {
+  @include transform(0deg, 65deg);
+}
