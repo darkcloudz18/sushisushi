@@ -15,6 +15,7 @@ $raspberry: #D81159;
 
 @font-face {
     font-family: 'Circular Std';
+    src: url('/fonts/CircularStd-Bold.ttf');
     src: url('/fonts/CircularStd-Bold.woff2') format('woff2'),
          url('/fonts/CircularStd-Bold.ttf') format('truetype');
     font-weight: bold;
@@ -22,6 +23,7 @@ $raspberry: #D81159;
 
 @font-face {
     font-family: 'Circular Std';
+    src: url('/fonts/CircularStd-Book.ttf');
     src: url('/fonts/CircularStd-Book.woff2') format('woff2'),
          url('/fonts/CircularStd-Book.ttf') format('truetype');
     font-weight: normal;
@@ -29,6 +31,7 @@ $raspberry: #D81159;
 
 @font-face {
     font-family: 'Gazpacho';
+    src: url('/fonts/Gazpacho-Bold.ttf');
     src: url('/fonts/Gazpacho-Bold.woff2') format('woff2'),
          url('/fonts/Gazpacho-Bold.ttf') format('truetype');
     font-weight: bold;
