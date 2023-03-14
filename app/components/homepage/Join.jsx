@@ -5,7 +5,7 @@ export default function Join() {
         <div className="container-fluid p-5">
             <div className="row">
                 <div className="col-lg-6">
-                    <img src="https://gratisography.com/wp-content/uploads/2018/05/gratisography-434H-free-stock-photo-1170x780.jpg" class="img-thumbnail img-fluid" alt="Join us image" />
+                    <img src="https://gratisography.com/wp-content/uploads/2018/05/gratisography-434H-free-stock-photo-1170x780.jpg" className="img-thumbnail img-fluid" alt="Join us image" />
                 </div>
                 <div className="col-lg-6">
                     <h2 className="section-title">Join Sushi Sushi today</h2>
