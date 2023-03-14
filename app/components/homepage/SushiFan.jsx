@@ -2,7 +2,7 @@
 
 export default function SushiFan() {
     return (
-        <div class="swatch">
+        <div className="swatch">
           <div></div>
           <div></div>
           <div></div>

@@ -13,16 +13,16 @@ export default function Join() {
                     <form>
                         <div className="row my-3">
                             <div className="col-lg-6">
-                                <label for="inputFirstName" className="form-label">First name</label>
+                                <label htmlFor="inputFirstName" className="form-label">First name</label>
                                 <input type="text" className="form-control" id="inputFirstName" />
                             </div>
                             <div className="col-lg-6">
-                                <label for="inputLastName" className="form-label">First name</label>
+                                <label htmlFor="inputLastName" className="form-label">First name</label>
                                 <input type="text" className="form-control" id="inputLastName" />
                             </div>
                         </div>
                         <div className="my-3">
-                            <label for="inputEmail" className="form-label">Email address</label>
+                            <label htmlFor="inputEmail" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" />
                             <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         </div>
