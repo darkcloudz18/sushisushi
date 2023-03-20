@@ -12,7 +12,7 @@ export default function Header() {
     return (
         <nav className="navbar navbar-expand-lg bg-light">
             <div className="container">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/">
                     <Image
                         src="/images/logo_with_koi.png"
                         width={173}
@@ -31,7 +31,7 @@ export default function Header() {
                             <a className="nav-link" href="#">Our Menu</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Our Stores</a>
+                            <a className="nav-link" href="/our_stores">Our Stores</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">Careers</a>

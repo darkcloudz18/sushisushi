@@ -9,7 +9,7 @@ export default function Join() {
                 </div>
                 <div className="col-lg-6">
                     <h2 className="section-title">Join Sushi Sushi today</h2>
-                    <p className="lead">Join our mailing list! We promise we won’t fill your inbox with fluffy white rice. We’re all about quality over quantity.</p>
+                    <p className="lead">Join our mailing list! We promise we won&apos;t fill your inbox with fluffy white rice. We’re all about quality over quantity.</p>
                     <form>
                         <div className="row my-3">
                             <div className="col-lg-6">
