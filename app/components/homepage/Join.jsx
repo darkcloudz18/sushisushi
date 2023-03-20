@@ -24,7 +24,7 @@ export default function Join() {
                         <div className="my-3">
                             <label htmlFor="inputEmail" className="form-label">Email address</label>
                             <input type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" />
-                            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
+                            <div id="emailHelp" className="form-text">We&apos;ll never share your email with anyone else.</div>
                         </div>
                         <button type="submit" className="btn btn-primary">Join Us</button>
                     </form>
