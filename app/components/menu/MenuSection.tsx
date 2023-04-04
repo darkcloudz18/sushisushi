@@ -1,12 +1,23 @@
 'use client';
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
 import Categories from './Categories';
 import MenuItem from './MenuItem';
 import Data from './Data';
+// import getProducts from '../../api/menu/MenuData'
 
 
 export default function MenuSection() {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://10.8.18.150/products").then((data) => {
+      console.log(data);
+      setProducts(data.data);
+    });
+  }, []);
+
   const [filter, setFilter] = useState('All');
 
   const FILTER_MAP = {
@@ -17,7 +28,7 @@ export default function MenuSection() {
 
   const FILTER_NAMES = Object.keys(FILTER_MAP);
 
-  const itemList = Data.filter(FILTER_MAP[filter]).map((item) => (
+  const itemList = products.filter(FILTER_MAP[filter]).map((item) => (
     <MenuItem item={item} key={item.Id} />
   ));
 
