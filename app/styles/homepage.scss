@@ -1,14 +1,16 @@
 .hero-title {
-	font-size: 3.5rem;
-}
-
-.section-title {
-	font-size: 3rem;
+	font-size: 5rem;
+  font-family: 'Circular Std';
+  font-weight: bold;
+  line-height: 1em;
+  color: white;
 }
 
 .hero-container {
-	background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
-
+	background: url('/images/hero-bg.png');
+  background-size: cover;
+  background-position-y: top;
+  padding-top: 110px;
 }
 
 .subtitle {

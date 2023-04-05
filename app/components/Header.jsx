@@ -14,9 +14,9 @@ export default function Header() {
             <div className="container">
                 <a className="navbar-brand" href="/">
                     <Image
-                        src="/images/logo_with_koi.png"
-                        width={173}
-                        height={106}
+                        src="/images/SushiSushi_Stacked.png"
+                        width={130}
+                        height={58}
                         alt="Sushi Sushi logo"
                     />
                 </a>
@@ -28,24 +28,24 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/our_menu">Our Menu</a>
+                            <a className="nav-link" href="/our_menu">Menu</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/our_stores">Our Stores</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Careers</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
+                            <a className="nav-link" href="/our_stores">Stores</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">About Us</a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">The Art of Sushi</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
+                        </li>
                     </ul>
                     <div className="d-flex">
-                        <button type="button" className="btn btn-secondary">Find a Store</button>
-                        <button type="button" className="btn btn-primary ms-2">Order Now</button>
+                        <button type="button" className="btn btn-sushi-secondary me-2">Find a Store</button>
+                        <button type="button" className="btn btn-sushi-primary">Order Now</button>
                     </div>
                 </div>
             </div>

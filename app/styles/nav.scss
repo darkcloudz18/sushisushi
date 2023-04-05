@@ -1,5 +1,5 @@
 .nav-link {
-	color: #000;
+	color: $grey-dark;
 	font-size: 1.15rem;
 	position: relative;
 	z-index: 1;
@@ -18,8 +18,11 @@
 	  content: " ";
 	  display: block;
 	  position: absolute;
-	  inset: 38px 0 0 0;
-	  background: $salmon-full;
+    height: 2px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+	  background: $grey-dark;
 	  z-index: -1;
 	  transition: transform .3s ease;
 	}

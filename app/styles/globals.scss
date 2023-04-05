@@ -4,10 +4,6 @@
 $raspberry: #D81159;
 
 @media (prefers-color-scheme: dark) {
-
-}
-
-@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -42,10 +38,38 @@ body {
   font-weight: normal;
 }
 
-h1, h2 {
+h1 {
   font-family: 'Gazpacho';
 }
 
 .title-container {
   background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
+}
+
+.section-title {
+	font-size: 2.5rem;
+  position: relative;
+  padding-bottom: 1rem;
+
+  &::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: $salmon-full;
+  }
+}
+
+.btn-sushi-primary {
+  @include button-variant($salmon-full, $salmon-full, white);
+}
+
+.btn-sushi-secondary {
+  @include button-outline-variant($salmon-full, white);
+}
+
+.btn-light {
+  @include button-variant($grey-light, $grey-light, $grey-dark);
 }

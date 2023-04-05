@@ -6,9 +6,9 @@ export default function Hero() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 my-3 my-lg-5 py-lg-5">
-                        <h1 className="hero-title">Sushi Sushi</h1>
-                        <p className="subtitle">And so we say goodbye to our beloved pet, Nibbler, who&apos;s gone to a place where I, too, hope one day to go. The toilet. </p>
-                        <button type="button" className="btn btn-primary">Order Now</button>
+                        <h1 className="hero-title">Fresh Tuna Range</h1>
+                        <p className="subtitle my-3">Your choice of Hand Roll, Sashimi or Nigiri</p>
+                        <button type="button" className="btn btn-light">Find out more</button>
                     </div>
                 </div>
             </div>
