@@ -10,7 +10,7 @@ export default function FavesCard() {
         <div className="col-7 col-md-6">
           <div className="card-body">
             <h5 className="card-title fw-bold">Tempura Vegetable Pancake</h5>
-            <p className="card-text">I am the man with no name, Zapp Brannigan! Oh, you're a dollar naughtier than most.</p>
+            <p className="card-text">I am the man with no name, Zapp Brannigan! Oh, you&apos;re a dollar naughtier than most.</p>
             <button type="button" className="btn btn-sushi-secondary mt-3">Find out more</button>
           </div>
         </div>
