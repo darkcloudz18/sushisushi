@@ -18,28 +18,66 @@
 }
 
 .faves-container {
-	background: url('/images/marble-white.jpeg');
-	background-size: cover;
-	background-position: center;
+	background: $nori-light;
 }
 
-.scroll-row {
-	display: flex;
-	flex-wrap: nowrap;
-	overflow-x: auto;
+.carousel-controls{
+  position: absolute;
+  right: 0;
+  top: -61px;
+
+  button[class^="carousel-faves-"]{
+    background: none;
+    border: none;
+  }
 }
 
-.scroll-col {
-    flex: 1 0;
+.carousel-faves-prev {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 2px;
+    background: white;
+    right: -3px;
+    bottom: 0;
+  }
 }
 
+.faves-img {
+  background: url('/images/products/tempura-vegetable-pancake.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
 
+  &::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 85%;
+    right: 0;
+    background: $salmon-full;
+  }
+}
 
-@media (max-width: 575.98px) {
-	.scroll-col {
-		flex: 0 0 auto;
-		max-width: 380px;
-	}
+.join-us-card {
+  background: $salmon-light;
+  padding: 1em;
+  border-radius: 2px;
+}
+
+.join-img {
+  background: url('/images/join-sushi.png');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .swatch {

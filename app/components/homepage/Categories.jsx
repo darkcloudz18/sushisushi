@@ -3,8 +3,8 @@
 export default function Categories() {
     return (
           <div className="container py-5">
-              <h2 className="section-title">Shop by category</h2>
-              <div className="row row-cols-1 row-cols-sm-2 row-cols-md-auto d-flex justify-content-center py-4">
+              <h2 className="section-title-salmon">Shop by category</h2>
+              <div className="row row-cols-auto d-flex justify-content-center py-4">
                 <div className="col text-center mx-3">
                   <img src="/images/category-icons/hrw.png" className="img-fluid" alt="Handroll white rice category" />
                   <p className="lead pt-3">Hand rolls</p>

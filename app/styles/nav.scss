@@ -27,3 +27,18 @@
 	  transition: transform .3s ease;
 	}
 }
+
+.order-mobile {
+  position: relative;
+
+  &::after {    content: "";
+    position: absolute;
+    display: block;
+    height: 44px;
+    width: 1px;
+    background: $salmon-full;
+    right: -18px;
+    bottom: -4px;
+  }
+
+}

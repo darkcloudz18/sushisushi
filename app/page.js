@@ -13,7 +13,6 @@ export default function Home() {
       <Categories />
       <Faves />
       <Join />
-      <SushiFan />
     </>
   );
 }

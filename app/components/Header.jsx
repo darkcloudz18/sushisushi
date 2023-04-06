@@ -20,11 +20,14 @@ export default function Header() {
                         alt="Sushi Sushi logo"
                     />
                 </a>
+                <div>
+                <button type="button" className="btn btn-sushi-primary d-inline-block d-lg-none me-3 order-mobile">Order Now</button>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
+                </div>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
@@ -45,7 +48,7 @@ export default function Header() {
                     </ul>
                     <div className="d-flex">
                         <button type="button" className="btn btn-sushi-secondary me-2">Find a Store</button>
-                        <button type="button" className="btn btn-sushi-primary">Order Now</button>
+                        <button type="button" className="btn btn-sushi-primary d-none d-lg-block">Order Now</button>
                     </div>
                 </div>
             </div>

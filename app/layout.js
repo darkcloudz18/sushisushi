@@ -1,6 +1,7 @@
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/globals.scss'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 export const metadata = {
   title: 'Sushi Sushi',
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
