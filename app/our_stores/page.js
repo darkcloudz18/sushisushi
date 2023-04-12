@@ -1,9 +1,10 @@
-import Map from '../components/Map';
+import Map from '../components/stores/Map';
+import Title from '../components/Title'
 
 export default function OurStores() {
   return (
     <>
-      <h1>Our Stores</h1>
+      <Title title="Our Stores" />
       <Map />
     </>
   );
