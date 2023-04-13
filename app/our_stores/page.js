@@ -1,3 +1,4 @@
+import '../styles/stores.scss';
 import Map from '../components/stores/Map';
 import Title from '../components/Title'
 

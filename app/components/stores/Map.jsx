@@ -10,8 +10,7 @@ const libraries = ["places"];
 export default function Map(){
   
   const containerStyle = {
-    height: '500px',
-    width: '500px'
+    height: '500px'
   };
 
   const [autocomplete, setAutocomplete] = useState(null);
@@ -43,9 +42,7 @@ export default function Map(){
 
   const onPlaceChanged = function(){
     if (autocomplete !== null && map !== null) {
-      console.log(autocomplete.getPlace());
-      let geometry = autocomplete.getPlace().geometry;
-      map.fitBounds(geometry.viewport);
+      map.fitBounds(autocomplete.getPlace().geometry.viewport);
     }
   };
 
@@ -60,41 +57,44 @@ export default function Map(){
         north: ne.lat(),
         east: ne.lng()
       });
-      console.log(bounds);
     }
   };
 
   return (
-      <>
+      <div className="container">
         <LoadScript
           googleMapsApiKey={process.env.NEXT_PUBLIC_MAPS_API}
           region="AU"
           libraries={libraries}
         >
-          <Autocomplete
-            onLoad={(autocomplete) => setAutocomplete(autocomplete)}
-            onPlaceChanged={onPlaceChanged}
-            restrictions={{country: "AU"}}
-            >
-              <input
-                type="text"
-                placeholder="Customise your placeholder"
-              />
-            </Autocomplete>
-          <GoogleMap
-            onLoad={(map) => setMap(map)}
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={4}
-            onBoundsChanged={onBoundsChanged}
-          >
-            {storeMarkers}
-          </GoogleMap>
+          <div className="row justify-content-center my-5">
+            <div className="col-12 col-md-6">
+              <h2 className="section-title-salmon">Find your nearest Sushi Sushi</h2>
+              <Autocomplete
+                  onLoad={(autocomplete) => setAutocomplete(autocomplete)}
+                  onPlaceChanged={onPlaceChanged}
+                  restrictions={{country: "AU"}}
+              >
+                <input
+                    type="text"
+                    placeholder="Search for a location"
+                    className="form-control mb-3"
+                />
+              </Autocomplete>
+              <GoogleMap
+                  onLoad={(map) => setMap(map)}
+                  mapContainerStyle={containerStyle}
+                  center={center}
+                  zoom={4}
+                  onBoundsChanged={onBoundsChanged}
+              >
+                {storeMarkers}
+              </GoogleMap>
+            </div>
+          </div>
         </LoadScript>
-        <div className="container">
-          {storeList}
-        </div>
-      </>
+          <div className="row justify-content-center"> {storeList} </div>
+      </div>
     );
 
 }
