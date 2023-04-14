@@ -1,0 +1,21 @@
+.off-white-bg {
+  background: $off-white;
+}
+
+.category-btn {
+  border: none;
+  background: none;
+  color: black;
+
+  &:hover, &.active {
+    color: $nori-full;
+  }
+}
+
+.item-modal-header {
+  color: white;
+}
+
+.item-modal-body {
+  background: white;
+}

@@ -1,3 +1,4 @@
+import '../styles/menu.scss';
 import Title from '../components/Title';
 import MenuSection from '../components/menu/MenuSection'
 

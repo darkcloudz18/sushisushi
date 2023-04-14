@@ -1,25 +1,32 @@
 'use client';
 
+import humanizeString from "humanize-string";
+import {useState} from "react";
 export default function Categories({filterNames, setFilter}) {
 
+    const [activeCategory, setActiveCategory] = useState('HandRolls');
+
+    const onCategoryClick = function (name) {
+        setFilter(name);
+        setActiveCategory(name);
+    }
+
     return (
-        <nav className="navbar sticky-top navbar-expand-lg bg-light">
-            <div className="container">
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                  {filterNames.map((name:string) => {
-                    return (
-                      <li className="nav-item" key={name}>
+        <div className="row row-cols-auto d-flex justify-content-center py-5">
+            {filterNames.map((name:string) => {
+                return (
+                    <div className="col" key={name}>
                         <button
-                          className="btn-dark text-white p-1 px-2 mx-5 btn fw-bold"
-                          onClick={() => setFilter(name)}
+                            className={`category-btn ${activeCategory == name ? 'active' : ''}`}
+                            onClick={() => onCategoryClick(name)}
                         >
-                          {name}
+                            <img src={`/images/category-icons/${name}.png`} className="img-fluid d-block" alt={`${humanizeString(name)} category`} />
+                            {humanizeString(name)}
                         </button>
-                      </li>
-                    );
-                  })}
-                </ul>
-            </div>
-        </nav>
+                    </div>
+                );
+            })}
+        </div>
+
     );
 }

@@ -6,31 +6,31 @@ export default function Categories() {
               <h2 className="section-title-salmon">Shop by category</h2>
               <div className="row row-cols-auto d-flex justify-content-center py-4">
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/hrw.png" className="img-fluid" alt="Handroll white rice category" />
+                  <img src="/images/category-icons/HandRoll.png" className="img-fluid" alt="Handroll white rice category" />
                   <p className="lead pt-3">Hand rolls</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/hrb.png" className="img-fluid" alt="Handroll brown rice category" />
+                  <img src="/images/category-icons/BrownRice.png" className="img-fluid" alt="Handroll brown rice category" />
                   <p className="lead pt-3">Brown rice</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/packs.png" className="img-fluid" alt="Packs category" />
+                  <img src="/images/category-icons/Packs.png" className="img-fluid" alt="Packs category" />
                   <p className="lead pt-3">Packs</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/platters.png" className="img-fluid" alt="Platters category" />
+                  <img src="/images/category-icons/Platters.png" className="img-fluid" alt="Platters category" />
                   <p className="lead pt-3">Platters</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/deluxe.png" className="img-fluid" alt="Deluxe category" />
+                  <img src="/images/category-icons/Deluxe.png" className="img-fluid" alt="Deluxe category" />
                   <p className="lead pt-3">Deluxe</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/salads.png" className="img-fluid" alt="Salads category" />
+                  <img src="/images/category-icons/Salads.png" className="img-fluid" alt="Salads category" />
                   <p className="lead pt-3">Salads</p>
                 </div>
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/hotfood.png" className="img-fluid" alt="Hot food category" />
+                  <img src="/images/category-icons/HotFood.png" className="img-fluid" alt="Hot food category" />
                   <p className="lead pt-3">Hot Food</p>
                 </div>
               </div>
