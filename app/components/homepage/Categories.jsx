@@ -6,7 +6,7 @@ export default function Categories() {
               <h2 className="section-title-salmon">Shop by category</h2>
               <div className="row row-cols-auto d-flex justify-content-center py-4">
                 <div className="col text-center mx-3">
-                  <img src="/images/category-icons/HandRoll.png" className="img-fluid" alt="Handroll white rice category" />
+                  <img src="/images/category-icons/HandRolls.png" className="img-fluid" alt="Handroll white rice category" />
                   <p className="lead pt-3">Hand rolls</p>
                 </div>
                 <div className="col text-center mx-3">
