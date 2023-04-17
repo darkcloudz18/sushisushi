@@ -34,6 +34,9 @@ const nextConfig = {
       },
     ];
   },
+  env: {
+    products_api: process.env.PRODUCTS_API,
+  },
   sassOptions: {
     includePaths: ['./app/styles'],
     prependData: `@import "variables.scss";`

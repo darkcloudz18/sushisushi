@@ -5,18 +5,16 @@ import axios from 'axios';
 import humanizeString from "humanize-string";
 import Categories from './Categories';
 import MenuItem from './MenuItem';
-import Data from './Data';
-// import getProducts from '../../api/menu/MenuData'
+import Products from '../../api/menu/Products';
 
 
 export default function MenuSection() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://10.8.18.150/products").then((data) => {
-      console.log(data);
-      setProducts(data.data);
-    });
+    Products().then( data => {
+      setProducts(data);
+    })
   }, []);
 
   const [filter, setFilter] = useState('HandRolls');
