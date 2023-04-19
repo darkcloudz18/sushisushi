@@ -36,6 +36,7 @@ const nextConfig = {
   },
   env: {
     products_api: process.env.PRODUCTS_API,
+    insta_token: process.env.INSTA_TOKEN
   },
   sassOptions: {
     includePaths: ['./app/styles'],

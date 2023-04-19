@@ -116,6 +116,11 @@ h2 {
 	transform: rotate(-135deg);
 }
 
+.off-white-bg {
+  background: $off-white;
+}
+
 .invert-colour {
   filter:invert(100%);
 }
+

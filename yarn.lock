@@ -5789,6 +5789,11 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-ig-feed@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/react-ig-feed/-/react-ig-feed-1.7.0.tgz#55844aad8c86bc34bfd2589fecdd2101e99f24eb"
+  integrity sha512-eRnpdPaHfBihIEzJaQfXyOYTK9Mi7+QuEqjXmHeTwiSy0nI91t9gneioKPBWrcSn3zoW7ZGWXii2S3c7bQYlGw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
