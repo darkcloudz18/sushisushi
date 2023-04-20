@@ -598,12 +598,6 @@ const StoreData =
   },
   {
     "title": "Highpoint 1 (Level 3 Food Court)",
-    "link": "https://www.sushisushi.com.au/store/highpoint-1-level-3-food-court/",
-    "pubDate": "Wed, 30 Jan 2019 01:33:23 +0000",
-    "creator": {
-      "__cdata": "admin"
-    },
-    "guid": "http://13.211.163.132/?post_type=store&#038;p=436",
     "store_id": "36",
     "address_line_01": "Shop 3187, Highpoint Shopping Centre, Level 3 Food Court",
     "address_line_02": "120-200 Rosamond Road",
@@ -640,6 +634,19 @@ const StoreData =
     "latitude": -37.7737755,
     "longitude": 144.887022,
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=67&mid=&no=&frmsrc=web"
+  },
+  {
+    "title": "Hoppers Crossing",
+    "store_id": "134",
+    "address_line_01": "Shop 14A, Hoppers Crossing Shopping Centre",
+    "address_line_02": "24 Old Geelong Road",
+    "suburb": "Hoppers Crossing",
+    "state": "vic",
+    "postcode": "3029",
+    "phone": "03 8731 7483",
+    "latitude": -37.8785999,
+    "longitude": 144.6899648,
+    "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=68&mid=&no=&frmsrc=web"
   }
 ];
 
