@@ -2,9 +2,9 @@
 
 import humanizeString from "humanize-string";
 import {useState} from "react";
-export default function Categories({filterNames, setFilter}) {
+export default function Categories({filterNames, setFilter, initialFilter}) {
 
-    const [activeCategory, setActiveCategory] = useState('HandRolls');
+    const [activeCategory, setActiveCategory] = useState(initialFilter);
 
     const onCategoryClick = function (name) {
         setFilter(name);

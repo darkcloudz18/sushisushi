@@ -5,7 +5,7 @@ import '../styles/footer.scss';
 export default function Footer() {
 
     return (
-        <footer>
+        <footer className="pt-5">
           <div className="container">
             <div className="row salmon-borders py-5">
               <div className="col-8 col-md-10">

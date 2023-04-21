@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import axios from 'axios';
+import { useSearchParams } from 'next/navigation';
 import humanizeString from "humanize-string";
 import Categories from './Categories';
 import MenuItem from './MenuItem';
@@ -17,7 +17,9 @@ export default function MenuSection() {
     })
   }, []);
 
-  const [filter, setFilter] = useState('HandRolls');
+  const initialFilter = useSearchParams().get('filter');
+
+  const [filter, setFilter] = useState( initialFilter? initialFilter : 'HandRolls');
 
   const FILTER_MAP = {
     HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
@@ -38,8 +40,8 @@ export default function MenuSection() {
   
   return(
     <div className="off-white-bg">
-      <div className="container">
-        <Categories filterNames={FILTER_NAMES} setFilter={setFilter} />
+      <div className="container pb-5">
+        <Categories filterNames={FILTER_NAMES} setFilter={setFilter} initialFilter={filter} />
         <h2 className="mb-5">{humanizeString(filter)}</h2>
         <div className="row">
           {itemList}
