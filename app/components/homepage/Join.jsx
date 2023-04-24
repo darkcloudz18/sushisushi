@@ -33,7 +33,6 @@ export default function Join() {
                             <input
                                 id="FNAME"
                                 className="form-control"
-                                autoFocus
                                 type="text"
                                 value={fields.FNAME}
                                 onChange={handleFieldChange}
@@ -44,7 +43,6 @@ export default function Join() {
                             <input
                                 id="LNAME"
                                 className="form-control"
-                                autoFocus
                                 type="text"
                                 value={fields.LNAME}
                                 onChange={handleFieldChange}
@@ -55,7 +53,6 @@ export default function Join() {
                             <input
                                 id="EMAIL"
                                 className="form-control"
-                                autoFocus
                                 type="email"
                                 value={fields.EMAIL}
                                 onChange={handleFieldChange}
