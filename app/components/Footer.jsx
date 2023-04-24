@@ -29,7 +29,7 @@ export default function Footer() {
                     Contact
                   </div>
                   <div className="col py-3">
-                    Terms and conditions
+                    <a href='/terms_and_conditions' className="plain-link">Terms and conditions</a>
                   </div>
                   <div className="col py-3">
                     Tool box
