@@ -11,16 +11,13 @@ export default function Footer() {
               <div className="col-8 col-md-10">
                 <div className="row row-cols-1 row-cols-md-3 py-5">
                   <div className="col py-3">
-                    Home
+                    <a href='/' className="plain-link">Home</a>
                   </div>
                   <div className="col py-3">
-                    Order now
+                    <a href='https://sushisushi.orderup.com.au/' className="plain-link">Order now</a>
                   </div>
                   <div className="col py-3">
-                    Delivery
-                  </div>
-                  <div className="col py-3">
-                    Franchising
+                    <a className="plain-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
                   </div>
                   <div className="col py-3">
                     Careers
@@ -30,9 +27,6 @@ export default function Footer() {
                   </div>
                   <div className="col py-3">
                     <a href='/terms_and_conditions' className="plain-link">Terms and conditions</a>
-                  </div>
-                  <div className="col py-3">
-                    Tool box
                   </div>
                 </div>
               </div>

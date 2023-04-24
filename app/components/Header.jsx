@@ -37,7 +37,7 @@ export default function Header() {
                             <a className="nav-link" href="/our_stores">Stores</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About Us</a>
+                            <a className="nav-link" href="/about_us">About Us</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
