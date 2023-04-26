@@ -23,7 +23,7 @@ export default function Footer() {
                     Careers
                   </div>
                   <div className="col py-3">
-                    Contact
+                    <a href="/contact_us" className="plain-link">Contact us</a>
                   </div>
                   <div className="col py-3">
                     <a href='/terms_and_conditions' className="plain-link">Terms and conditions</a>
