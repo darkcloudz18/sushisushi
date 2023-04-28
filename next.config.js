@@ -36,7 +36,9 @@ const nextConfig = {
   },
   env: {
     products_api: process.env.PRODUCTS_API,
-    insta_token: process.env.INSTA_TOKEN
+    insta_token: process.env.INSTA_TOKEN,
+    mailer_domain: process.env.MAILER_DOMAIN,
+    mailer_api_key: process.env.MAILER_API_KEY
   },
   sassOptions: {
     includePaths: ['./app/styles'],
