@@ -43,6 +43,15 @@ const nextConfig = {
   sassOptions: {
     includePaths: ['./app/styles'],
     prependData: `@import "variables.scss";`
+  },
+  async redirects() {
+    return [
+      {
+        source: '/rate-us',
+        destination: 'https://forms.office.com/pages/responsepage.aspx?id=2kq8kPWJYk6j4z4UEwLrkc3cS_spLWBDvX43MFYEQYJUQzIyWFNRUDVLT1gxVjZRVjc0Tk8yMFpJUS4u',
+        permanent: false,
+      },
+    ]
   }
 }
 
