@@ -1091,7 +1091,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=136&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Taylors Hill (Coles)",
+    "title": "Taylors Hill",
+    "subtitle": "Coles",
     "store_id": "tay",
     "address_line_01": "Gourlay Rd",
     "address_line_02": "",
@@ -1156,7 +1157,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=135&mid=&no=&frmsrc=qr"
   },
   {
-    "title": "Pattersons Lakes (Coles)",
+    "title": "Pattersons Lakes",
+    "subtitle": "Coles",
     "store_id": "pat",
     "address_line_01": "Gladesville Shopping Centre",
     "address_line_02": "Gladesville Blvd",
@@ -1169,7 +1171,8 @@ const StoreData =
     "order_up_link": ""
   },
   {
-    "title": "Manor Lakes (Coles)",
+    "title": "Manor Lakes",
+    "subtitle": "Coles",
     "store_id": "man",
     "address_line_01": "8 Manor Lakes Blvd",
     "address_line_02": "",
@@ -1182,7 +1185,8 @@ const StoreData =
     "order_up_link": ""
   },
   {
-    "title": "Eden Rise (Coles)",
+    "title": "Eden Rise",
+    "subtitle": "Coles",
     "store_id": "ede",
     "address_line_01": "Oshea Rd & Clyde Rd",
     "address_line_02": "",
@@ -1234,7 +1238,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=140&mid=&no=&frmsrc=qr"
   },
   {
-    "title": "Croydon (Coles)",
+    "title": "Croydon",
+    "subtitle": "Coles",
     "store_id": "cro",
     "address_line_01": "Croydon Central",
     "address_line_02": "5-15 Kent Ave",
@@ -1312,7 +1317,8 @@ const StoreData =
     "order_up_link": ""
   },
   {
-    "title": "Booragoon 2 (Food Court)",
+    "title": "Booragoon 2",
+    "subtitle": "Food Court",
     "store_id": "boo",
     "address_line_01": "K01 Garden City Shopping Centre",
     "address_line_02": "125 Riseley Street",
@@ -1520,7 +1526,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=75&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Donvale (Coles)",
+    "title": "Donvale",
+    "subtitle": "Coles",
     "store_id": "172",
     "address_line_01": "Tunstall Square Shopping Centre, Donvale",
     "address_line_02": "",
@@ -1559,7 +1566,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=18&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Melbourne Central L2 (Food Court)",
+    "title": "Melbourne Central L2",
+    "subtitle": "Food Court",
     "store_id": "54",
     "address_line_01": "Shop L02 Melbourne Central, Level 2",
     "address_line_02": "260 Swanston and LaTrobe Streets",
@@ -1598,7 +1606,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=28&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Tooronga (Coles)",
+    "title": "Tooronga",
+    "subtitle": "Coles",
     "store_id": "170",
     "address_line_01": "Tooronga Rd",
     "address_line_02": "",
@@ -1676,7 +1685,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=10&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Carousel 1 (Level 1 Near The Coffee Club)",
+    "title": "Carousel 1",
+    "subtitle": "Level 1 Near The Coffee Club",
     "store_id": "59",
     "address_line_01": "Kiosk K106, Westfield Carousel",
     "address_line_02": "1382 Albany Hwy",
@@ -1702,7 +1712,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=118&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Carousel 2 (Level 1 Near Woolworths)",
+    "title": "Carousel 2",
+    "subtitle": "Level 1 Near Woolworths",
     "store_id": "135",
     "address_line_01": "Shop 1095, Westfield Carousel",
     "address_line_02": "1382 Albany Hwy",
@@ -1741,7 +1752,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=56&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Booragoon 1 (Near JB Hi-Fi)",
+    "title": "Booragoon 1",
+    "subtitle": "Near JB Hi-Fi",
     "store_id": "48",
     "address_line_01": "Kiosk K43, Garden City Shopping Centre",
     "address_line_02": "125 Riseley Street",
@@ -1832,7 +1844,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=77&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Midland Gate 1 (Near Coles)",
+    "title": "Midland Gate 1",
+    "subtitle": "Near Coles",
     "store_id": "73",
     "address_line_01": "Shop K035, Midland Gate Shopping Centre",
     "address_line_02": "274 Great Eastern Highway",
@@ -1897,7 +1910,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=103&mid=&no=&frmsrc=web"
   },
   {
-    "title": "The Glen 1 (Level 1 Near Coles)",
+    "title": "The Glen 1",
+    "subtitle": "Level 1 Near Coles",
     "store_id": "30",
     "address_line_01": "Shop L-05, The Glen Shopping Centre, Level 1, Near Coles",
     "address_line_02": "235 Springvale Road",
@@ -1975,7 +1989,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=97&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Southland 2 (Level 3, Food Court)",
+    "title": "Southland 2",
+    "subtitle": "Level 3, Food Court",
     "store_id": "49",
     "address_line_01": "Kiosk K306, Westfield Southland",
     "address_line_02": "1239 Nepean Hwy",
@@ -1988,7 +2003,8 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=96&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Southland 1 (Level 1 Near, David Jones)",
+    "title": "Southland 1",
+    "subtitle": "Level 1 Near, David Jones",
     "store_id": "17",
     "address_line_01": "Shop 119, Westfield Southland",
     "address_line_02": "1239 Nepean Hwy",
