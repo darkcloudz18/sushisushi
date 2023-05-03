@@ -15,12 +15,7 @@ export default function Map(){
 
   const [autocomplete, setAutocomplete] = useState(null);
   const [map, setMap] = useState(null);
-  const [bounds, setBounds] = useState({
-    "south": -45.15458769298096,
-    "west": 112.38214975000002,
-    "north": -6.756873500727103,
-    "east": 156.32746225000002
-  });
+  const [mapBounds, setMapBounds] = useState(null);
 
   const [center, setCenter] = useState({
     lat: -27.610112,
@@ -28,7 +23,7 @@ export default function Map(){
   });
 
   const storeFilter = function (store) {
-    return store.latitude >= bounds.south && store.latitude <= bounds.north && store.longitude >= bounds.west && store.longitude <= bounds.east
+    return mapBounds?.contains({lat: store.latitude, lng: store.longitude});
   };
 
   const storeList = StoreData.filter((store) => storeFilter(store) ).map((store) => (
@@ -48,15 +43,7 @@ export default function Map(){
 
   const onBoundsChanged = function () {
     if (autocomplete !== null && map !== null) {
-      const mapBounds = map.getBounds();
-      const ne = mapBounds.getNorthEast();
-      const sw = mapBounds.getSouthWest();
-      setBounds({
-        south: sw.lat(),
-        west: sw.lng(),
-        north: ne.lat(),
-        east: ne.lng()
-      });
+      setMapBounds(map.getBounds());
     }
   };
 
