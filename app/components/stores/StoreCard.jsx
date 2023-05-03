@@ -16,7 +16,9 @@ export default function StoreCard({store}) {
                         <a href={`tel:${store.phone}`} className="d-block mb-3"> {store.phone} </a>
                     </div>
                     <div className="col align-self-end">
-                        <a href={store.order_up_link} className="btn btn-sushi-primary">Order from this store</a>
+                        {store.order_up_link?.length > 0 &&
+                            <a href={store.order_up_link} className="btn btn-sushi-primary">Order from this store</a>
+                        }
                     </div>
                 </div>
             </div>
