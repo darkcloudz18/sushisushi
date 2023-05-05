@@ -12,7 +12,7 @@ export default function Categories({filterNames, setFilter, initialFilter}) {
     }
 
     return (
-        <div className="row row-cols-auto d-flex justify-content-center py-5">
+        <div className="row row-cols-7 d-flex justify-content-center py-5">
             {filterNames.map((name:string) => {
                 return (
                     <div className="col" key={name}>
