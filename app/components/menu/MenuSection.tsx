@@ -39,7 +39,7 @@ export default function MenuSection() {
   const itemList = ProductStub.filter(FILTER_MAP[filter])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .map((item) => (
-    <MenuItem item={item} key={item.id} />
+    <MenuItem item={item} category={filter} key={item.id} />
   ));
 
   
@@ -47,14 +47,14 @@ export default function MenuSection() {
     <div className="off-white-bg">
       <div className="container pb-5">
         <div className="row">
-          <div className="col-12 col-md-8">
+          <div className="col-12 col-lg-8">
             <Categories filterNames={FILTER_NAMES} setFilter={setFilter} initialFilter={filter} />
           </div>
-          <div className="col-12 col-md-4 align-self-center">
+          <div className="col-12 col-lg-4 align-self-center">
             <DietaryFilter dietaryReqs={dietaryReqs} setDietary={setDietaryReqs} />
           </div>
         </div>
-        <h2 className="mb-5">{humanizeString(filter)}</h2>
+        <h2 className="my-5">{humanizeString(filter)}</h2>
         <div className="row">
           {itemList}
         </div>

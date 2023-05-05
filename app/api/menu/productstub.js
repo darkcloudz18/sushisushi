@@ -3,8 +3,8 @@ const ProductStub = [
         "id": "63",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Teriyaki Chicken ",
-        "description": "Teriyaki Chicken ",
+        "name": "Teriyaki Chicken",
+        "description": "Teriyaki Chicken",
         "kJs": "735kJ",
         "allergens": [
             "Sesame",
@@ -12,23 +12,10 @@ const ProductStub = [
         ]
     },
     {
-        "id": "427",
-        "category": "hand_rolls",
-        "group": "Brown Rice H/Roll",
-        "name": "Spicy Salmon & Cucumber ",
-        "description": "",
-        "kJs": "774kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
-            "Sesame"
-        ]
-    },
-    {
         "id": "800",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Salt & Pepper Squid ",
+        "name": "Salt & Pepper Squid",
         "description": "",
         "kJs": "906kJ",
         "allergens": [
@@ -43,8 +30,8 @@ const ProductStub = [
         "id": "831",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Cooked Tuna & Avocado ",
-        "description": "Cooked Tuna & Avocado ",
+        "name": "Cooked Tuna & Avocado",
+        "description": "Cooked Tuna & Avocado",
         "kJs": "808kJ",
         "allergens": [
             "Egg",
@@ -57,8 +44,8 @@ const ProductStub = [
         "id": "832",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Crispy Chicken ",
-        "description": "Crispy Chicken ",
+        "name": "Crispy Chicken",
+        "description": "Crispy Chicken",
         "kJs": "901kJ",
         "allergens": [
             "Wheat",
@@ -72,7 +59,7 @@ const ProductStub = [
         "id": "833",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Smoked Salmon & Avocado ",
+        "name": "Smoked Salmon & Avocado",
         "description": "",
         "kJs": "909kJ",
         "allergens": [
@@ -85,8 +72,8 @@ const ProductStub = [
         "id": "834",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Salmon & Avocado ",
-        "description": "Salmon & Avocado ",
+        "name": "Salmon & Avocado",
+        "description": "Salmon & Avocado",
         "kJs": "905kJ",
         "allergens": [
             "Egg",
@@ -98,8 +85,8 @@ const ProductStub = [
         "id": "836",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Prawn & Avocado",
-        "description": "Prawn & Avocado",
+        "name": "Prawn & Cucumber",
+        "description": "Prawn & Cucumber",
         "kJs": "777kJ",
         "allergens": [
             "Crustacea",
@@ -111,7 +98,7 @@ const ProductStub = [
         "id": "837",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "California ",
+        "name": "California",
         "description": "",
         "kJs": "825kJ",
         "allergens": [
@@ -142,7 +129,7 @@ const ProductStub = [
         "id": "841",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Panko Prawn ",
+        "name": "Panko Prawn",
         "description": "",
         "kJs": "1020kJ",
         "allergens": [
@@ -174,7 +161,7 @@ const ProductStub = [
         "id": "844",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Tamago & Cucumber ",
+        "name": "Tamago & Cucumber",
         "description": "",
         "kJs": "682kJ",
         "allergens": [
@@ -200,8 +187,8 @@ const ProductStub = [
         "id": "847",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Cucumber & Avocado ",
-        "description": "Cucumber & Avocado ",
+        "name": "Cucumber & Avocado",
+        "description": "Cucumber & Avocado",
         "kJs": "682kJ",
         "allergens": [
             "Sesame"
@@ -242,22 +229,10 @@ const ProductStub = [
         "id": "858",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Avocado ",
-        "description": "Avocado ",
+        "name": "Avocado",
+        "description": "Avocado",
         "kJs": "722kJ",
         "allergens": [
-            "Sesame"
-        ]
-    },
-    {
-        "id": "860",
-        "category": "hand_rolls",
-        "group": "Brown Rice H/Roll",
-        "name": "Tofu & Cucumber ",
-        "description": "",
-        "kJs": "741kJ",
-        "allergens": [
-            "Soy",
             "Sesame"
         ]
     },
@@ -265,26 +240,13 @@ const ProductStub = [
         "id": "862",
         "category": "hand_rolls",
         "group": "Brown Rice H/Roll",
-        "name": "Cooked Tuna & Cucumber ",
+        "name": "Cooked Tuna & Cucumber",
         "description": "",
         "kJs": "841kJ",
         "allergens": [
             "Egg",
             "Fish",
             "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "865",
-        "category": "hand_rolls",
-        "group": "Brown Rice H/Roll",
-        "name": "Spicy Prawn",
-        "description": "",
-        "kJs": "735kJ",
-        "allergens": [
-            "Crustacea",
-            "Egg",
             "Sesame"
         ]
     },
@@ -311,20 +273,6 @@ const ProductStub = [
             "Crustacea",
             "Egg",
             "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "318",
-        "category": "deluxe",
-        "name": "Seaweed Inari",
-        "description": "Seaweed Inari",
-        "kJs": "531kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Mollusc",
             "Soy",
             "Sesame"
         ]
@@ -394,19 +342,6 @@ const ProductStub = [
             "Gluten",
             "Crustacea",
             "Egg",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "630",
-        "category": "deluxe",
-        "name": "Creamy Salmon Sushi Nigiri",
-        "description": "Creamy Salmon Sushi Nigiri",
-        "kJs": "298kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
             "Soy",
             "Sesame"
         ]
@@ -608,28 +543,6 @@ const ProductStub = [
         ]
     },
     {
-        "id": "880425",
-        "category": "deluxe",
-        "name": "Spicy Fresh Tuna Nigiri ",
-        "description": "Spicy Fresh Tuna Nigiri ",
-        "kJs": "224kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "880427",
-        "category": "deluxe",
-        "name": "King Fish Nigiri",
-        "description": "",
-        "kJs": "217kJ",
-        "allergens": [
-            "Fish"
-        ]
-    },
-    {
         "id": "15",
         "category": "packs",
         "name": "Prawn Sushi Pack",
@@ -818,18 +731,6 @@ const ProductStub = [
         ]
     },
     {
-        "id": "311",
-        "category": "packs",
-        "name": "Tobiko Pack",
-        "description": "Tobiko Pack",
-        "kJs": "2380kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
-            "Soy"
-        ]
-    },
-    {
         "id": "314",
         "category": "packs",
         "name": "Salmon Tuna Sashimi Pack",
@@ -839,131 +740,6 @@ const ProductStub = [
             "Fish",
             "Soy",
 
-        ]
-    },
-    {
-        "id": "321",
-        "category": "packs",
-        "name": "Prawn & California Roll Pack",
-        "description": "Prawn & California Roll Pack",
-        "kJs": "1460kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Egg",
-            "Milk",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "612310",
-        "category": "packs",
-        "name": "Seafood Lovers Mini Pack",
-        "description": "",
-        "kJs": "1160kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Egg",
-            "Fish",
-            "Soy"
-        ]
-    },
-    {
-        "id": "612311",
-        "category": "packs",
-        "name": "Chicken & Vegetarian Uramaki Mini Pack",
-        "description": "",
-        "kJs": "824kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Egg",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "612312",
-        "category": "packs",
-        "name": "Assorted Hand Roll Mini Pack",
-        "description": "",
-        "kJs": "2250kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Egg",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "612313",
-        "category": "packs",
-        "name": "Nigiri & Inari Mini Pack",
-        "description": "",
-        "kJs": "871kJ",
-        "allergens": [
-            "Crustacea",
-            "Egg",
-            "Milk",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "612314",
-        "category": "packs",
-        "name": "Vegan Mini Pack",
-        "description": "",
-        "kJs": "955kJ",
-        "allergens": [
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "612315",
-        "category": "packs",
-        "name": "Sashimi Mini Pack",
-        "description": "",
-        "kJs": "465kJ",
-        "allergens": [
-            "Fish",
-            "Soy"
-        ]
-    },
-    {
-        "id": "612316",
-        "category": "packs",
-        "name": "Kids Pack with Veggies",
-        "description": "",
-        "kJs": "701kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
-            "Soy"
-        ]
-    },
-    {
-        "id": "612317",
-        "category": "packs",
-        "name": "Kids Pack with Cookies",
-        "description": "",
-        "kJs": "1210kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Egg",
-            "Milk",
-            "Fish",
-            "Soy"
         ]
     },
     {
@@ -993,8 +769,8 @@ const ProductStub = [
     {
         "id": "556",
         "category": "packs",
-        "name": "Crispy Chicken Pack ",
-        "description": "Crispy Chicken Pack ",
+        "name": "Crispy Chicken Pack",
+        "description": "Crispy Chicken Pack",
         "kJs": "1410kJ",
         "allergens": [
             "Wheat",
@@ -1007,25 +783,12 @@ const ProductStub = [
     {
         "id": "15641",
         "category": "packs",
-        "name": "Trifecta Pack ",
-        "description": "Trifecta Pack ",
+        "name": "Trifecta Pack",
+        "description": "Trifecta Pack",
         "kJs": "2190kJ",
         "allergens": [
             "Egg",
             "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
-        "id": "831136",
-        "category": "packs",
-        "name": "Futomaki Pack",
-        "description": "",
-        "kJs": "1310kJ",
-        "allergens": [
-            "Egg",
-            "Milk",
             "Soy",
             "Sesame"
         ]
@@ -1121,16 +884,6 @@ const ProductStub = [
         ]
     },
     {
-        "id": "443",
-        "category": "hot_food",
-        "name": "Teriyaki Chicken Udon",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Sesame"
-        ]
-    },
-    {
         "id": "444",
         "category": "hot_food",
         "name": "Tempura Prawn Udon",
@@ -1156,8 +909,8 @@ const ProductStub = [
     {
         "id": "15642",
         "category": "packs",
-        "name": "Favourites Pack ",
-        "description": "Favourites Pack ",
+        "name": "Favourites Pack",
+        "description": "Favourites Pack",
         "kJs": "1440kJ",
         "allergens": [
             "Egg",
@@ -1180,8 +933,8 @@ const ProductStub = [
     {
         "id": "880415",
         "category": "packs",
-        "name": "Salmon Sashimi Pack Small ",
-        "description": "Salmon Sashimi Pack Small ",
+        "name": "Salmon Sashimi Pack Small",
+        "description": "Salmon Sashimi Pack Small",
         "kJs": "964kJ",
         "allergens": [
             "Fish",
@@ -1191,8 +944,8 @@ const ProductStub = [
     {
         "id": "880423",
         "category": "salads",
-        "name": "Salmon Poke Bowl ",
-        "description": "Salmon Poke Bowl ",
+        "name": "Salmon Poke Bowl",
+        "description": "Salmon Poke Bowl",
         "kJs": "1790kJ",
         "allergens": [
             "Fish",
@@ -1202,8 +955,8 @@ const ProductStub = [
     {
         "id": "880438",
         "category": "salads",
-        "name": "Fresh Tuna Poke Bowl ",
-        "description": "Fresh Tuna Poke Bowl ",
+        "name": "Fresh Tuna Poke Bowl",
+        "description": "Fresh Tuna Poke Bowl",
         "kJs": "1780kJ",
         "allergens": [
             "Fish",
@@ -1213,8 +966,8 @@ const ProductStub = [
     {
         "id": "880440",
         "category": "salads",
-        "name": "Karaage Chicken Poke Bowl ",
-        "description": "Karaage Chicken Poke Bowl ",
+        "name": "Karaage Chicken Poke Bowl",
+        "description": "Karaage Chicken Poke Bowl",
         "kJs": "2160kJ",
         "allergens": [
             "Wheat",
@@ -1227,8 +980,8 @@ const ProductStub = [
     {
         "id": "880442",
         "category": "salads",
-        "name": "Vegetarian Poke Bowl ",
-        "description": "Vegetarian Poke Bowl ",
+        "name": "Vegetarian Poke Bowl",
+        "description": "Vegetarian Poke Bowl",
         "kJs": "1760kJ",
         "allergens": [
             "Egg",
@@ -1304,7 +1057,7 @@ const ProductStub = [
     },
     {
         "id": "831095",
-        "category": "Sliders & Sandwiches",
+        "category": "deluxe",
         "name": "Tempura Salmon & Avocado Sushi Sandwich",
         "description": "Tempura Salmon & Avocado Sushi Sandwich",
         "kJs": "877kJ",
@@ -1319,7 +1072,7 @@ const ProductStub = [
     },
     {
         "id": "831096",
-        "category": "Sliders & Sandwiches",
+        "category": "deluxe",
         "name": "Crispy Chicken Sushi Sandwich",
         "description": "Crispy Chicken Sushi Sandwich",
         "kJs": "987kJ",
@@ -1333,7 +1086,7 @@ const ProductStub = [
     },
     {
         "id": "831103",
-        "category": "Sliders & Sandwiches",
+        "category": "deluxe",
         "name": "Crispy Chicken Slider",
         "description": "Crispy Chicken Slider",
         "kJs": "1200kJ",
@@ -1347,7 +1100,7 @@ const ProductStub = [
     },
     {
         "id": "831104",
-        "category": "Sliders & Sandwiches",
+        "category": "deluxe",
         "name": "Spicy Popcorn Prawn Slider",
         "description": "Spicy Popcorn Prawn Slider",
         "kJs": "1300kJ",
@@ -1378,7 +1131,7 @@ const ProductStub = [
         "id": "101",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Teriyaki Chicken ",
+        "name": "Teriyaki Chicken",
         "description": "Teriyaki Chicken ",
         "kJs": "637kJ",
         "allergens": [
@@ -1390,8 +1143,8 @@ const ProductStub = [
         "id": "102",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Cooked Tuna & Avocado ",
-        "description": "Cooked Tuna & Avocado ",
+        "name": "Cooked Tuna & Avocado",
+        "description": "Cooked Tuna & Avocado",
         "kJs": "711kJ",
         "allergens": [
             "Egg",
@@ -1419,8 +1172,8 @@ const ProductStub = [
         "id": "104",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Smoked Salmon & Avocado ",
-        "description": "Smoked Salmon & Avocado ",
+        "name": "Smoked Salmon & Avocado",
+        "description": "Smoked Salmon & Avocado",
         "kJs": "769kJ",
         "allergens": [
             "Egg",
@@ -1432,8 +1185,8 @@ const ProductStub = [
         "id": "105",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Salmon & Avocado ",
-        "description": "Salmon & Avocado ",
+        "name": "Salmon & Avocado",
+        "description": "Salmon & Avocado",
         "kJs": "808kJ",
         "allergens": [
             "Egg",
@@ -1445,7 +1198,7 @@ const ProductStub = [
         "id": "116",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Tamago & Cucumber ",
+        "name": "Tamago & Cucumber",
         "description": "",
         "kJs": "564kJ",
         "allergens": [
@@ -1485,8 +1238,8 @@ const ProductStub = [
         "id": "108",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "California ",
-        "description": "California ",
+        "name": "California",
+        "description": "California",
         "kJs": "728kJ",
         "allergens": [
             "Wheat",
@@ -1502,8 +1255,8 @@ const ProductStub = [
         "id": "109",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Fresh Tuna & Cucumber ",
-        "description": "Fresh Tuna & Cucumber ",
+        "name": "Fresh Tuna & Cucumber",
+        "description": "Fresh Tuna & Cucumber",
         "kJs": "647kJ",
         "allergens": [
             "Egg",
@@ -1515,8 +1268,8 @@ const ProductStub = [
         "id": "110",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Spicy Cooked Tuna & Cucumber ",
-        "description": "Spicy Cooked Tuna & Cucumber ",
+        "name": "Spicy Cooked Tuna & Cucumber",
+        "description": "Spicy Cooked Tuna & Cucumber",
         "kJs": "743kJ",
         "allergens": [
             "Egg",
@@ -1529,8 +1282,8 @@ const ProductStub = [
         "id": "113",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Panko Prawn ",
-        "description": "Panko Prawn ",
+        "name": "Panko Prawn",
+        "description": "Panko Prawn",
         "kJs": "902kJ",
         "allergens": [
             "Wheat",
@@ -1562,8 +1315,8 @@ const ProductStub = [
         "id": "144",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Cooked Tuna & Corn ",
-        "description": "Cooked Tuna & Corn ",
+        "name": "Cooked Tuna & Corn",
+        "description": "Cooked Tuna & Corn",
         "kJs": "621kJ",
         "allergens": [
             "Egg",
@@ -1576,8 +1329,8 @@ const ProductStub = [
         "id": "201",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Vegetarian ",
-        "description": "Vegetarian ",
+        "name": "Vegetarian",
+        "description": "Vegetarian",
         "kJs": "564kJ",
         "allergens": [
             "Soy",
@@ -1589,8 +1342,8 @@ const ProductStub = [
         "id": "202",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Cucumber & Avocado ",
-        "description": "Cucumber & Avocado ",
+        "name": "Cucumber & Avocado",
+        "description": "Cucumber & Avocado",
         "kJs": "564kJ",
         "allergens": [
             "Sesame"
@@ -1600,8 +1353,8 @@ const ProductStub = [
         "id": "207",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Special California ",
-        "description": "Special California ",
+        "name": "Special California",
+        "description": "Special California",
         "kJs": "675kJ",
         "allergens": [
             "Wheat",
@@ -1634,8 +1387,8 @@ const ProductStub = [
         "id": "211",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Avocado ",
-        "description": "Avocado ",
+        "name": "Avocado",
+        "description": "Avocado",
         "kJs": "603kJ",
         "allergens": [
             "Sesame"
@@ -1645,8 +1398,8 @@ const ProductStub = [
         "id": "248",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Tofu & Cucumber ",
-        "description": "Tofu & Cucumber ",
+        "name": "Tofu & Cucumber",
+        "description": "Tofu & Cucumber",
         "kJs": "622kJ",
         "allergens": [
             "Soy",
@@ -1670,8 +1423,8 @@ const ProductStub = [
         "id": "426",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Spicy Salmon & Cucumber ",
-        "description": "Spicy Salmon & Cucumber ",
+        "name": "Spicy Salmon & Cucumber",
+        "description": "Spicy Salmon & Cucumber",
         "kJs": "749kJ",
         "allergens": [
             "Egg",
@@ -1684,8 +1437,8 @@ const ProductStub = [
         "id": "541",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Cooked Tuna & Cucumber ",
-        "description": "Cooked Tuna & Cucumber ",
+        "name": "Cooked Tuna & Cucumber",
+        "description": "Cooked Tuna & Cucumber",
         "kJs": "649kJ",
         "allergens": [
             "Egg",
@@ -1726,8 +1479,8 @@ const ProductStub = [
         "id": "580",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Salt & Pepper Squid ",
-        "description": "Salt & Pepper Squid ",
+        "name": "Salt & Pepper Squid",
+        "description": "Salt & Pepper Squid",
         "kJs": "814kJ",
         "allergens": [
             "Wheat",
@@ -1751,24 +1504,6 @@ const ProductStub = [
         ]
     },
     {
-        "id": "15625",
-        "category": "hand_rolls",
-        "group": "White Rice H/Roll",
-        "name": "Pork Katsu ",
-        "description": "Pork Katsu ",
-        "kJs": "783kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Egg",
-            "Milk",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ]
-    },
-    {
         "id": "15650",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
@@ -1784,8 +1519,8 @@ const ProductStub = [
         "id": "831218",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
-        "name": "Tempura Vegetable ",
-        "description": "Tempura Vegetable ",
+        "name": "Tempura Vegetable",
+        "description": "Tempura Vegetable",
         "kJs": "1040kJ",
         "allergens": [
             "Wheat",
@@ -1797,17 +1532,140 @@ const ProductStub = [
         ]
     },
     {
-        "id": "831276",
-        "category": "hand_rolls",
-        "group": "White Rice H/Roll",
-        "name": "Spicy Crunchy Cooked Tuna   ",
-        "description": "Spicy Crunchy Cooked Tuna   ",
-        "kJs": "835kJ",
+        "id": "ssd_pla",
+        "category": "platters",
+        "name": "Sushi Sashimi Deluxe",
+        "description": "Sushi Sashimi Deluxe",
+        "kJs": "7,460kJ",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "ss_pla",
+        "category": "platters",
+        "name": "Sushi Deluxe",
+        "description": "Sushi Deluxe",
+        "kJs": "7,950kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "au_pla",
+        "category": "platters",
+        "name": "Assorted Uramaki Platter",
+        "description": "Assorted Uramaki Platter",
+        "kJs": "7,580kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
             "Egg",
             "Fish",
             "Soy",
             "Sesame"
+        ]
+    },
+    {
+        "id": "ah_pla",
+        "category": "platters",
+        "name": "Assorted Hand Rolls",
+        "description": "Assorted Hand Rolls",
+        "kJs": "9,270kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "vu_pla",
+        "category": "platters",
+        "name": "Vegetarian Uramaki",
+        "description": "Vegetarian Uramaki",
+        "kJs": "3,920kJ",
+        "allergens": [
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "sl_pla",
+        "category": "platters",
+        "name": "Seafood Lover",
+        "description": "Seafood Lover",
+        "kJs": "7,900kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "k_pla",
+        "category": "platters",
+        "name": "Kid's Platter",
+        "description": "Kid's Platter",
+        "kJs": "6,360kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "as_pla",
+        "category": "platters",
+        "name": "All Star",
+        "description": "All Star",
+        "kJs": "16,940kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ]
+    },
+    {
+        "id": "sas_pla",
+        "category": "platters",
+        "name": "Salmon Supreme",
+        "description": "Salmon Supreme",
+        "kJs": "6050kJ",
+        "allergens": [
+            "Fish"
         ]
     }
 ];

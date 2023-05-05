@@ -2,9 +2,40 @@
   border: none;
   background: none;
   color: black;
+  max-width: 90px;
 
   &:hover, &.active {
     color: $nori-full;
+  }
+}
+
+.dietary-filter {
+  position: absolute !important;
+  z-index: 1;
+  top: -65px;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.15);
+
+  @media (max-width: 991.98px) {
+    top: 0;
+  }
+}
+
+.salmon-pipe {
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    right: 0;
+    height: 65%;
+    width: 2px;
+    background: $salmon-full;
+
+    @media (max-width: 991.98px) {
+      display: none;
+    }
   }
 }
 
@@ -14,4 +45,11 @@
 
 .item-modal-body {
   background: white;
+}
+
+.item-modal-img {
+  @media (max-width: 991.98px) {
+    height: 300px;
+    margin-bottom: 1rem;
+  }
 }
