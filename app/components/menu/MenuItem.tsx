@@ -28,7 +28,7 @@ export default function MenuItem({item, category}) {
 
             <div className="modal fade" id={`item${item.id}Modal`} tabIndex={-1} aria-labelledby="exampleModalLabel"
                  aria-hidden="true">
-                <div className="modal-dialog modal-lg">
+                <div className="modal-dialog modal-xl">
                     <div className="modal-content">
                         <div className="modal-header item-modal-header">
                             <h3 className="modal-title fs-5" id="exampleModalLabel">{humanizeString(item.category)}</h3>
@@ -38,7 +38,7 @@ export default function MenuItem({item, category}) {
                         <div className="modal-body item-modal-body">
                             <div className={"row px-3"}>
                                 <div
-                                    className={"col-12 col-lg-6 order-lg-last item-modal-img"}
+                                    className={"col-12 col-lg-8 order-lg-last item-modal-img"}
                                     style={{
                                         backgroundImage: `url("/images/products/${category}/${item.name}.jpg")`,
                                         backgroundPosition: "center",
@@ -46,7 +46,7 @@ export default function MenuItem({item, category}) {
                                     }}
                                 >
                                 </div>
-                                <div className={"col-12 col-lg-6 p-5"}>
+                                <div className={"col-12 col-lg-4 p-5"}>
                                     <h2>{item.name}</h2>
                                     <h3>{item.kJs}</h3>
                                     <p className={"mb-1"}>Allergens</p>
