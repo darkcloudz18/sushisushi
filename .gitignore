@@ -30,3 +30,28 @@ yarn-error.log*
 
 # vercel
 .vercel
+store-data.json/package.json
+stores.json/.env
+stores.json/package-lock.json
+stores.json/package.json
+stores.json/public/favicon.ico
+stores.json/public/index.html
+stores.json/public/logo192.png
+stores.json/public/logo512.png
+stores.json/public/manifest.json
+stores.json/public/robots.txt
+stores.json/reactide.js
+stores.json/README.md
+stores.json/src/App.css
+stores.json/src/App.js
+stores.json/src/App.test.js
+stores.json/src/index.css
+stores.json/src/index.js
+stores.json/src/logo.svg
+stores.json/src/reportWebVitals.js
+stores.json/src/setupTests.js
+.idea/watcherTasks.xml
+.idea/vcs.xml
+.idea/sushi-next.iml
+.idea/modules.xml
+.idea/inspectionProfiles/Project_Default.xml
