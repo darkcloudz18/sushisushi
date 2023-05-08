@@ -1712,20 +1712,6 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=118&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Carousel 2",
-    "subtitle": "Level 1 Near Woolworths",
-    "store_id": "135",
-    "address_line_01": "Shop 1095, Westfield Carousel",
-    "address_line_02": "1382 Albany Hwy",
-    "suburb": "Cannington",
-    "state": "wa",
-    "postcode": "6107",
-    "phone": "08 6243 1182",
-    "latitude": -32.0172673,
-    "longitude": 115.9395028,
-    "order_up_link": ""
-  },
-  {
     "title": "Cockburn Gateway",
     "store_id": "89",
     "address_line_01": "Cockburn Gateway Shopping Centre",
