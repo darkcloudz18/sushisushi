@@ -20,7 +20,7 @@ export default function Footer() {
                     <a className="plain-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
                   </div>
                   <div className="col py-3">
-                    Careers
+                    <a href={"/careers"} className={"plain-link"}>Careers</a>
                   </div>
                   <div className="col py-3">
                     <a href="/contact_us" className="plain-link">Contact us</a>
