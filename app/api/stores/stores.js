@@ -791,19 +791,6 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=76&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Victoria Gardens Richmond",
-    "store_id": "6",
-    "address_line_01": "Victoria Gardens Shopping Centre, Cnr Victoria St & Burnley St",
-    "address_line_02": "",
-    "suburb": "Richmond",
-    "state": "vic",
-    "postcode": "3121",
-    "phone": "03 9428 1120",
-    "latitude": -37.820770,
-    "longitude": 145.008060,
-    "order_up_link": ""
-  },
-  {
     "title": "Melbourne Airport T4",
     "store_id": "51",
     "address_line_01": "F&B 14 Kiosk, Melbourne Airport Terminal 4",
@@ -1370,19 +1357,6 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=132&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Mermaid Waters",
-    "store_id": "mer",
-    "address_line_01": "Makeri St",
-    "address_line_02": "",
-    "suburb": "Mermaid Waters",
-    "state": "qld",
-    "postcode": "4218",
-    "phone": "",
-    "latitude": -28.047280,
-    "longitude": 153.420470,
-    "order_up_link": ""
-  },
-  {
     "title": "Whitehorse Plaza",
     "store_id": "whi",
     "address_line_01": "Shop FF01, Whitehorse Plaza Shopping Centre",
@@ -1394,32 +1368,6 @@ const StoreData =
     "latitude": -37.818610,
     "longitude": 145.121970,
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=117&mid=&no=&frmsrc=web"
-  },
-  {
-    "title": "BP Officer Inbound",
-    "store_id": "bpoi",
-    "address_line_01": "30 94 Handford Lane",
-    "address_line_02": "94 Princes Hwy",
-    "suburb": "Officer",
-    "state": "vic",
-    "postcode": "3809",
-    "phone": "",
-    "latitude": 41.206780,
-    "longitude": -74.003390,
-    "order_up_link": ""
-  },
-  {
-    "title": "BP Officer Outbound",
-    "store_id": "bpoo",
-    "address_line_01": "65 Princes Hwy",
-    "address_line_02": "",
-    "suburb": "Officer",
-    "state": "vic",
-    "postcode": "3809",
-    "phone": "",
-    "latitude": -38.060730,
-    "longitude": 145.413270,
-    "order_up_link": ""
   },
   {
     "title": "BP Scoresby Outbound",

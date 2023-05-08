@@ -26,7 +26,9 @@ export default function Map(){
     return mapBounds?.contains({lat: store.latitude, lng: store.longitude});
   };
 
-  const storeList = StoreData.filter((store) => storeFilter(store) ).map((store) => (
+  const storeList = StoreData.filter((store) => storeFilter(store) )
+      .sort((a,b) => a.title.localeCompare(b.title))
+      .map((store) => (
       <StoreCard store={store} key={store.store_id} />
   ));
 
