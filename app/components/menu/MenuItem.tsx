@@ -57,7 +57,7 @@ export default function MenuItem({item, category}) {
                                             );
                                         })}
                                     </ul>
-                                    <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary w-100">Order Now</a>
+                                    <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary w-100">Start my order</a>
                                 </div>
                             </div>
                         </div>
