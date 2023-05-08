@@ -26,7 +26,7 @@ export default function AboutUs() {
                     <div className="col-6 col-md-4 col-lg-2 offset-md-1">
                         <a href={"https://www.seek.com.au/Sushi-Sushi-jobs/at-this-company"}>
                             <span className={"visually-hidden"}>Sushi Sushi jobs on indeed.com</span>
-                            <img src={"/images/indeed_logo.png"} className={"img-fluid"}/>
+                            <img src={"/images/Indeed_logo.png"} className={"img-fluid"}/>
                         </a>
                     </div>
                 </div>
