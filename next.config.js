@@ -51,6 +51,11 @@ const nextConfig = {
         destination: 'https://forms.office.com/pages/responsepage.aspx?id=2kq8kPWJYk6j4z4UEwLrkc3cS_spLWBDvX43MFYEQYJUQzIyWFNRUDVLT1gxVjZRVjc0Tk8yMFpJUS4u',
         permanent: false,
       },
+      {
+        source: '/order-now',
+        destination: 'https://sushisushi.orderup.com.au/',
+        permanent: false,
+      },
     ]
   }
 }
