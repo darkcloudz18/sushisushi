@@ -49,6 +49,7 @@ export default function MenuItem({item, category}) {
                                 <div className={"col-12 col-lg-4 p-5"}>
                                     <h2>{item.name}</h2>
                                     <h3>{item.kJs}</h3>
+                                    <p>{item.description}</p>
                                     <p className={"mb-1"}>Allergens</p>
                                     <ul>
                                         {item.allergens?.map((name:string) => {
