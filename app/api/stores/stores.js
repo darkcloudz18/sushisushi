@@ -1591,7 +1591,7 @@ const StoreData =
     "phone": "03 8844 7113",
     "latitude": -37.784883,
     "longitude": 145.126181,
-    "order_up_link": ""
+    "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=45&mid=&no=&frmsrc=web"
   },
   {
     "title": "DFO Perth",
