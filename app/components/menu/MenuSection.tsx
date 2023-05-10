@@ -18,7 +18,7 @@ export default function MenuSection() {
   //   })
   // }, []);
 
-  const initialFilter = useSearchParams().get('filter');
+  const initialFilter = useSearchParams()?.get('filter');
 
   const [filter, setFilter] = useState( initialFilter? initialFilter : 'HandRolls');
 
@@ -32,7 +32,7 @@ export default function MenuSection() {
     HotFood: (item) => item.category == "hot_food"
   };
 
-  const [dietaryReqs, setDietaryReqs] = useState([]);
+  const [dietaryReqs, setDietaryReqs] = useState<string[]>([]);
 
   const FILTER_NAMES = Object.keys(FILTER_MAP);
 
