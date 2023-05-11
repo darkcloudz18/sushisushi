@@ -14,6 +14,12 @@ a {
   font-size: 1.5rem;
 }
 
+.lost-text {
+  @media (max-width: 991.98px) {
+    text-align: center;
+  }
+}
+
 .koi-pond {
   background: #77aed9;
   height: 400px;
@@ -22,6 +28,11 @@ a {
   border: 2px #9298B5 solid;
   position: relative;
   overflow: hidden;
+  margin: auto;
+
+  @media (max-width: 991.98px) {
+    border-radius: 5px;
+  }
 }
 
 .koi-one {
