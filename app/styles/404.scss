@@ -1,4 +1,218 @@
-html {
-  background-size: cover;
-  background: url("/images/404bg.JPG");
+body {
+  background: #F4F5D9 !important;
+}
+
+a {
+  color: black;
+}
+
+.blockquote-footer {
+  color: black;
+}
+
+.home-link {
+  font-size: 1.5rem;
+}
+
+.koi-pond {
+  background: #77aed9;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px #9298B5 solid;
+  position: relative;
+  overflow: hidden;
+}
+
+.koi-one {
+  position: absolute;
+  height: 27px;
+  width: 63px;
+  background: url('/images/koi/koi-one.png');
+  background-size: contain;
+  top: 50%;
+  animation-name: koi-one-swim;
+  animation-duration: 33s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.koi-two {
+  position: absolute;
+  width: 31px;
+  height: 58px;
+  background: url('/images/koi/koi-two.png');
+  background-size: contain;
+  animation-name: koi-two-swim;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 3s;
+}
+
+.koi-three {
+  position: absolute;
+  width: 73px;
+  height: 25px;
+  transform: rotate(-45deg);
+  background: url('/images/koi/koi-three.png');
+  background-size: contain;
+  animation-name: koi-three-swim;
+  animation-duration: 36s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 6s;
+}
+
+.koi-four {
+  position: absolute;
+  width: 54px;
+  height: 49px;
+  background: url('/images/koi/koi-four.png');
+  background-size: contain;
+  animation-name: koi-four-swim;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+}
+
+.koi-five {
+  position: absolute;
+  width: 69px;
+  height: 31px;
+  background: url('/images/koi/koi-five.png');
+  background-size: contain;
+  animation-name: koi-five-swim;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-delay: 7s;
+}
+
+.lilypad {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('/images/koi/lilypad.png');
+  background-size: contain;
+  animation-name: lilypad-float;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+}
+
+.lotus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: url('/images/koi/lotus.png');
+  background-size: contain;
+  animation-name: lotus-float;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+
+@keyframes koi-one-swim {
+  0% {
+    left: -60px;
+  }
+
+  100% {
+    left: 450px;
+  }
+}
+
+@keyframes koi-two-swim {
+  0%{
+    top: -15%;
+    right: 50%;
+    transform: rotate(0);
+  }
+
+  50% {
+    top: 10%;
+  }
+
+  100% {
+    top: -15%;
+    right: 100%;
+    transform: rotate(115deg);
+  }
+}
+
+@keyframes koi-three-swim {
+  0% {
+    left: 100%;
+    top: 0;
+  }
+
+  100% {
+    left: -80px;
+    top: 115%;
+  }
+}
+
+@keyframes koi-four-swim {
+  0%{
+    bottom: -10%;
+    left: 60%;
+    transform: rotate(0);
+  }
+
+  50% {
+    bottom: 18%;
+  }
+
+  100% {
+    bottom: -15%;
+    left: 100%;
+    transform: rotate(185deg);
+  }
+}
+
+@keyframes koi-five-swim {
+  0% {
+    bottom: 70px;
+    left: -70px;
+    transform: rotate(0);
+  }
+
+  100% {
+    bottom: 470px;
+    left: 150px;
+    transform: rotate(-80deg);
+  }
+}
+
+@keyframes lilypad-float {
+  0% {
+    bottom: -30px;
+    right: 5%;
+  }
+
+  95% {
+    bottom: 75%;
+    right: 100%;
+  }
+
+  100% {
+    right: 120%;
+  }
+}
+
+@keyframes lotus-float {
+  0% {
+    bottom: 50%;
+    right: -30px;
+  }
+
+  95% {
+    bottom: 100%;
+    right: 100%;
+  }
+
+  100% {
+    right: 120%;
+  }
 }
