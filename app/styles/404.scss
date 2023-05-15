@@ -52,13 +52,12 @@ a {
   position: absolute;
   width: 31px;
   height: 58px;
-  background: url('/images/koi/koi-two.png');
+  background: url('/images/koi/koi-two.png') no-repeat;
   background-size: contain;
   animation-name: koi-two-swim;
   animation-duration: 21s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 3s;
 }
 
 .koi-three {
@@ -66,46 +65,43 @@ a {
   width: 73px;
   height: 25px;
   transform: rotate(-45deg);
-  background: url('/images/koi/koi-three.png');
+  background: url('/images/koi/koi-three.png') no-repeat;
   background-size: contain;
   animation-name: koi-three-swim;
   animation-duration: 36s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 6s;
 }
 
 .koi-four {
   position: absolute;
   width: 54px;
   height: 49px;
-  background: url('/images/koi/koi-four.png');
+  background: url('/images/koi/koi-four.png') no-repeat;
   background-size: contain;
   animation-name: koi-four-swim;
   animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 2s;
 }
 
 .koi-five {
   position: absolute;
   width: 69px;
   height: 31px;
-  background: url('/images/koi/koi-five.png');
+  background: url('/images/koi/koi-five.png') no-repeat;
   background-size: contain;
   animation-name: koi-five-swim;
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 7s;
 }
 
 .lilypad {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url('/images/koi/lilypad.png');
+  background: url('/images/koi/lilypad.png') no-repeat;
   background-size: contain;
   animation-name: lilypad-float;
   animation-duration: 50s;
@@ -116,12 +112,11 @@ a {
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url('/images/koi/lotus.png');
+  background: url('/images/koi/lotus.png') no-repeat;
   background-size: contain;
   animation-name: lotus-float;
   animation-duration: 50s;
   animation-iteration-count: infinite;
-  animation-delay: 4s;
 }
 
 @keyframes koi-one-swim {
