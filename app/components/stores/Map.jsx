@@ -33,7 +33,7 @@ export default function Map(){
   ));
 
   const storeMarkers = StoreData.map((store) => (
-      <MarkerF position={{lat: store.latitude, lng: store.longitude}} key={store.store_id} />
+      <MarkerF position={{lat: store.latitude, lng: store.longitude}} icon={"/images/marker.png"} key={store.store_id} />
   ));
   
 
