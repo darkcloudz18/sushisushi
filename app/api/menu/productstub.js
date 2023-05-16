@@ -548,7 +548,8 @@ const ProductStub = [
         "description": "10 piece mix of inside out sushi with fresh and panko prawn ",
         "kJs": "1170kJ",
         "allergens": [
-            "Crustacea"
+            "Crustacea",
+            "Soy"
         ]
     },
     {
@@ -799,6 +800,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Egg",
+            "Soy",
             "Sesame"
         ]
     },
@@ -809,6 +814,9 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Soy",
             "Sesame"
         ]
     },
@@ -819,6 +827,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
             "Sesame"
         ]
     },
@@ -829,6 +841,12 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Fish",
+            "Soy",
             "Sesame"
         ]
     },
@@ -839,6 +857,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
             "Sesame"
         ]
     },
@@ -849,7 +871,8 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
-            "Sesame"
+            "Wheat",
+            "Gluten"
         ]
     },
     {
@@ -859,6 +882,9 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Soy",
             "Sesame"
         ]
     },
@@ -869,6 +895,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
             "Sesame"
         ]
     },
@@ -879,6 +909,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
             "Sesame"
         ]
     },
@@ -889,7 +923,10 @@ const ProductStub = [
         "description": "",
         "kJs": "",
         "allergens": [
-            "Sesame"
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy"
         ]
     },
     {
@@ -899,10 +936,10 @@ const ProductStub = [
         "description": "",
         "kJs": "502kJ",
         "allergens": [
-            "Mollusc",
-            "Fish",
-            "Soy",
-            "Sesame"
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Soy"
         ]
     },
     {
@@ -996,8 +1033,6 @@ const ProductStub = [
         "description": "",
         "kJs": "502kJ",
         "allergens": [
-            "Wheat",
-            "Gluten",
             "Fish",
             "Soy",
             "Sesame"
