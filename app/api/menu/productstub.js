@@ -1533,6 +1533,7 @@ const ProductStub = [
         "kJs": "792kJ",
         "allergens": [
             "Wheat",
+            "Gluten",
             "Soy",
             "Sesame"
         ]
