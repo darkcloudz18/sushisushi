@@ -60,10 +60,6 @@ h2 {
   border: none;
 }
 
-.title-container {
-  background: url('https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png');
-}
-
 @mixin section-title($text-colour, $border-colour) {
   position: relative;
   padding-bottom: 1rem;

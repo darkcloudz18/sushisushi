@@ -46,3 +46,63 @@
   }
 
 }
+
+.title-container {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+
+	@media (max-width: 991.98px) {
+		height: 500px;
+		background-position: 50% 63%;
+	}
+}
+
+.aboutus-hero {
+	background-image: url("/images/headers/aboutus-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/aboutus-mobile.jpg");
+	}
+}
+
+.careers-hero {
+	background-image: url("/images/headers/careers-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/careers-mobile.jpg");
+	}
+}
+
+.contact-hero {
+	background-image: url("/images/headers/contact-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/contact-mobile.jpg");
+	}
+}
+
+.menu-hero {
+	background-image: url("/images/headers/menu-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/menu-mobile.jpg");
+	}
+}
+
+.stores-hero {
+	background-image: url("/images/headers/stores-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/stores-mobile.jpg");
+	}
+}
+
+.tsandcs-hero {
+	background-image: url("/images/headers/tsandcs-desktop.jpg");
+
+	@media (max-width: 991.98px) {
+		background-image: url("/images/headers/tsandcs-mobile.jpg");
+	}
+}

@@ -4,7 +4,7 @@ import ArtOfSushi from "../components/about/ArtOfSushi";
 export default function AboutUs() {
     return (
         <>
-            <Title title="About Us" />
+            <Title title="About Us" headerClass={"aboutus"} />
             <ArtOfSushi />
         </>
     );
