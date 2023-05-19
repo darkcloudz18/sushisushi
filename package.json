@@ -12,6 +12,7 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "@react-google-maps/api": "^2.18.1",
+    "@supabase/supabase-js": "^2.22.0",
     "axios": "^1.3.4",
     "bootstrap": "^5.2.3",
     "eslint": "8.35.0",

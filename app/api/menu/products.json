@@ -4,7 +4,7 @@
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
     "name": "Teriyaki Chicken",
-    "description": "Teriyaki chicken and fresh avocado",
+    "description": "Teriyaki chicken & fresh avocado",
     "kJs": "735kJ",
     "allergens": [
       "Sesame",
@@ -15,8 +15,8 @@
     "plu": "800",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Salt and Pepper Squid",
-    "description": "Salt and pepper squid, housemade mayonnaise and fresh lettuce",
+    "name": "Salt & Pepper Squid",
+    "description": "Salt & pepper squid, housemade mayonnaise & fresh lettuce",
     "kJs": "906kJ",
     "allergens": [
       "Wheat",
@@ -30,8 +30,8 @@
     "plu": "831",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Cooked Tuna and Avocado",
-    "description": "Cooked tuna mix and fresh avocado",
+    "name": "Cooked Tuna & Avocado",
+    "description": "Cooked tuna mix & fresh avocado",
     "kJs": "808kJ",
     "allergens": [
       "Egg",
@@ -45,7 +45,7 @@
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
     "name": "Crispy Chicken",
-    "description": "Crispy tempura chicken, housemade mayonnaise and fresh lettuce",
+    "description": "Crispy tempura chicken, housemade mayonnaise & fresh lettuce",
     "kJs": "901kJ",
     "allergens": [
       "Wheat",
@@ -59,8 +59,8 @@
     "plu": "833",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Smoked Salmon and Avocado",
-    "description": "Smoked salmon, avocado and housemade mayonnaise",
+    "name": "Smoked Salmon & Avocado",
+    "description": "Smoked salmon, avocado & housemade mayonnaise",
     "kJs": "909kJ",
     "allergens": [
       "Egg",
@@ -72,8 +72,8 @@
     "plu": "834",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Salmon and Avocado",
-    "description": "Fresh salmon, avocado and housemade mayonnaise",
+    "name": "Salmon & Avocado",
+    "description": "Fresh salmon, avocado & housemade mayonnaise",
     "kJs": "905kJ",
     "allergens": [
       "Egg",
@@ -85,8 +85,8 @@
     "plu": "836",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Prawn and Cucumber",
-    "description": "Cooked prawn, housemade mayonnaise and fresh lettuce",
+    "name": "Prawn & Cucumber",
+    "description": "Cooked prawn, housemade mayonnaise & fresh lettuce",
     "kJs": "777kJ",
     "allergens": [
       "Crustacea",
@@ -99,7 +99,7 @@
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
     "name": "California",
-    "description": "Seafood stick, housemade mayonnaise and fresh avocado",
+    "description": "Seafood stick, housemade mayonnaise & fresh avocado",
     "kJs": "825kJ",
     "allergens": [
       "Wheat",
@@ -115,8 +115,8 @@
     "plu": "839",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Spicy Cooked Tuna and Cucumber",
-    "description": "Cooked tuna mix, spicy housemade mayonnaise and fresh cucumber",
+    "name": "Spicy Cooked Tuna & Cucumber",
+    "description": "Cooked tuna mix, spicy housemade mayonnaise & fresh cucumber",
     "kJs": "871kJ",
     "allergens": [
       "Egg",
@@ -130,7 +130,7 @@
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
     "name": "Panko Prawn",
-    "description": "Panko prawn, housemade mayonnaise and fresh lettuce",
+    "description": "Panko prawn, housemade mayonnaise & fresh lettuce",
     "kJs": "1020kJ",
     "allergens": [
       "Wheat",
@@ -161,7 +161,7 @@
     "plu": "844",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Tamago and Cucumber",
+    "name": "Tamago & Cucumber",
     "description": "",
     "kJs": "682kJ",
     "allergens": [
@@ -187,8 +187,8 @@
     "plu": "847",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Cucumber and Avocado",
-    "description": "Fresh avocado and cucumber",
+    "name": "Cucumber & Avocado",
+    "description": "Fresh avocado & cucumber",
     "kJs": "682kJ",
     "allergens": [
       "Sesame"
@@ -199,7 +199,7 @@
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
     "name": "Special California",
-    "description": "Seafood salad mix, housemade mayonnaise, tobiko and fresh avocado",
+    "description": "Seafood salad mix, housemade mayonnaise, tobiko & fresh avocado",
     "kJs": "668kJ",
     "allergens": [
       "Wheat",
@@ -240,8 +240,8 @@
     "plu": "862",
     "category": "hand_rolls",
     "group": "Brown Rice H/Roll",
-    "name": "Cooked Tuna and Cucumber",
-    "description": "Cooked tuna mix and fresh cucumber",
+    "name": "Cooked Tuna & Cucumber",
+    "description": "Cooked tuna mix & fresh cucumber",
     "kJs": "841kJ",
     "allergens": [
       "Egg",
@@ -265,7 +265,7 @@
     "plu": "317",
     "category": "deluxe",
     "name": "Seafood Inari",
-    "description": "Seafood salad mix, housemade mayonnaise, tobiko and sushi rice",
+    "description": "Seafood salad mix, housemade mayonnaise, tobiko & sushi rice",
     "kJs": "525kJ",
     "allergens": [
       "Wheat",
@@ -281,7 +281,7 @@
     "plu": "513",
     "category": "deluxe",
     "name": "Pickled Squid Inari",
-    "description": "Pickled squid salad and sushi rice",
+    "description": "Pickled squid salad & sushi rice",
     "kJs": "611kJ",
     "allergens": [
       "Wheat",
@@ -324,7 +324,7 @@
   {
     "plu": "566",
     "category": "deluxe",
-    "name": "Prawn and Avocado Nigiri",
+    "name": "Prawn & Avocado Nigiri",
     "description": "",
     "kJs": "151kJ",
     "allergens": [
@@ -335,7 +335,7 @@
     "plu": "599",
     "category": "deluxe",
     "name": "Spicy Panko Prawn Nigiri",
-    "description": "Panko prawn and spicy housemade mayonnaise",
+    "description": "Panko prawn & spicy housemade mayonnaise",
     "kJs": "473kJ",
     "allergens": [
       "Wheat",
@@ -350,7 +350,7 @@
     "plu": "637",
     "category": "deluxe",
     "name": "Tempura Vegetable Nigiri",
-    "description": "Tempura vegetable pancake drizzled with housemade mayonnaise and teriyaki sauce",
+    "description": "Tempura vegetable pancake drizzled with housemade mayonnaise & teriyaki sauce",
     "kJs": "260kJ",
     "allergens": [
       "Wheat",
@@ -363,7 +363,7 @@
     "plu": "1052",
     "category": "deluxe",
     "name": "Rainbow Uramaki",
-    "description": "Salmon belly, tamago egg, fresh  avocado and cucumber, housemade mayonnaise and teriyaki sauce",
+    "description": "Salmon belly, tamago egg, fresh  avocado & cucumber, housemade mayonnaise & teriyaki sauce",
     "kJs": "448kJ",
     "allergens": [
       "Egg",
@@ -424,7 +424,7 @@
     "plu": "1308",
     "category": "deluxe",
     "name": "Panko Prawn Nigiri",
-    "description": "Panko prawn and housemade mayonnaise",
+    "description": "Panko prawn & housemade mayonnaise",
     "kJs": "474kJ",
     "allergens": [
       "Wheat",
@@ -449,7 +449,7 @@
     "plu": "1400",
     "category": "deluxe",
     "name": "Seared Salmon Nigiri",
-    "description": "Seared fresh salmon and teriyaki sauce",
+    "description": "Seared fresh salmon & teriyaki sauce",
     "kJs": "299kJ",
     "allergens": [
       "Fish",
@@ -483,7 +483,7 @@
   {
     "plu": "16002",
     "category": "deluxe",
-    "name": "Teriyaki Chicken and Edamame Loaded Pancake",
+    "name": "Teriyaki Chicken & Edamame Loaded Pancake",
     "description": "",
     "kJs": "1970kJ",
     "allergens": [
@@ -498,7 +498,7 @@
   {
     "plu": "16003",
     "category": "deluxe",
-    "name": "Salmon and Avocado Loaded Pancake",
+    "name": "Salmon & Avocado Loaded Pancake",
     "description": "",
     "kJs": "2160kJ",
     "allergens": [
@@ -545,7 +545,7 @@
     "plu": "15",
     "category": "packs",
     "name": "Prawn Sushi Pack",
-    "description": "10 piece mix of inside out sushi with fresh and panko prawn ",
+    "description": "10 piece mix of inside out sushi with fresh & panko prawn ",
     "kJs": "1170kJ",
     "allergens": [
       "Crustacea",
@@ -581,8 +581,8 @@
   {
     "plu": "155",
     "category": "packs",
-    "name": "Crispy Chicken and Salt and Pepper Squid Pack",
-    "description": "10 piece mix of  inside out sushi with crispy chicken and salt and pepper squid",
+    "name": "Crispy Chicken & Salt & Pepper Squid Pack",
+    "description": "10 piece mix of  inside out sushi with crispy chicken & salt & pepper squid",
     "kJs": "2260kJ",
     "allergens": [
       "Wheat",
@@ -631,7 +631,7 @@
   {
     "plu": "303",
     "category": "packs",
-    "name": "Salmon and Tuna Nigiri Pack",
+    "name": "Salmon & Tuna Nigiri Pack",
     "description": "",
     "kJs": "1700kJ",
     "allergens": [
@@ -643,7 +643,7 @@
     "plu": "304",
     "category": "packs",
     "name": "Assorted Sushi Pack",
-    "description": "9 piece pack - prawn nigiri, salmon nigiri, california roll, salmon three colour sushi, cooked tuna three colour sushi and seafood stick 3 colour sushi ",
+    "description": "9 piece pack - prawn nigiri, salmon nigiri, california roll, salmon three colour sushi, cooked tuna three colour sushi & seafood stick 3 colour sushi ",
     "kJs": "1890kJ",
     "allergens": [
       "Wheat",
@@ -689,7 +689,7 @@
     "plu": "307",
     "category": "packs",
     "name": "Sushi Deluxe Pack",
-    "description": "12 piece pack - prawn nigiri, salmon nigiri, california roll, salmon 3 colour sushi, cooked tuna 3 colour sushi, seafood stick 3 colour sushi, plain inari and tamago egg nigiri",
+    "description": "12 piece pack - prawn nigiri, salmon nigiri, california roll, salmon 3 colour sushi, cooked tuna 3 colour sushi, seafood stick 3 colour sushi, plain inari & tamago egg nigiri",
     "kJs": "2620kJ",
     "allergens": [
       "Wheat",
@@ -717,7 +717,7 @@
     "plu": "310",
     "category": "packs",
     "name": "Bento Box",
-    "description": "20 piece pack - mini tobiko, plain inari, tamago nigiri, prawn nigiri, salmon nigiri, salmon nigiri, sashimi, seaweed salad and salted edamame",
+    "description": "20 piece pack - mini tobiko, plain inari, tamago nigiri, prawn nigiri, salmon nigiri, salmon nigiri, sashimi, seaweed salad & salted edamame",
     "kJs": "2900kJ",
     "allergens": [
       "Wheat",
@@ -746,7 +746,7 @@
     "plu": "831136",
     "category": "packs",
     "name": "Futomaki Pack",
-    "description": "4 pieces of futomaki roll and 4 plain inari",
+    "description": "4 pieces of futomaki roll & 4 plain inari",
     "kJs": "1310kJ",
     "allergens": [
       "Egg",
@@ -1092,7 +1092,7 @@
   {
     "plu": "831095",
     "category": "deluxe",
-    "name": "Tempura Salmon and Avocado Sushi Sandwich",
+    "name": "Tempura Salmon & Avocado Sushi Sandwich",
     "description": "",
     "kJs": "877kJ",
     "allergens": [
@@ -1122,7 +1122,7 @@
     "plu": "831103",
     "category": "deluxe",
     "name": "Crispy Chicken Slider",
-    "description": "Crispy tempura chicken, fresh lettuce, Japanese pickled cucumber, housemade mayonnaise and teriyaki sauce",
+    "description": "Crispy tempura chicken, fresh lettuce, Japanese pickled cucumber, housemade mayonnaise & teriyaki sauce",
     "kJs": "1200kJ",
     "allergens": [
       "Wheat",
@@ -1166,7 +1166,7 @@
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
     "name": "Teriyaki Chicken",
-    "description": "Teriyaki chicken and fresh avocado",
+    "description": "Teriyaki chicken & fresh avocado",
     "kJs": "637kJ",
     "allergens": [
       "Soy",
@@ -1177,8 +1177,8 @@
     "plu": "102",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Cooked Tuna and Avocado",
-    "description": "Cooked tuna mix and fresh avocado",
+    "name": "Cooked Tuna & Avocado",
+    "description": "Cooked tuna mix & fresh avocado",
     "kJs": "711kJ",
     "allergens": [
       "Egg",
@@ -1192,7 +1192,7 @@
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
     "name": "Crispy Chicken",
-    "description": "Crispy tempura chicken, housemade mayonnaise and fresh lettuce",
+    "description": "Crispy tempura chicken, housemade mayonnaise & fresh lettuce",
     "kJs": "790kJ",
     "allergens": [
       "Wheat",
@@ -1206,8 +1206,8 @@
     "plu": "104",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Smoked Salmon and Avocado",
-    "description": "Smoked salmon, avocado and housemade mayonnaise",
+    "name": "Smoked Salmon & Avocado",
+    "description": "Smoked salmon, avocado & housemade mayonnaise",
     "kJs": "769kJ",
     "allergens": [
       "Egg",
@@ -1219,8 +1219,8 @@
     "plu": "105",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Salmon and Avocado",
-    "description": "Fresh salmon, avocado and housemade mayonnaise",
+    "name": "Salmon & Avocado",
+    "description": "Fresh salmon, avocado & housemade mayonnaise",
     "kJs": "808kJ",
     "allergens": [
       "Egg",
@@ -1232,7 +1232,7 @@
     "plu": "116",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Tamago and Cucumber",
+    "name": "Tamago & Cucumber",
     "description": "",
     "kJs": "564kJ",
     "allergens": [
@@ -1245,7 +1245,7 @@
     "plu": "106",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Tobiko and Avocado",
+    "name": "Tobiko & Avocado",
     "description": "",
     "kJs": "698kJ",
     "allergens": [
@@ -1259,7 +1259,7 @@
     "plu": "107",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Prawn and Avocado",
+    "name": "Prawn & Avocado",
     "description": "",
     "kJs": "659kJ",
     "allergens": [
@@ -1273,7 +1273,7 @@
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
     "name": "California",
-    "description": "Seafood stick, housemade mayonnaise and fresh avocado",
+    "description": "Seafood stick, housemade mayonnaise & fresh avocado",
     "kJs": "728kJ",
     "allergens": [
       "Wheat",
@@ -1289,7 +1289,7 @@
     "plu": "109",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Fresh Tuna and Cucumber",
+    "name": "Fresh Tuna & Cucumber",
     "description": "",
     "kJs": "647kJ",
     "allergens": [
@@ -1302,8 +1302,8 @@
     "plu": "110",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Spicy Cooked Tuna and Cucumber",
-    "description": "Cooked tuna mix, spicy housemade mayonnaise and fresh cucumber",
+    "name": "Spicy Cooked Tuna & Cucumber",
+    "description": "Cooked tuna mix, spicy housemade mayonnaise & fresh cucumber",
     "kJs": "743kJ",
     "allergens": [
       "Egg",
@@ -1317,7 +1317,7 @@
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
     "name": "Panko Prawn",
-    "description": "Panko prawn, housemade mayonnaise and fresh lettuce",
+    "description": "Panko prawn, housemade mayonnaise & fresh lettuce",
     "kJs": "902kJ",
     "allergens": [
       "Wheat",
@@ -1349,7 +1349,7 @@
     "plu": "144",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Cooked Tuna and Corn",
+    "name": "Cooked Tuna & Corn",
     "description": "",
     "kJs": "621kJ",
     "allergens": [
@@ -1376,8 +1376,8 @@
     "plu": "202",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Cucumber and Avocado",
-    "description": "Fresh avocado and cucumber",
+    "name": "Cucumber & Avocado",
+    "description": "Fresh avocado & cucumber",
     "kJs": "564kJ",
     "allergens": [
       "Sesame"
@@ -1388,7 +1388,7 @@
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
     "name": "Special California",
-    "description": "Seafood salad mix, housemade mayonnaise, tobiko and fresh avocado",
+    "description": "Seafood salad mix, housemade mayonnaise, tobiko & fresh avocado",
     "kJs": "675kJ",
     "allergens": [
       "Wheat",
@@ -1432,7 +1432,7 @@
     "plu": "248",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Tofu and Cucumber",
+    "name": "Tofu & Cucumber",
     "description": "",
     "kJs": "622kJ",
     "allergens": [
@@ -1444,8 +1444,8 @@
     "plu": "374",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Spicy Prawn and Cucumber",
-    "description": "Cooked prawn, spicy housemade mayonnaise and fresh cucumber",
+    "name": "Spicy Prawn & Cucumber",
+    "description": "Cooked prawn, spicy housemade mayonnaise & fresh cucumber",
     "kJs": "616kJ",
     "allergens": [
       "Crustacea",
@@ -1457,7 +1457,7 @@
     "plu": "426",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Spicy Salmon and Cucumber",
+    "name": "Spicy Salmon & Cucumber",
     "description": "",
     "kJs": "749kJ",
     "allergens": [
@@ -1471,8 +1471,8 @@
     "plu": "541",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Cooked Tuna and Cucumber",
-    "description": "Cooked tuna mix and fresh cucumber",
+    "name": "Cooked Tuna & Cucumber",
+    "description": "Cooked tuna mix & fresh cucumber",
     "kJs": "649kJ",
     "allergens": [
       "Egg",
@@ -1485,7 +1485,7 @@
     "plu": "559",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Spicy Fresh Tuna and Cucumber",
+    "name": "Spicy Fresh Tuna & Cucumber",
     "description": "",
     "kJs": "644kJ",
     "allergens": [
@@ -1513,8 +1513,8 @@
     "plu": "580",
     "category": "hand_rolls",
     "group": "White Rice H/Roll",
-    "name": "Salt and Pepper Squid",
-    "description": "Salt and pepper squid, housemade mayonnaise and fresh lettuce",
+    "name": "Salt & Pepper Squid",
+    "description": "Salt & pepper squid, housemade mayonnaise & fresh lettuce",
     "kJs": "814kJ",
     "allergens": [
       "Wheat",

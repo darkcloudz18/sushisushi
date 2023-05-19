@@ -6,25 +6,25 @@ import humanizeString from "humanize-string";
 import Categories from './Categories';
 import DietaryFilter from "./DietaryFilter";
 import MenuItem from './MenuItem';
-// import Products from '../../api/menu/Products';
-import ProductStub from '../../api/menu/productstub'
+import getProducts from '../../api/menu/Products';
+// import ProductStub from '../../api/menu/productstub'
 
 export default function MenuSection() {
-  // const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<{ [x: string]: any; }[]|null>([]);
 
-  // useEffect(() => {
-  //   Products().then( data => {
-  //     setProducts(data);
-  //   })
-  // }, []);
+  useEffect(() => {
+    getProducts().then( data  => {
+      setProducts(data);
+    })
+  }, []);
 
   const initialFilter = useSearchParams()?.get('filter');
 
   const [filter, setFilter] = useState( initialFilter? initialFilter : 'HandRolls');
 
   const FILTER_MAP = {
-    HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
-    BrownRice: (item) => item.category == "hand_rolls" && item.group.includes("Brown Rice"),
+    HandRolls: (item) => item.category == "hand_rolls" && item.group_name.includes("White Rice"),
+    BrownRice: (item) => item.category == "hand_rolls" && item.group_name.includes("Brown Rice"),
     Packs: (item) => item.category == "packs",
     Platters: (item) => item.category == "platters",
     Deluxe: (item) => item.category == "deluxe",
@@ -36,10 +36,10 @@ export default function MenuSection() {
 
   const FILTER_NAMES = Object.keys(FILTER_MAP);
 
-  const itemList = ProductStub.filter(FILTER_MAP[filter])
+  const itemList = products?.filter(FILTER_MAP[filter])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .map((item) => (
-    <MenuItem item={item} category={filter} key={item.id} />
+    <MenuItem item={item} category={filter} key={item.plu} />
   ));
 
   
