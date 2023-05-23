@@ -2,7 +2,7 @@
 
 import humanizeString from "humanize-string";
 import {useState} from "react";
-export default function DietaryFilter({dietaryReqs, setDietary}) {
+export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, setDietaryPrefs}) {
 
     const [filterOpen, setFilterOpen] = useState(false);
     const dietaryNames = [
@@ -21,11 +21,26 @@ export default function DietaryFilter({dietaryReqs, setDietary}) {
         "Lupin"
     ];
 
+    const dietaryPrefNames = [
+        "Vegetarian",
+        "Chicken",
+        "Seafood",
+        "Beef"
+    ];
+
     const updateFilters = function (isChecked, name) {
         if(isChecked){
             setDietary([name].concat(dietaryReqs));
         } else {
             setDietary(dietaryReqs.filter(req => req !== name));
+        }
+    }
+
+    const updatePrefs = function (isChecked, name) {
+        if(isChecked){
+            setDietaryPrefs([name].concat(dietaryPrefs));
+        } else {
+            setDietaryPrefs(dietaryPrefs.filter(req => req !== name));
         }
     }
 
@@ -38,10 +53,34 @@ export default function DietaryFilter({dietaryReqs, setDietary}) {
                 <div className="card-body">
                     <div className="text-center py-3">
                         <h3>Dietary Filter</h3>
-                        <p>Select which allergens to filter out</p>
                         <hr/>
+                        <p className={"lead"}>Select your dietary preferences</p>
                     </div>
-                    <div className="row row-cols-2">
+                    <div className="row row-cols-2 px-4">
+                        {dietaryPrefNames.map((name:string) => {
+                            return (
+                                <div className="col" key={name}>
+                                    <div className="form-check">
+                                        <input
+                                            className="form-check-input"
+                                            type="checkbox"
+                                            id={`check${name}`}
+                                            checked={dietaryPrefs.includes(name)}
+                                            onChange={(e) => updatePrefs(e.target.checked, name)}
+                                        />
+                                        <label className="form-check-label" htmlFor="flexCheckDefault">
+                                            {humanizeString(name)}
+                                        </label>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+                    <div className="text-center py-3">
+                        <hr/>
+                        <p className={"lead"}>Select which allergens to filter out</p>
+                    </div>
+                    <div className="row row-cols-2 px-4">
                         {dietaryNames.map((name:string) => {
                             return (
                                 <div className="col" key={name}>

@@ -33,11 +33,18 @@ export default function MenuSection() {
   };
 
   const [dietaryReqs, setDietaryReqs] = useState<string[]>([]);
+  const [dietaryPrefs, setDietaryPrefs] = useState<string[]>([
+    "Vegetarian",
+    "Chicken",
+    "Seafood",
+    "Beef"
+  ]);
 
   const FILTER_NAMES = Object.keys(FILTER_MAP);
 
   const itemList = ProductStub.filter(FILTER_MAP[filter])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
+      .filter(item => item.prefs?.filter(a => dietaryPrefs.includes(a)).length > 0)
       .map((item) => (
     <MenuItem item={item} category={filter} key={item.plu} />
   ));
@@ -51,7 +58,7 @@ export default function MenuSection() {
             <Categories filterNames={FILTER_NAMES} setFilter={setFilter} initialFilter={filter} />
           </div>
           <div className="col-12 col-lg-4 align-self-center">
-            <DietaryFilter dietaryReqs={dietaryReqs} setDietary={setDietaryReqs} />
+            <DietaryFilter dietaryReqs={dietaryReqs} setDietary={setDietaryReqs} dietaryPrefs={dietaryPrefs} setDietaryPrefs={setDietaryPrefs} />
           </div>
         </div>
         <h2 className="my-5">{humanizeString(filter)}</h2>

@@ -9,6 +9,9 @@ const ProductStub = [
         "allergens": [
             "Sesame",
             "Soy"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -24,6 +27,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -38,6 +44,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -53,6 +62,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -66,6 +78,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -79,6 +94,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -92,6 +110,9 @@ const ProductStub = [
             "Crustacea",
             "Egg",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -109,6 +130,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -123,6 +147,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -139,6 +166,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -155,6 +185,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -168,6 +201,9 @@ const ProductStub = [
             "Egg",
             "Milk",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -181,6 +217,9 @@ const ProductStub = [
             "Soy",
             "Sesame",
             "Sulphites"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -192,6 +231,9 @@ const ProductStub = [
         "kJs": "682kJ",
         "allergens": [
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -209,6 +251,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -223,6 +268,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -234,6 +282,9 @@ const ProductStub = [
         "kJs": "722kJ",
         "allergens": [
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -248,6 +299,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -259,6 +313,9 @@ const ProductStub = [
         "allergens": [
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -275,6 +332,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -289,6 +349,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -299,6 +362,9 @@ const ProductStub = [
         "kJs": "236kJ",
         "allergens": [
             "Fish"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -309,6 +375,9 @@ const ProductStub = [
         "kJs": "174kJ",
         "allergens": [
             "Fish"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -319,6 +388,9 @@ const ProductStub = [
         "kJs": "140kJ",
         "allergens": [
             "Crustacea"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -329,6 +401,9 @@ const ProductStub = [
         "kJs": "151kJ",
         "allergens": [
             "Crustacea"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -344,6 +419,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -357,6 +435,9 @@ const ProductStub = [
             "Gluten",
             "Egg",
             "Soy"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -371,6 +452,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -382,6 +466,9 @@ const ProductStub = [
         "allergens": [
             "Egg",
             "Milk"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -396,6 +483,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -408,6 +498,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -418,6 +511,9 @@ const ProductStub = [
         "kJs": "248kJ",
         "allergens": [
             "Fish"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -432,6 +528,9 @@ const ProductStub = [
             "Crustacea",
             "Egg",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -443,6 +542,9 @@ const ProductStub = [
         "allergens": [
             "Mollusc",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -454,6 +556,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -464,6 +569,9 @@ const ProductStub = [
         "kJs": "250kJ",
         "allergens": [
             "Egg"
+        ],
+        "prefs": [
+            "Beef"
         ]
     },
     {
@@ -478,6 +586,9 @@ const ProductStub = [
             "Egg",
             "Milk",
             "Soy"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -493,6 +604,9 @@ const ProductStub = [
             "Milk",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -508,6 +622,9 @@ const ProductStub = [
             "Milk",
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -521,6 +638,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -539,6 +659,9 @@ const ProductStub = [
             "Soy",
             "Sesame",
 
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -550,6 +673,9 @@ const ProductStub = [
         "allergens": [
             "Crustacea",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -563,6 +689,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -576,6 +705,9 @@ const ProductStub = [
             "Milk",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -591,6 +723,10 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -609,6 +745,9 @@ const ProductStub = [
             "Soy",
             "Sesame",
 
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -626,6 +765,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -637,6 +779,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -654,6 +799,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -666,6 +814,9 @@ const ProductStub = [
             "Fish",
             "Soy",
 
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -683,6 +834,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -700,6 +854,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -711,6 +868,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -728,6 +888,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -740,6 +903,9 @@ const ProductStub = [
             "Fish",
             "Soy",
 
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -753,6 +919,9 @@ const ProductStub = [
             "Milk",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
         ]
     },
     {
@@ -764,6 +933,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -778,6 +950,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -791,6 +966,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -805,6 +983,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -818,6 +999,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -832,6 +1016,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -848,6 +1035,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -862,6 +1052,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -873,6 +1066,9 @@ const ProductStub = [
         "allergens": [
             "Wheat",
             "Gluten"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -886,6 +1082,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -900,6 +1099,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -914,6 +1116,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -927,6 +1132,9 @@ const ProductStub = [
             "Gluten",
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -940,6 +1148,9 @@ const ProductStub = [
             "Gluten",
             "Crustacea",
             "Soy"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -953,6 +1164,10 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -964,6 +1179,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -975,6 +1193,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -986,6 +1207,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -997,6 +1221,9 @@ const ProductStub = [
         "allergens": [
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1011,6 +1238,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1024,6 +1254,9 @@ const ProductStub = [
             "Milk",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1036,6 +1269,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1049,6 +1285,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1064,6 +1303,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Soy"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1077,6 +1319,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Beef"
         ]
     },
     {
@@ -1087,6 +1332,9 @@ const ProductStub = [
         "kJs": "612kJ",
         "allergens": [
             "Soy"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1102,6 +1350,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1116,6 +1367,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1130,6 +1384,9 @@ const ProductStub = [
             "Egg",
             "Milk",
             "Soy"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1145,6 +1402,9 @@ const ProductStub = [
             "Egg",
             "Milk",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1159,6 +1419,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1171,6 +1434,9 @@ const ProductStub = [
         "allergens": [
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1185,6 +1451,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1200,6 +1469,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1213,6 +1485,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1226,6 +1501,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1239,6 +1517,9 @@ const ProductStub = [
             "Egg",
             "Milk",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1253,6 +1534,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1266,6 +1550,9 @@ const ProductStub = [
             "Crustacea",
             "Egg",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1283,6 +1570,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1296,6 +1586,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1310,6 +1603,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1327,6 +1623,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1343,6 +1642,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1357,6 +1659,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1370,6 +1675,9 @@ const ProductStub = [
             "Soy",
             "Sesame",
             "Sulphites"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1381,6 +1689,9 @@ const ProductStub = [
         "kJs": "564kJ",
         "allergens": [
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1398,6 +1709,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1415,6 +1729,9 @@ const ProductStub = [
             "Soy",
             "Sesame",
             "Sulphites"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1426,6 +1743,9 @@ const ProductStub = [
         "kJs": "603kJ",
         "allergens": [
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1438,6 +1758,9 @@ const ProductStub = [
         "allergens": [
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1451,6 +1774,9 @@ const ProductStub = [
             "Crustacea",
             "Egg",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1465,6 +1791,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1479,6 +1808,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1492,6 +1824,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1507,6 +1842,9 @@ const ProductStub = [
             "Egg",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
         ]
     },
     {
@@ -1522,6 +1860,9 @@ const ProductStub = [
             "Egg",
             "Fish",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1536,6 +1877,9 @@ const ProductStub = [
             "Gluten",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1548,6 +1892,9 @@ const ProductStub = [
         "allergens": [
             "Egg",
             "Sesame"
+        ],
+        "prefs": [
+            "Beef"
         ]
     },
     {
@@ -1564,6 +1911,9 @@ const ProductStub = [
             "Milk",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1581,6 +1931,10 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Seafood"
         ]
     },
     {
@@ -1598,6 +1952,10 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Seafood"
         ]
     },
     {
@@ -1614,6 +1972,11 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -1630,6 +1993,11 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -1641,6 +2009,9 @@ const ProductStub = [
         "allergens": [
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
         ]
     },
     {
@@ -1658,6 +2029,9 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     },
     {
@@ -1675,6 +2049,11 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -1691,6 +2070,11 @@ const ProductStub = [
             "Fish",
             "Soy",
             "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian",
+            "Chicken",
+            "Seafood"
         ]
     },
     {
@@ -1701,6 +2085,9 @@ const ProductStub = [
         "kJs": "6050kJ",
         "allergens": [
             "Fish"
+        ],
+        "prefs": [
+            "Seafood"
         ]
     }
 ];
