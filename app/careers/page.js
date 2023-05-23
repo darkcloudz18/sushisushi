@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function AboutUs() {
     return (
         <>
-            <Title title="Careers"/>
+            <Title title="Careers" headerClass={"careers"}/>
             <div className={"container py-5"}>
                 <h2 className={"section-title-salmon"}>Want to be part of Australia’s largest and most loved sushi brand?</h2>
                 <p className={"lead"}>With more than 140 locations across Australia and New Zealand, plus our Support Office in Victoria, there are plenty of opportunities available at Sushi Sushi.</p>

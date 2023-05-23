@@ -17,7 +17,7 @@ export default function DietaryFilter({dietaryReqs, setDietary}) {
         "Soy",
         "Sesame",
         "TreeNuts",
-        "Suplphites",
+        "Sulphites",
         "Lupin"
     ];
 

@@ -5,7 +5,7 @@ import Title from '../components/Title'
 export default function OurStores() {
   return (
     <>
-      <Title title="Our Stores" />
+      <Title title="Our Stores" headerClass={"stores"} />
       <Map />
     </>
   );

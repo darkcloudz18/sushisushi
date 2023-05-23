@@ -9,7 +9,7 @@ import Family from "../components/ts_and_cs/Family";
 export default function TermsAndConditions() {
     return (
         <>
-            <Title title="Terms and Conditions" />
+            <Title title="Terms and Conditions" headerClass={"tsandcs"} />
             <div className="container py-5">
                 <div className="row">
                     <div className="col-12 col-md-3">

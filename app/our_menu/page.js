@@ -5,7 +5,7 @@ import MenuSection from '../components/menu/MenuSection'
 export default function OurMenu() {
   return (
     <>
-      <Title title="Menu" />
+      <Title title="Our Menu" headerClass={"menu"} />
       <MenuSection />
     </>
   );
