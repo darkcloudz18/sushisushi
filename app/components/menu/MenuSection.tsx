@@ -46,7 +46,7 @@ export default function MenuSection() {
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .filter(item => item.prefs?.filter(a => dietaryPrefs.includes(a)).length > 0)
       .map((item) => (
-    <MenuItem item={item} category={filter} key={item.plu} />
+    <MenuItem item={item} category={filter} key={item.id} />
   ));
 
   
