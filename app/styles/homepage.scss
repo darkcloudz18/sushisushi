@@ -10,11 +10,16 @@
 	background: url('/images/hero-bg.png');
   background-size: cover;
   background-position-y: top;
+  background-position-x: right;
   padding-top: 110px;
+
+  @media (max-width: 991.98px) {
+    background-position-x: left;
+  }
 }
 
 .subtitle {
-	font-size: 1.25rem;
+	font-size: 1.75rem;
 }
 
 .faves-container {
