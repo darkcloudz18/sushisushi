@@ -3,7 +3,7 @@
 export default function Privacy() {
     return(
         <div id="privacy">
-            <h2>Privacy</h2>
+            <h3 className={"fw-bold"}>Privacy</h3>
             <p>This Privacy Policy sets out the privacy policy of the Sushi Sushi group, being Sushi Sushi Ultimate Holdings Pty Ltd and its related entities and each Sushi Sushi franchisee in Australia (together&#8239;we,&#8239;us,&#8239;Sushi Sushi) with respect to the way we collect, store, use, disclose and protect information about you including through this website at www.sushisushi.com.au and its subdomains (Website). We are bound by the Privacy Act 1988 (Cth) (the Act) and the Australian Privacy Principles (APPs) contained in the Act.</p>
 
             <p>We understand and appreciate that you are concerned about privacy, particularly in relation to the use and disclosure of Personal Information. We are committed to respecting the privacy of your Personal Information.</p>

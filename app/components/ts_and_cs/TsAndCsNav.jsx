@@ -9,11 +9,12 @@ export default function TsAndCsNav() {
     },[]);
 
     return(
-        <nav className="nav flex-column sticky-top">
-            <a className="nav-link" href="#website-ts-and-cs">Website terms and conditions</a>
+        <nav className="nav flex-column sticky-top tsandcs-nav">
+            <a className="nav-link" href="#website-ts-and-cs">Website</a>
             <a className="nav-link" href="#privacy">Privacy</a>
             <a className="nav-link" href="#online-ordering">Online Ordering</a>
-            <a className="nav-link" href="#family">Family and Friends discount</a>
+            <a className="nav-link" href="#family">Promotions</a>
+            <a className="nav-link" href="#family">Competitions</a>
             <hr className="d-block d-md-none" />
         </nav>
     );

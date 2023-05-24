@@ -61,7 +61,7 @@ export default function ContactForm() {
                     />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="contactMessage" className="form-label">Your message</label>
+                    <label htmlFor="contactMessage" className="form-label">Your enquiry</label>
                     <input
                         type="textarea"
                         className="form-control"

@@ -1,9 +1,9 @@
 'use client';
 
-export default function Family() {
+export default function Promotions() {
     return(
         <div id="family">
-            <h2>Family and Friends discount</h2>
+            <h3 className={"fw-bold"}>Family and Friends discount</h3>
             <p>The Family &amp; Friends Discount is provided by Sushi Sushi Australia Pty Ltd (Sushi Sushi) in its absolute discretion, Sushi Sushi reserves the right to amend these terms or withdraw the Family &amp; Friends Discount at any time without notice. By redeeming the Family &amp; Friends Discount you agree to be bound by these Terms &amp; Conditions.</p>
 
             <p>The Family &amp; Friends Discount is valid from 16 September 2022 until 30 April 2023 (Promotional Period).</p>

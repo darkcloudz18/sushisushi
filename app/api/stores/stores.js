@@ -1620,7 +1620,7 @@ const StoreData =
     "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=4&mid=&no=&frmsrc=web"
   },
   {
-    "title": "Belmont Forum Cloverdale",
+    "title": "Belmont Forum",
     "store_id": "91",
     "address_line_01": "Shop K0006, Belmont Forum Shopping Centre",
     "address_line_02": "227 Belmont Avenue",

@@ -32,7 +32,7 @@ export default function Socials() {
                 </div>
             </div>
             <div className="text-center fs-3 fw-bold">
-                Click above to view, or follow us on social
+                Follow us on our socials
                 <a className="ms-2" href="https://www.facebook.com/SushiSushiAUS">
                     <img className="social-icon" src="/images/fb.png" />
                 </a>

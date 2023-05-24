@@ -3,7 +3,7 @@
 export default function OnlineOrdering() {
     return(
         <div id="online-ordering">
-            <h2>Online Ordering</h2>
+            <h3 className={"fw-bold"}>Online Ordering</h3>
             <p>You may place an order for our products online which provides advance notice of the products you wish to order. This is not a delivery service. You must nominate the Sushi Sushi store from which you wish to collect your order within the time frame nominated by you when you place your order. At the time of collection, you must provide the credit card with which you paid for the order and proof of identity.</p>
 
             <p>By allowing you to order online, Sushi Sushi:</p>

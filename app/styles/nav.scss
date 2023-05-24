@@ -54,8 +54,12 @@
 	height: 300px;
 
 	@media (max-width: 991.98px) {
-		height: 500px;
+		height: 375px;
 		background-position: bottom;
+
+		h1 {
+			font-size: 2.5rem;
+		}
 	}
 }
 
@@ -105,4 +109,9 @@
 	@media (max-width: 991.98px) {
 		background-image: url("/images/headers/tsandcs-mobile.jpg");
 	}
+}
+
+.tsandcs-nav {
+	background: $salmon-light;
+	font-weight: bold;
 }

@@ -4,7 +4,7 @@ import TsAndCsNav from "../components/ts_and_cs/TsAndCsNav";
 import Website from "../components/ts_and_cs/Website";
 import Privacy from "../components/ts_and_cs/Privacy";
 import OnlineOrdering from "../components/ts_and_cs/OnlineOrdering";
-import Family from "../components/ts_and_cs/Family";
+import Promotions from "../components/ts_and_cs/Promotions";
 
 export default function TermsAndConditions() {
     return (
@@ -15,11 +15,11 @@ export default function TermsAndConditions() {
                     <div className="col-12 col-md-3">
                         <TsAndCsNav />
                     </div>
-                    <div className="col-12 col-md-9 py-5 py-md-3">
+                    <div className="col-12 col-md-9 px-5 px-md-3">
                         <Website />
                         <Privacy />
                         <OnlineOrdering />
-                        <Family />
+                        <Promotions />
                     </div>
                 </div>
             </div>

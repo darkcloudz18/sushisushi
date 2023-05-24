@@ -3,7 +3,7 @@
 export default function Website() {
     return (
         <div id="website-ts-and-cs">
-            <h2>Website Terms and Condtions</h2>
+            <h3 className={"fw-bold"}>Website</h3>
             <p>This page governs the terms and conditions on which you agree to interact with the Sushi Sushi group, being Sushi Sushi Ultimate Holdings Pty Ltd and its related entities and each Sushi Sushi franchisee in Australia (together&#8239;We,&#8239;Us,&#8239;Sushi Sushi) through our website at http://www.sushisushi.com.au and its subdomains (Website) (Terms of Use).</p>
 
             <h3>Use of this Site</h3>

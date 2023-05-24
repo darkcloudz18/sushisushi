@@ -20,8 +20,8 @@ export default function Join() {
                   <img className="img-fluid float-end d-lg-none" src='/images/join-sushi.png' alt="Join us image" />
                 </div>
                 <div className="col-12 col-lg-4 p-4">
-                    <h2 className="fw-bold">Join Sushi Sushi today</h2>
-                    <p >Join our mailing list! We promise we won&apos;t fill your inbox with fluffy white rice. We&apos;re all about quality over quantity.</p>
+                    <h2 className="fw-bold">Join our mailing list!</h2>
+                    <p>We promise we won&apos;t fill your inbox with fluffy white rice. We&apos;re all about quality over quantity.</p>
                     <form
                         onSubmit={event => {
                             event.preventDefault();
