@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import FavesCard from './FavesCard';
 
-export default function FavesCarouselSmall(){
+export default function FavesCarouselSmall({products}){
   useEffect(()=>{
         import("bootstrap/dist/js/bootstrap");
     },[]);

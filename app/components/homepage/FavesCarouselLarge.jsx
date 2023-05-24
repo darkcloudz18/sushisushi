@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import FavesCard from './FavesCard';
 
-export default function FavesCarouselLarge(){
+export default function FavesCarouselLarge({products}){
   useEffect(()=>{
         import("bootstrap/dist/js/bootstrap");
     },[]);
@@ -24,20 +24,20 @@ export default function FavesCarouselLarge(){
         <div className="carousel-item active">
           <div className="row">
             <div className="col">
-              <FavesCard />
+              <FavesCard product={products[0]} />
             </div>
             <div className="col">
-              <FavesCard />
+              <FavesCard product={products[1]} />
             </div>
           </div>
         </div>
         <div className="carousel-item">
           <div className="row">
             <div className="col">
-              <FavesCard />
+              <FavesCard product={products[2]} />
             </div>
             <div className="col">
-              <FavesCard />
+              <FavesCard product={products[3]} />
             </div>
           </div>
         </div>
