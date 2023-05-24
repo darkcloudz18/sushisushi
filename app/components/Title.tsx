@@ -18,7 +18,7 @@ class Title extends React.Component {
       <div className={`title-container ${this.headerClass}-hero d-flex align-items-lg-center`}>
               <div className="container">
                   <div className="row w-100">
-                      <div className="col-lg-6 text-center text-lg-start my-5 py-5 my-lg-5 py-lg-5">
+                      <div className="col-lg-8 text-center text-lg-start my-5 py-5 my-lg-5 py-lg-5">
                           <h1>{this.title}</h1>
                       </div>
                   </div>
