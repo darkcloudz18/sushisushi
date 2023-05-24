@@ -22,22 +22,16 @@ export default function FavesCarouselSmall({products}){
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <FavesCard />
+          <FavesCard product={products[0]} />
         </div>
         <div className="carousel-item">
-          <FavesCard />
+          <FavesCard product={products[1]} />
         </div>
         <div className="carousel-item">
-          <FavesCard />
+          <FavesCard product={products[2]} />
         </div>
         <div className="carousel-item">
-          <FavesCard />
-        </div>
-        <div className="carousel-item">
-          <FavesCard />
-        </div>
-        <div className="carousel-item">
-          <FavesCard />
+          <FavesCard product={products[3]} />
         </div>
       </div>
     </div>
