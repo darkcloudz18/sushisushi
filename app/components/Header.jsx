@@ -43,9 +43,9 @@ export default function Header() {
                             <a className="nav-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
                         </li>
                     </ul>
-                    <div className="d-flex">
+                    <div className="d-flex d-none d-lg-block">
                         <a href="/our_stores" className="btn btn-sushi-secondary me-2">Find a Store</a>
-                        <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary d-none d-lg-block">Order Now</a>
+                        <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary">Order Now</a>
                     </div>
                 </div>
             </div>
