@@ -54,7 +54,7 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                     <div className="text-center py-3">
                         <h3>Dietary Filter</h3>
                         <hr/>
-                        <p className={"lead"}>Select your dietary preferences</p>
+                        <p className={"lead"}>Select your preference</p>
                     </div>
                     <div className="row row-cols-2 px-4">
                         {dietaryPrefNames.map((name:string) => {
@@ -78,7 +78,7 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                     </div>
                     <div className="text-center py-3">
                         <hr/>
-                        <p className={"lead"}>Select which allergens to filter out</p>
+                        <p className={"lead"}>Select dietary requirements to filter out</p>
                     </div>
                     <div className="row row-cols-2 px-4">
                         {dietaryNames.map((name:string) => {
@@ -86,9 +86,10 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                                 <div className="col" key={name}>
                                     <div className="form-check">
                                         <input
-                                            className="form-check-input"
+                                            className="form-check-input cross-checkbox"
                                             type="checkbox"
                                             id={`check${name}`}
+                                            checked={dietaryReqs.includes(name)}
                                             onChange={(e) => updateFilters(e.target.checked, name)}
                                         />
                                         <label className="form-check-label" htmlFor="flexCheckDefault">
@@ -98,6 +99,16 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                                 </div>
                             );
                         })}
+                    </div>
+                    <div className={"pt-4"}>
+                        <button type="button"
+                                className="btn btn-sushi-secondary w-100"
+                                onClick={() => {
+                                    setDietaryPrefs(dietaryPrefNames);
+                                    setDietary([]);
+                                    }}>
+                            Reset filter
+                        </button>
                     </div>
                     <div className={"py-3"}>
                         <button type="button" className="btn btn-sushi-primary w-100" onClick={() => setFilterOpen(false)}>Set Preferences</button>

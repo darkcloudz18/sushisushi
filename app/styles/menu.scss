@@ -22,6 +22,26 @@
   }
 }
 
+.cross-checkbox {
+  position: relative;
+
+  &:checked {
+    background: $tuna-red !important;
+    border-color: $tuna-red !important;
+
+    &:after {
+      position: absolute;
+      content: '';
+      background: url("/images/white-cross.png") center;
+      background-size: contain;
+      height: 60%;
+      width: 60%;
+      top: 20%;
+      left: 20%;
+    }
+  }
+}
+
 .salmon-pipe {
   position: relative;
 
