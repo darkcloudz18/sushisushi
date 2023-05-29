@@ -13,7 +13,7 @@ export default function Join() {
     });
     return (
         <div className="container-fluid p-5">
-          <div className="join-us-card">
+          <div className="salmon-card p-3">
             <div className="row">
                 <div className="col-12 order-lg-2 col-lg-8">
                   <div className="join-img d-none d-lg-block"></div>

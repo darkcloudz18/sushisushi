@@ -10,7 +10,6 @@ export default function ContactUs() {
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <h2 className="section-title-salmon">Send us a message</h2>
-                        <p>We love to hear from our customers. Tell us about your latest experience using the contact form below.</p>
                         <ContactForm />
                         <h2 className="mt-5">Prefer to speak to someone?</h2>
                         <p>Contact our support office on:</p>

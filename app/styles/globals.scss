@@ -129,3 +129,22 @@ h2 {
   filter:invert(100%);
 }
 
+.salmon-card {
+  background: $salmon-light;
+  border-radius: 2px;
+}
+
+.toggle-buttons {
+  button:first-child {
+    border-radius: $border-radius 0 0 $border-radius;
+    border-right: none;
+  }
+  button:last-child {
+    border-radius: 0 $border-radius $border-radius 0;
+  }
+}
+
+input:invalid:focus, textarea:invalid:focus {
+  border-color: $danger;
+}
+
