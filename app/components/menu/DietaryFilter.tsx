@@ -78,7 +78,7 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                     </div>
                     <div className="text-center py-3">
                         <hr/>
-                        <p className={"lead"}>Select dietary requirements to filter out</p>
+                        <p className={"lead"}>Filter out dietary requirements</p>
                     </div>
                     <div className="row row-cols-2 px-4">
                         {dietaryNames.map((name:string) => {
