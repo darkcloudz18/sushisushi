@@ -1,7 +1,7 @@
 'use client';
 
 import humanizeString from "humanize-string";
-import {useState} from "react";
+import {ReactNode, useState} from "react";
 export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, setDietaryPrefs}) {
 
     const [filterOpen, setFilterOpen] = useState(false);
@@ -51,10 +51,10 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
             </div>
             <div className={`card ${filterOpen? "" : "d-none"} dietary-filter`}>
                 <div className="card-body">
-                    <div className="text-center py-3">
+                    <div className="px-4 pt-3">
                         <h3>Dietary Filter</h3>
-                        <hr/>
-                        <p className={"lead"}>Select your preference</p>
+                        <hr className={"mb-4"}/>
+                        <p className={"lead fw-bold"}>Select Your Preference</p>
                     </div>
                     <div className="row row-cols-2 px-4">
                         {dietaryPrefNames.map((name:string) => {
@@ -76,9 +76,9 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                             );
                         })}
                     </div>
-                    <div className="text-center py-3">
-                        <hr/>
-                        <p className={"lead"}>Filter out dietary requirements</p>
+                    <div className="pt-3 px-4">
+                        <hr className={"mb-4"}/>
+                        <p className={"lead fw-bold"}>Filter Out</p>
                     </div>
                     <div className="row row-cols-2 px-4">
                         {dietaryNames.map((name:string) => {

@@ -42,20 +42,39 @@
   }
 }
 
-.salmon-pipe {
-  position: relative;
+.menu-nav {
+  background: $off-white;
+}
 
-  &:after {
-    position: absolute;
-    content: '';
-    right: 0;
-    height: 65%;
-    width: 2px;
-    background: $salmon-full;
+.menu-categories-nav {
+  overflow-x: auto;
+  flex-wrap: nowrap !important;
 
-    @media (max-width: 991.98px) {
-      display: none;
+  .nav-item {
+    cursor: pointer;
+  }
+
+  .nav-link  {
+    white-space: nowrap;
+
+    &.active {
+      color: $nori-full;
     }
+  }
+
+  button {
+    white-space: nowrap;
+    position: relative;
+    margin: 0 2rem 0 3rem;
+    &:after {
+        position: absolute;
+        content: '';
+        left: -2rem;
+        height: 300%;
+        top: -100%;
+        width: 2px;
+        background: $salmon-full;
+      }
   }
 }
 

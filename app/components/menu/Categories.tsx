@@ -1,7 +1,7 @@
 'use client';
 
 import humanizeString from "humanize-string";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 export default function Categories({filterNames, setFilter, initialFilter}) {
 
     const [activeCategory, setActiveCategory] = useState(initialFilter);
@@ -11,22 +11,20 @@ export default function Categories({filterNames, setFilter, initialFilter}) {
         setActiveCategory(name);
     }
 
-    return (
-        <div className="row row-cols-4 row-cols-lg-auto row-cols-xl-auto d-flex justify-content-center py-5 salmon-pipe">
+    return(
+        <nav id={"categories-nav"} className="nav sticky-top nav-fill">
             {filterNames.map((name:string) => {
-                return (
-                    <div className="col" key={name}>
-                        <button
-                            className={`category-btn ${activeCategory == name ? 'active' : ''}`}
-                            onClick={() => onCategoryClick(name)}
-                        >
-                            <img src={`/images/category-icons/${name}.png`} className="img-fluid d-block" alt={`${humanizeString(name)} category`} />
-                            {humanizeString(name)}
-                        </button>
-                    </div>
-                );
+                return(
+                    <a
+                        className={"nav-link"}
+                        href={`#${name}`}
+                        key={name}
+                    >
+                        <img src={`/images/category-icons/${name}.png`} className="img-fluid d-block" alt={`${humanizeString(name)} category`} />
+                        {humanizeString(name)}
+                    </a>)
             })}
-        </div>
-
+        </nav>
     );
+
 }
