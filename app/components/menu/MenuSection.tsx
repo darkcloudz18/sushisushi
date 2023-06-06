@@ -1,11 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import { useSearchParams } from 'next/navigation';
-import * as Scroll from 'react-scroll';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link, scrollSpy, animateScroll as scroll } from 'react-scroll'
 import humanizeString from "humanize-string";
-import Categories from './Categories';
 import DietaryFilter from "./DietaryFilter";
 import MenuItem from './MenuItem';
 // import getProducts from '../../api/menu/Products';
@@ -24,10 +21,6 @@ export default function MenuSection() {
   useEffect(() => {
     scrollSpy.update();
   });
-
-  const initialFilter = useSearchParams()?.get('filter');
-
-  const [filter, setFilter] = useState( initialFilter? initialFilter : 'HandRolls');
 
   const FILTER_MAP = {
     HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
@@ -75,13 +68,13 @@ export default function MenuSection() {
                           offset={-150}
                           onSetActive={() => document.getElementById(name+'-li')?.scrollIntoView({ inline: "start" })}
                       >
-                        <Image src={`/images/category-icons/${name}.png`} width={100} height={100} className="d-block" alt={`${humanizeString(name)} category`} />
+                        <Image src={`/images/category-icons/${name}.png`} width={100} height={100} className="d-block mx-auto" alt={`${humanizeString(name)} category`} />
                         {humanizeString(name)}
                       </Link>
                     </li>
                 )
               })}
-              <li className={"nav-item"}><button className={"btn btn-sushi-secondary"}>Dietary Filter</button></li>
+              <li className={"nav-item"}><DietaryFilter dietaryReqs={dietaryReqs} setDietary={setDietaryReqs} dietaryPrefs={dietaryPrefs} setDietaryPrefs={setDietaryPrefs} /></li>
             </ul>
         </div>
         <div>
@@ -89,9 +82,16 @@ export default function MenuSection() {
               return(
                   <div id={name} key={`${name}-products`}>
                     <h2 className="my-5">{humanizeString(name)}</h2>
-                    <div className="row">
+                    <div className="row mb-4">
                       {itemList(name)}
                     </div>
+                    <a
+                        href={""}
+                        className={"fs-5"}
+                        onClick={() => scroll.scrollToTop()}
+                    >
+                      Scroll back to top
+                    </a>
                   </div>
               );
             })}
