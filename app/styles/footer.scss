@@ -1,4 +1,20 @@
-.salmon-borders {
-  border-top: 2px solid $salmon-full;
-  border-bottom: 2px solid $salmon-full;
+$pipe-length: 160px;
+
+footer {
+  .col-12:not(:first-child) {
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 2px;
+      height: $pipe-length;
+      left: 0;
+      top: calc(50% - calc($pipe-length/2));
+      background: #e3e3e3;
+    }
+  }
+}
+
+.footer-logo {
+  padding: 3rem;
 }
