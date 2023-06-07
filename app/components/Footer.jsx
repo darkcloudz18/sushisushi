@@ -10,22 +10,24 @@ export default function Footer() {
           <div className={"light-grey-bg my-5"}>
             <div className="container">
             <div className="row align-items-center">
-              <div className="col-12 col-md-3">
+              <div className="col-12 col-lg-3 text-center">
                 <img src="/images/footer-logo.png" className="img-fluid footer-logo" />
               </div>
-              <div className="col-12 col-md-3 fw-bold text-center">
+              <div className="col-12 col-lg-3 fw-bold text-center">
+                <hr className={"d-lg-none mb-5"}/>
                 <a className="" href="https://www.facebook.com/SushiSushiAUS">
-                  <img className="social-icon" src="/images/fb.png" />
+                  <img className="" src="/images/fb.png" />
                 </a>
                 <a className="ms-2" href="http://instagram.com/sushisushiaus">
-                  <img className="social-icon" src="/images/insta.png" />
+                  <img className="" src="/images/insta.png" />
                 </a>
                 <a className="ms-2" href="https://au.linkedin.com/company/sushi-sushi">
-                  <img className="social-icon" src="/images/linkedin.png" />
+                  <img className="" src="/images/linkedin.png" />
                 </a>
+                <hr className={"d-lg-none mt-5"}/>
               </div>
-              <div className="col-12 col-md-6">
-                <div className="row row-cols-1 row-cols-md-3 px-5">
+              <div className="col-12 col-lg-6">
+                <div className="row row-cols-1 row-cols-md-3 px-5 footer-links">
                   <div className="col py-3">
                     <a href='/' className="plain-link fw-bold">Home</a>
                   </div>

@@ -18,3 +18,22 @@ footer {
 .footer-logo {
   padding: 3rem;
 }
+
+@media (max-width: 991.98px) {
+  footer {
+    .col-12:not(:first-child) {
+      &:before {
+        width: 0;
+      }
+    }
+  }
+
+  .footer-logo {
+    max-width: 400px;
+  }
+
+  .footer-links {
+    text-align: center;
+    margin: 1rem 0;
+  }
+}
