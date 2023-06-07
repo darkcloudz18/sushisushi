@@ -34,12 +34,12 @@ $raspberry: #D81159;
 }
 
 body {
-  font-family: 'Circular Std';
+  font-family: 'Circular Std', sans-serif;
   font-weight: normal;
 }
 
 h1 {
-  font-family: 'Gazpacho';
+  font-family: 'Gazpacho', ui-rounded;
   font-size: 3.5rem;
 }
 
@@ -62,6 +62,10 @@ h2 {
 
 .navbar-toggler {
   border: none;
+}
+
+.gazpacho-text {
+  font-family: 'Gazpacho', ui-rounded;
 }
 
 @mixin section-title($text-colour, $border-colour) {
@@ -131,6 +135,10 @@ h2 {
 
 .light-grey-bg {
   background: #FBFBFB;
+}
+
+.salmon-bg {
+  background: $salmon-light;
 }
 
 .invert-colour {
