@@ -87,10 +87,10 @@ export default function MenuSection() {
                     </div>
                     <a
                         href={""}
-                        className={"fs-5"}
+                        className={"lead text-center d-block"}
                         onClick={() => scroll.scrollToTop()}
                     >
-                      Scroll back to top
+                      <Image src={"/images/uparrow.png"} alt={"up arrow symbol"} width={18} height={21}></Image> Scroll back to top
                     </a>
                   </div>
               );
