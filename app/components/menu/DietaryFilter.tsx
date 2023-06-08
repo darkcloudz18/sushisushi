@@ -109,6 +109,7 @@ export default function DietaryFilter({dietaryReqs, setDietary, dietaryPrefs, se
                     })}
                 </div>
                     <p className="font-small py-2">These filters should be used for dietary preferences, not allergens. No food products in our stores are sold as allergen free, vegetarian or vegan as there is always a risk of allergen traces due to cross-contact. Read our full allergen information <a>here</a></p>
+                    <button type="button" className="btn btn-sushi-primary w-100 mb-3" data-bs-dismiss="offcanvas" aria-label="Close">Done</button>
                     <button type="button"
                             className="btn btn-sushi-secondary w-100"
                             onClick={() => {
