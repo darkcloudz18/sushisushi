@@ -9,10 +9,7 @@ export default function Categories() {
               <div className="row row-cols-auto d-flex justify-content-center py-4">
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'HandRolls' },
-                        }}
+                        href="/our_menu#HandRolls"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/HandRolls.png" className="img-fluid" alt="Handroll white rice category" />
@@ -21,10 +18,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                   <Link
-                      href={{
-                        pathname: '/our_menu',
-                        query: { filter: 'BrownRice' },
-                      }}
+                      href="/our_menu#BrownRice"
                       className="plain-link"
                   >
                     <img src="/images/category-icons/BrownRice.png" className="img-fluid" alt="Handroll brown rice category" />
@@ -33,10 +27,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'Packs' },
-                        }}
+                        href="/our_menu#Packs"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Packs.png" className="img-fluid" alt="Packs category" />
@@ -45,10 +36,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'Platters' },
-                        }}
+                        href="/our_menu#Platters"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Platters.png" className="img-fluid" alt="Platters category" />
@@ -57,10 +45,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'Deluxe' },
-                        }}
+                        href="/our_menu#Deluxe"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Deluxe.png" className="img-fluid" alt="Deluxe category" />
@@ -69,10 +54,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'Salads' },
-                        }}
+                        href="/our_menu#Salads"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Salads.png" className="img-fluid" alt="Salads category" />
@@ -81,10 +63,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center mx-3">
                     <Link
-                        href={{
-                            pathname: '/our_menu',
-                            query: { filter: 'HotFood' },
-                        }}
+                        href="/our_menu#HotFood"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/HotFood.png" className="img-fluid" alt="Hot food category" />
