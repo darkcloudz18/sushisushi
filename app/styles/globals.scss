@@ -68,6 +68,10 @@ h2 {
   font-family: 'Gazpacho', ui-rounded;
 }
 
+.salmon-text {
+  color: $salmon-full;
+}
+
 @mixin section-title($text-colour, $border-colour) {
   position: relative;
   padding-bottom: 1rem;

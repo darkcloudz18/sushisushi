@@ -98,6 +98,13 @@
 
 .tsandcs-nav {
 	background: $salmon-light;
-	font-weight: bold;
-	padding: 1.5rem;
+	padding: 1rem;
+	margin-bottom: 2rem;
+
+	.nav-link{
+		cursor: pointer;
+		&.active {
+			color: $nori-full;
+		}
+	}
 }

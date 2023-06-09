@@ -5,6 +5,7 @@ import Website from "../components/ts_and_cs/Website";
 import Privacy from "../components/ts_and_cs/Privacy";
 import OnlineOrdering from "../components/ts_and_cs/OnlineOrdering";
 import Promotions from "../components/ts_and_cs/Promotions";
+import Competitions from "../components/ts_and_cs/Competitions";
 
 export default function TermsAndConditions() {
     return (
@@ -20,6 +21,7 @@ export default function TermsAndConditions() {
                         <Privacy />
                         <OnlineOrdering />
                         <Promotions />
+                        <Competitions />
                     </div>
                 </div>
             </div>

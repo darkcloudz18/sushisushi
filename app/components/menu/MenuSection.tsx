@@ -1,10 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from "react";
-import { Link, scrollSpy, animateScroll as scroll } from 'react-scroll'
+import { Link, scrollSpy } from 'react-scroll'
 import humanizeString from "humanize-string";
 import DietaryFilter from "./DietaryFilter";
 import MenuItem from './MenuItem';
+import ScrollToTop from '../ScrollToTop';
 // import getProducts from '../../api/menu/Products';
 import ProductStub from '../../api/menu/productstub'
 import Image from "next/image";
@@ -85,13 +86,7 @@ export default function MenuSection() {
                     <div className="row mb-4">
                       {itemList(name)}
                     </div>
-                    <a
-                        href={""}
-                        className={"lead text-center d-block"}
-                        onClick={() => scroll.scrollToTop()}
-                    >
-                      <Image src={"/images/uparrow.png"} alt={"up arrow symbol"} width={18} height={21}></Image> Scroll back to top
-                    </a>
+                    <ScrollToTop />
                   </div>
               );
             })}
