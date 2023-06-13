@@ -3,6 +3,8 @@ import {useState} from "react";
 import validator from 'validator';
 import ContactMailer from "../../api/mailer/ContactMailer";
 import humanizeString from "humanize-string";
+import StoreData from "../../api/stores/stores";
+import {ReactSearchAutocomplete} from "react-search-autocomplete";
 
 export default function ContactForm() {
 
@@ -13,7 +15,11 @@ export default function ContactForm() {
     const [visitLocation, setVisitLocation] = useState("");
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [error, setError] = useState("");
-    const [isFeedback, setFeedback] = useState(null);
+    const [isFeedback, setFeedback] = useState(true);
+
+    const storeList = StoreData.map((store) => (
+        {id: store.title, name: `${store.suburb}, ${store.title} ${store.subtitle === undefined ? '' : store.subtitle}`}
+    ));
     const onSubmit = function (){
         const subject = isFeedback ? "Feedback form submission" : "Contact form enquiry";
         const text = isFeedback ?
@@ -21,7 +27,7 @@ export default function ContactForm() {
             : message;
         ContactMailer().messages.create('mg.sushisushi.com.au', {
             from: `${name} <${email}>`,
-            to: ["pascaledalkie@sushisushi.com.au"],
+            to: ["customerfeedback@sushisushi.com.au"],
             subject: subject,
             text: text
         })
@@ -37,26 +43,22 @@ export default function ContactForm() {
 
     return(
         <div className={"py-5"}>
-            <h3>What kind of form do you want to submit?</h3>
-            <div className={"toggle-buttons mt-3 mb-5"}>
-                <button type="button"
-                        className={`btn ${isFeedback? "btn-sushi-primary" : "btn-sushi-secondary"}`}
-                        aria-pressed={isFeedback}
-                        onClick={(e) => setFeedback(true)}
-                >
-                    Feedback Form
-                </button>
-                <button type="button"
-                        className={`btn ${isFeedback === false? "btn-sushi-primary" : "btn-sushi-secondary"}`}
-                        aria-pressed={!isFeedback}
-                        onClick={(e) => setFeedback(false)}
-                >
-                    General Enquiry Form
-                </button>
-            </div>
-            <div className={`lead ${isSubmitted? "d-block" : "d-none"}`}>Thank you for your message. We will get back to you soon.</div>
-            {isFeedback !== null && <div className={`${isSubmitted? "d-none" : "d-block"} salmon-card p-5`}>
+            <div className={`lead salmon-card p-5 ${isSubmitted? "d-block" : "d-none"}`}>Thank you for your message. We will get back to you soon.</div>
+            <div className={`${isSubmitted? "d-none" : "d-block"} salmon-card p-5`}>
                 <h4 className={"fw-bold"}>{isFeedback? "Feedback Form": "General Enquiry"}</h4>
+                <div className="mb-3">
+                    <label htmlFor="fullName" className="form-label">Message Type</label>
+                    <select
+                        className={"form-select"}
+                        value={isFeedback}
+                        onChange={(e) => {
+                            setFeedback(!isFeedback)
+                        }}
+                    >
+                        <option value={true}>Feedback Form</option>
+                        <option value={false}>General Enquiry</option>
+                    </select>
+                </div>
                 <form
                     onSubmit={(event)=> {
                         event.preventDefault();
@@ -64,8 +66,43 @@ export default function ContactForm() {
                     }}
                 >
                     <div className={`alert alert-danger ${error !== "" ? "d-block" : "d-none"}`} role="alert">{error}</div>
+                    { isFeedback &&
+                        <>
+                            <div className={"mb-3"}>
+                                <label htmlFor="dov" className="form-label">Date of Visit (required)</label>
+                                <input id={"dov"} className="form-control" type={"date"}
+                                       onChange={(e) => {
+                                           setDateOfVisit(e.target.value);
+                                       }}
+                                       required={true}
+                                />
+                            </div>
+                            <div className="mb-3">
+                                <label htmlFor="visitLocation" className="form-label">Store Location (required)</label>
+                                <ReactSearchAutocomplete
+                                    items={storeList}
+                                    id="visitLocation"
+                                    className={"form-search"}
+                                    placeholder="Store location"
+                                    required={true}
+                                    aria-labelledby={"locationHelpBlock"}
+                                    onSelect={(item) => {
+                                        setVisitLocation(item.name);
+                                    }}
+                                    styling={{
+                                        borderRadius: 0,
+                                        border: "none",
+                                        boxShadow: "none"
+                                    }}
+                                />
+                                <div id="locationHelpBlock" className="form-text">
+                                    Start typing the suburb of the store for a list of possible locations
+                                </div>
+                            </div>
+                        </>
+                    }
                     <div className="mb-3">
-                        <label htmlFor="fullName" className="form-label">Your Name</label>
+                        <label htmlFor="fullName" className="form-label">Name (required)</label>
                         <input
                             type="text"
                             className="form-control"
@@ -78,7 +115,7 @@ export default function ContactForm() {
                         />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="yourEmail" className="form-label">Your Email Address</label>
+                        <label htmlFor="yourEmail" className="form-label">Email Address (required)</label>
                         <input
                             type="email"
                             className="form-control"
@@ -90,33 +127,8 @@ export default function ContactForm() {
                             required={true}
                         />
                     </div>
-                    { isFeedback &&
-                        <>
-                            <div className={"mb-3"}>
-                                <label htmlFor="dov" className="form-label">Date of Visit</label>
-                                <input id={"dov"} className="d-block" type={"date"}
-                                       onChange={(e) => {
-                                           setDateOfVisit(e.target.value);
-                                       }}
-                                       required={true}
-                                />
-                            </div>
-                            <div className="mb-3">
-                                <label htmlFor="visitLocation" className="form-label">Store Location</label>
-                                <input
-                                    type="text"
-                                    className="form-control"
-                                    id="visitLocation"
-                                    onChange={(e) => {
-                                        setVisitLocation(e.target.value);
-                                    }}
-                                    required={true}
-                                />
-                            </div>
-                        </>
-                    }
                     <div className="mb-3">
-                        <label htmlFor="contactMessage" className="form-label">Your Message</label>
+                        <label htmlFor="contactMessage" className="form-label">Message (required)</label>
                         <textarea
                             className="form-control"
                             id="contactMessage"
@@ -128,7 +140,7 @@ export default function ContactForm() {
                     </div>
                     <button type="submit" className="btn btn-sushi-primary" >Submit</button>
                 </form>
-            </div> }
+            </div>
         </div>
 
     );

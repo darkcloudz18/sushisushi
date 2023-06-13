@@ -27,6 +27,7 @@
     "react-dom": "18.2.0",
     "react-ig-feed": "^1.7.0",
     "react-scroll": "^1.8.9",
+    "react-search-autocomplete": "^8.5.2",
     "reactide-config": "^1.0.2",
     "sass": "^1.58.3",
     "use-mailchimp-form": "^3.1.0",

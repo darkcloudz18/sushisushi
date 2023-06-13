@@ -99,7 +99,7 @@ h2 {
   @include button-variant($grey-light, $grey-light, $grey-dark);
 }
 
-.form-control {
+.form-control, .form-select, .form-search {
   border-bottom: 2px solid $grey-mid;
 }
 
