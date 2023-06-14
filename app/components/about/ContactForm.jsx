@@ -16,20 +16,21 @@ export default function ContactForm() {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [error, setError] = useState("");
     const [isFeedback, setFeedback] = useState(true);
+    const [formType, setFormType] = useState("Feedback");
 
     const storeList = StoreData.map((store) => (
-        {id: store.title, name: `${store.suburb}, ${store.title} ${store.subtitle === undefined ? '' : store.subtitle}`}
+        {id: store.title, name: `${store.suburb}${store.title !== store.suburb ? ', ' + store.title : ''}${store.subtitle === undefined ? '' : ' ' + store.subtitle}`}
     ));
     const onSubmit = function (){
-        const subject = isFeedback ? "Feedback form submission" : "Contact form enquiry";
-        const text = isFeedback ?
-            "Date of Visit: " + dateOfVisit + ", Location of Visit: " + visitLocation + ", Message: " + message
+        const subject = formType;
+        const text = formType === "Feedback" ?
+            "Date of Visit: " + dateOfVisit + ",\nLocation of Visit: " + visitLocation + ",\nMessage: " + message
             : message;
         ContactMailer().messages.create('mg.sushisushi.com.au', {
             from: `${name} <${email}>`,
             to: ["customerfeedback@sushisushi.com.au"],
             subject: subject,
-            text: text
+            text: `${text}\nFrom ${name},${email}`
         })
             .then(msg => {
                 if (msg.status === 200) {
@@ -45,18 +46,20 @@ export default function ContactForm() {
         <div className={"py-5"}>
             <div className={`lead salmon-card p-5 ${isSubmitted? "d-block" : "d-none"}`}>Thank you for your message. We will get back to you soon.</div>
             <div className={`${isSubmitted? "d-none" : "d-block"} salmon-card p-5`}>
-                <h4 className={"fw-bold"}>{isFeedback? "Feedback Form": "General Enquiry"}</h4>
+                <h4 className={"fw-bold"}>{isFeedback? "Feedback": "General Enquiry"}</h4>
                 <div className="mb-3">
                     <label htmlFor="fullName" className="form-label">Message Type</label>
                     <select
                         className={"form-select"}
-                        value={isFeedback}
+                        value={formType}
                         onChange={(e) => {
-                            setFeedback(!isFeedback)
+                            setFormType(e.target.value)
                         }}
                     >
-                        <option value={true}>Feedback Form</option>
-                        <option value={false}>General Enquiry</option>
+                        <option value={"Feedback"}>Feedback</option>
+                        <option value={"General Enquiry"}>General Enquiry</option>
+                        <option value={"Sponsorship Enquiry"}>Sponsorship Enquiry</option>
+                        <option value={"Media Enquiry"}>Media Enquiry</option>
                     </select>
                 </div>
                 <form
@@ -66,7 +69,7 @@ export default function ContactForm() {
                     }}
                 >
                     <div className={`alert alert-danger ${error !== "" ? "d-block" : "d-none"}`} role="alert">{error}</div>
-                    { isFeedback &&
+                    { formType === "Feedback" &&
                         <>
                             <div className={"mb-3"}>
                                 <label htmlFor="dov" className="form-label">Date of Visit (required)</label>
