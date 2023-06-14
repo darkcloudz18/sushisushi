@@ -1,6 +1,10 @@
 .main-nav {
 	.nav-item:not(:first-child) .nav-link {
 		border-left: 1px $grey-lighter solid;
+
+		@media (max-width: 991.98px) {
+			border-left: none;
+		}
 	}
 }
 
