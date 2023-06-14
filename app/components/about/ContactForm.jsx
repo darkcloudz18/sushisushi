@@ -30,7 +30,7 @@ export default function ContactForm() {
             from: `${name} <${email}>`,
             to: ["customerfeedback@sushisushi.com.au"],
             subject: subject,
-            text: `${text}\nFrom ${name},${email}`
+            text: `${text}\nFrom ${name}, ${email}`
         })
             .then(msg => {
                 if (msg.status === 200) {
