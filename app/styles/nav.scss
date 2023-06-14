@@ -50,6 +50,7 @@
 
 .aboutus-hero {
 	background-image: url("/images/headers/aboutus-desktop.jpg");
+	background-position-y: bottom;
 
 	@media (max-width: 991.98px) {
 		background-image: url("/images/headers/aboutus-mobile.jpg");
@@ -58,6 +59,7 @@
 
 .careers-hero {
 	background-image: url("/images/headers/careers-desktop.jpg");
+	background-position-y: bottom;
 
 	@media (max-width: 991.98px) {
 		background-image: url("/images/headers/careers-mobile.jpg");
