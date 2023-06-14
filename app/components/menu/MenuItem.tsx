@@ -6,7 +6,7 @@ export default function MenuItem({item, category}) {
 
     return (
         <>
-            <div className="col-12 col-md-6 col-lg-3 mb-3">
+            <div className="col-6 col-lg-3 mb-3">
                 <div className="card h-100">
                     <img
                         src={`/images/products/${category}/${item.name}.jpg`}
