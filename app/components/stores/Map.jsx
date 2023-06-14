@@ -4,6 +4,7 @@ import { GoogleMap, LoadScript, Autocomplete, MarkerF } from '@react-google-maps
 import React, { useState } from "react";
 import StoreData from "../../api/stores/stores";
 import StoreCard from "./StoreCard";
+import distanceBetweenPointsInKm from "../../api/stores/MapDistances";
 
 const libraries = ["places"];
 
@@ -15,22 +16,26 @@ export default function Map(){
 
   const [autocomplete, setAutocomplete] = useState(null);
   const [map, setMap] = useState(null);
-  const [mapBounds, setMapBounds] = useState(null);
+  const [mapCenter, setMapCenter] = useState(null);
 
   const [center, setCenter] = useState({
     lat: -27.610112,
     lng: 134.354806
   });
 
-  const storeFilter = function (store) {
-    return mapBounds?.contains({lat: store.latitude, lng: store.longitude});
-  };
-
-  const storeList = StoreData.filter((store) => storeFilter(store) )
-      .sort((a,b) => a.title.localeCompare(b.title))
-      .map((store) => (
-      <StoreCard store={store} key={store.store_id} />
-  ));
+  const storeList = StoreData
+      .map((store) => {
+        if (mapCenter !== null) {
+          store.distance = distanceBetweenPointsInKm(mapCenter.lat(), mapCenter.lng(), store.latitude, store.longitude);
+        } else {
+          store.distance = 0;
+        }
+        return store;
+      })
+      .sort((a,b) => a.distance - b.distance)
+      .map((store) => {
+        return <StoreCard store={store} key={store.store_id}/>
+      });
 
   const storeMarkers = StoreData.map((store) => (
       <MarkerF position={{lat: store.latitude, lng: store.longitude}} icon={"/images/marker.png"} key={store.store_id} />
@@ -40,12 +45,13 @@ export default function Map(){
   const onPlaceChanged = function(){
     if (autocomplete !== null && map !== null) {
       map.fitBounds(autocomplete.getPlace().geometry.viewport);
+      setMapCenter(map.getCenter());
     }
   };
 
   const onBoundsChanged = function () {
     if (autocomplete !== null && map !== null) {
-      setMapBounds(map.getBounds());
+      setMapCenter(map.getCenter());
     }
   };
 
