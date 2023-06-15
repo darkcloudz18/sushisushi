@@ -54,7 +54,7 @@ export default function MenuSection() {
   
   return(
     <div className="off-white-bg">
-      <div className="container py-5">
+      <div className="container-xxl py-5">
         <div className="sticky-top menu-nav">
             <ul className="nav menu-categories-nav text-center align-items-center nav-fill">
               {FILTER_NAMES.map((name:string) => {
@@ -69,7 +69,7 @@ export default function MenuSection() {
                           offset={-150}
                           onSetActive={() => document.getElementById(name+'-li')?.scrollIntoView({ inline: "start" })}
                       >
-                        <Image src={`/images/category-icons/${name}.png`} width={100} height={100} className="d-block mx-auto" alt={`${humanizeString(name)} category`} />
+                        <Image src={`/images/category-icons/${name}.png`} width={100} height={100} className="d-block mx-auto menu-img" alt={`${humanizeString(name)} category`} />
                         {humanizeString(name)}
                       </Link>
                     </li>
