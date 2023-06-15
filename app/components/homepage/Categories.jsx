@@ -6,8 +6,8 @@ export default function Categories() {
     return (
           <div className="container py-5">
               <h2 className="section-title-salmon">Menu by category</h2>
-              <div className="row row-cols-auto d-flex justify-content-center py-4">
-                <div className="col text-center mx-3">
+              <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-auto  justify-content-lg-center py-4">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#HandRolls"
                         className="plain-link"
@@ -16,7 +16,7 @@ export default function Categories() {
                         <p className="lead pt-3">Hand rolls</p>
                     </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                   <Link
                       href="/our_menu#BrownRice"
                       className="plain-link"
@@ -25,7 +25,7 @@ export default function Categories() {
                     <p className="lead pt-3">Brown rice</p>
                   </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#Packs"
                         className="plain-link"
@@ -34,7 +34,7 @@ export default function Categories() {
                         <p className="lead pt-3">Packs</p>
                     </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#Platters"
                         className="plain-link"
@@ -43,7 +43,7 @@ export default function Categories() {
                         <p className="lead pt-3">Platters</p>
                     </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#Deluxe"
                         className="plain-link"
@@ -52,7 +52,7 @@ export default function Categories() {
                         <p className="lead pt-3">Deluxe</p>
                     </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#Salads"
                         className="plain-link"
@@ -61,7 +61,7 @@ export default function Categories() {
                         <p className="lead pt-3">Salads</p>
                     </Link>
                 </div>
-                <div className="col text-center mx-3">
+                <div className="col text-center px-xl-4 py-3">
                     <Link
                         href="/our_menu#HotFood"
                         className="plain-link"
