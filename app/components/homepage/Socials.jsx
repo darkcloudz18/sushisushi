@@ -31,17 +31,21 @@ export default function Socials() {
                     </div>
                 </div>
             </div>
-            <div className="text-center fs-3 fw-bold">
-                Follow us on our socials
-                <a className="ms-2" href="https://www.facebook.com/SushiSushiAUS">
-                    <img className="social-icon" src="/images/fb.png" />
-                </a>
-                <a className="ms-2" href="http://instagram.com/sushisushiaus">
-                    <img className="social-icon" src="/images/insta.png" />
-                </a>
-                <a className="ms-2" href="https://au.linkedin.com/company/sushi-sushi">
-                    <img className="social-icon" src="/images/linkedin.png" />
-                </a>
+            <div className={"row row-cols-1 row-cols-md-2 justify-content-center"}>
+                <div className={"col text-center text-md-end fs-3 fw-bold"}>
+                    Follow us on our socials
+                </div>
+                <div className={"col text-center text-md-start"}>
+                    <a className="ms-2" href="https://www.facebook.com/SushiSushiAUS">
+                        <img className="social-icon" src="/images/fb.png" />
+                    </a>
+                    <a className="ms-2" href="http://instagram.com/sushisushiaus">
+                        <img className="social-icon" src="/images/insta.png" />
+                    </a>
+                    <a className="ms-2" href="https://au.linkedin.com/company/sushi-sushi">
+                        <img className="social-icon" src="/images/linkedin.png" />
+                    </a>
+                </div>
             </div>
         </div>
     );
