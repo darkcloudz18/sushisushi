@@ -4,8 +4,8 @@ import React from "react";
 
 export default function InstaPost({post}) {
 
-    const postStyle = {
-        backgroundImage:`url(${post?.media_type === 'VIDEO' ? post?.thumbnail_url : post?.media_url})`,
+    const videoPostStyle = {
+        backgroundImage:`url(${post?.thumbnail_url})`,
         backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
         backgroundPosition:"center"
@@ -14,8 +14,12 @@ export default function InstaPost({post}) {
     return(
         <>
             <a href="#" data-bs-toggle="modal" data-bs-target={`#postModal${post?.id}`}>
-                <div className="h-100" style={postStyle}>
-                </div>
+                { post?.media_type === 'VIDEO' ?
+                    <div className="w-100 h-100" style={videoPostStyle}>
+                    </div>
+                    :
+                    <img className={"img-fluid"} src={post?.media_url}/>
+                }
             </a>
 
             <div className="modal fade" id={`postModal${post?.id}`} tabIndex="-1" aria-hidden="true">

@@ -15,18 +15,18 @@ export default function Socials() {
     }, []);
 
     const posts = instaPosts.slice(1).map((post) => (
-        <div key={post.id} className="col"><InstaPost post={post}></InstaPost></div>
+        <div key={post.id} className={"col"}><InstaPost post={post}></InstaPost></div>
     ));
 
     return(
-        <div className="container pb-5">
+        <div className="container-xl pb-5">
             <h2 className="section-title-salmon mb-5">Latest on Social</h2>
             <div className="row">
                 <div className="col-12 col-md-6 insta-row">
                     <InstaPost key={instaPosts[0]?.id} post={instaPosts[0]}></InstaPost>
                 </div>
                 <div className="col-12 col-md-6">
-                    <div className="row row-cols-2 insta-mini-row">
+                    <div className="row row-cols-1 row-cols-md-2 insta-mini-row">
                         {posts}
                     </div>
                 </div>

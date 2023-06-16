@@ -77,15 +77,14 @@
 }
 
 .insta-row {
-  height: 600px;
+  aspect-ratio: 1/1;
   padding-bottom: 20px;
 }
 
 .insta-mini-row {
-  height: 600px;
   .col {
-    height: 50%;
     padding-bottom: 20px;
+    aspect-ratio: 1/1;
   }
 }
 
