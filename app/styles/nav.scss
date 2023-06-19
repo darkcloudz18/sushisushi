@@ -114,3 +114,23 @@
 		}
 	}
 }
+
+.location-button {
+	.hide-on-hover {
+		display: inline-block;
+	}
+
+	.show-on-hover {
+		display: none;
+	}
+
+	&:hover {
+		.hide-on-hover {
+			display: none;
+		}
+
+		.show-on-hover {
+			display: inline-block;
+		}
+	}
+}

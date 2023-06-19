@@ -44,8 +44,13 @@ export default function Header() {
                         </li>
                     </ul>
                     <div className="d-flex d-none d-lg-block">
-                        <a href="/our_stores" className="btn btn-sushi-secondary me-2">Find a Store</a>
-                        <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary">Order Now</a>
+                        <a href="/our_stores" className="btn btn-sushi-secondary me-2 location-button">
+                            <Image src={"/images/pin.png"} alt={""} height={23} width={17} className={"me-2 align-top hide-on-hover"}></Image>
+                            <Image src={"/images/pin-nori.png"} alt={""} height={23} width={17} className={"me-2 align-top show-on-hover"}></Image>
+                            Find a Store</a>
+                        <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary">
+                            <Image src={"/images/bag.png"} alt={""} height={23} width={18} className={"me-2 align-top"}></Image>
+                            Order Now</a>
                     </div>
                 </div>
             </div>
