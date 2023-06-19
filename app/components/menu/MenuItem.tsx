@@ -1,6 +1,7 @@
 'use client';
 
 import humanizeString from "humanize-string";
+import Image from "next/image";
 
 export default function MenuItem({item, category}) {
 
@@ -38,7 +39,7 @@ export default function MenuItem({item, category}) {
                         <div className="modal-body item-modal-body">
                             <div className={"row px-3"}>
                                 <div
-                                    className={"col-12 col-lg-8 order-lg-last item-modal-img"}
+                                    className={"col-12 col-lg-7 order-lg-last item-modal-img"}
                                     style={{
                                         backgroundImage: `url("/images/products/${category}/${item.name}.jpg")`,
                                         backgroundPosition: "center",
@@ -46,18 +47,17 @@ export default function MenuItem({item, category}) {
                                     }}
                                 >
                                 </div>
-                                <div className={"col-12 col-lg-4 p-5"}>
+                                <div className={"col-12 col-lg-5 p-5"}>
                                     <h2>{item.name}</h2>
                                     <h3>{item.kJs}</h3>
                                     <p>{item.description}</p>
-                                    <p className={"mb-1"}>Allergens</p>
-                                    <ul>
-                                        {item.allergens?.map((name:string) => {
+                                    <div className={"row justify-content-start mb-4"}>
+                                        {item.allergens?.filter(allergen => allergen !== "Gluten").map((name:string) => {
                                             return (
-                                                <li key={name}>{name}</li>
+                                                <div className={"col-auto"} key={name}><Image src={`/images/allergens/${name}_icon.png`} alt={`${name} allergen present`} width={50} height={49} className={"mb-2"}></Image></div>
                                             );
                                         })}
-                                    </ul>
+                                    </div>
                                     <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary w-100">Start my order</a>
                                 </div>
                             </div>
