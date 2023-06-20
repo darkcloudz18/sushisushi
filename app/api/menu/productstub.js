@@ -972,186 +972,22 @@ const ProductStub = [
         ]
     },
     {
-        "id": "605",
+        "id": "gre",
         "category": "hot_food",
-        "name": "Katsu Chicken Bento",
+        "name": "Green Tea",
         "description": "",
         "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Egg",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Chicken"
-        ]
+        "allergens": [],
+        "prefs": []
     },
     {
-        "id": "1228",
+        "id": "mis",
         "category": "hot_food",
-        "name": "Teriyaki Chicken Bento",
+        "name": "Miso Soup",
         "description": "",
         "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Chicken"
-        ]
-    },
-    {
-        "id": "603",
-        "category": "hot_food",
-        "name": "Teriyaki Salmon Bento",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "1231",
-        "category": "hot_food",
-        "name": "Tempura Prawn Bento",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Egg",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "53",
-        "category": "hot_food",
-        "name": "Unagi Bento",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "1229",
-        "category": "hot_food",
-        "name": "Katsu Chicken Curry Don",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten"
-        ],
-        "prefs": [
-            "Chicken"
-        ]
-    },
-    {
-        "id": "433",
-        "category": "hot_food",
-        "name": "Teriyaki Chicken Don",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Chicken"
-        ]
-    },
-    {
-        "id": "57",
-        "category": "hot_food",
-        "name": "Unagi Don",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "639",
-        "category": "hot_food",
-        "name": "Teriyaki Salmon Don",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "444",
-        "category": "hot_food",
-        "name": "Tempura Prawn Udon",
-        "description": "",
-        "kJs": "",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "442",
-        "category": "hot_food",
-        "name": "Vegetarian Udon",
-        "description": "",
-        "kJs": "502kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Soy"
-        ],
-        "prefs": [
-            "Vegetarian"
-        ]
+        "allergens": [],
+        "prefs": []
     },
     {
         "id": "15642",
