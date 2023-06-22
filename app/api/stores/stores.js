@@ -28,7 +28,7 @@ const StoreData =
       },
       {
         "title": "Altona Gate",
-        "subtitle": "",
+        "subtitle": "Near Chemist Warehouse",
         "store_id": "55",
         "address_line_01": "Shop G009, Altona Gate Shopping Centre",
         "address_line_02": "124 -134 Millers Road",
@@ -39,6 +39,20 @@ const StoreData =
         "latitude": -37.828076,
         "longitude": 144.8452138,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=2&mid=&no=&frmsrc=web"
+      },
+      {
+        "title": "Altona Gate",
+        "subtitle": "Near Priceline",
+        "store_id": "alt",
+        "address_line_01": "Tenancy L020, Altona Gate Shopping Centre",
+        "address_line_02": "124 -134 Millers Road",
+        "suburb": "Altona North",
+        "state": "vic",
+        "postcode": "3025",
+        "phone": "03 9923 8231",
+        "latitude": -37.825270,
+        "longitude": 144.848770,
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=144&mid=&no=&frmsrc=qr"
       },
       {
         "title": "BP Scoresby Inbound",
@@ -120,8 +134,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=5&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Bayside 1",
-        "subtitle": "Level 1 Near Woolworths",
+        "title": "Bayside",
+        "subtitle": "Near Woolworths",
         "store_id": "31",
         "address_line_01": "Shop 154, Bayside Shopping Centre, Level 1, Near woolworths ",
         "address_line_02": "28 Beach Street",
@@ -134,8 +148,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=6&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Bayside 3",
-        "subtitle": "Ground Floor Near Coles",
+        "title": "Bayside",
+        "subtitle": "Near Coles",
         "store_id": "103",
         "address_line_01": "Shop G012Q, Bayside Shopping Centre, Ground Floor, Near Coles",
         "address_line_02": "29 Beach Street",
@@ -148,8 +162,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=7&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Belconnen 1",
-        "subtitle": "Level 3 Food Court",
+        "title": "Belconnen",
+        "subtitle": "In Food Court",
         "address_line_01": "Shop 19A, Westfield Belconnen Shopping Centre",
         "address_line_02": "Benjamin Way",
         "suburb": "Belconnen",
@@ -161,8 +175,8 @@ const StoreData =
         "store_id": "14"
       },
       {
-        "title": "Belconnen 2",
-        "subtitle": "Level 2 Near Coles",
+        "title": "Belconnen",
+        "subtitle": "Near Coles",
         "store_id": "50",
         "address_line_01": "Shop 214, Westfield Belconnen Shopping Centre",
         "address_line_02": "Benjamin Way",
@@ -214,7 +228,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=140&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Booragoon 1",
+        "title": "Booragoon",
         "subtitle": "Near JB Hi-Fi",
         "store_id": "48",
         "address_line_01": "Kiosk K43, Garden City Shopping Centre",
@@ -228,8 +242,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=57&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Booragoon 2",
-        "subtitle": "Food Court",
+        "title": "Booragoon",
+        "subtitle": "In Food Court",
         "store_id": "boo",
         "address_line_01": "K01 Garden City Shopping Centre",
         "address_line_02": "125 Riseley Street",
@@ -242,7 +256,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=125&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Botany NZ",
+        "title": "Botany",
         "store_id": "bot",
         "address_line_01": "588 Chapel Road",
         "address_line_02": "",
@@ -255,7 +269,7 @@ const StoreData =
         "order_up_link": ""
       },
       {
-        "title": "Braybrook Central West",
+        "title": "Braybrook",
         "store_id": "88",
         "address_line_01": "Kiosk 1 Central West Shopping Centre",
         "address_line_02": "Cnr Ashley Street & South Road",
@@ -281,7 +295,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=14&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Brisbane Jetstar (Domestic)",
+        "title": "Brisbane Airport",
+        "subtitle": "Domestic Terminal",
         "store_id": "131",
         "address_line_01": "Domestic Terminal Building, Brisbane Airport",
         "address_line_02": "11 The Circuit",
@@ -289,6 +304,19 @@ const StoreData =
         "state": "qld",
         "postcode": "4008",
         "phone": "07 3860 6952",
+        "latitude": -27.3994427,
+        "longitude": 153.0836202
+      },
+      {
+        "title": "Brisbane Airport",
+        "subtitle": "International Terminal",
+        "store_id": "119",
+        "address_line_01": "International Terminal Building, Brisbane Airport",
+        "address_line_02": "11 The Circuit",
+        "suburb": "Brisbane",
+        "state": "qld",
+        "postcode": "4008",
+        "phone": "07 3860 4513",
         "latitude": -27.3994427,
         "longitude": 153.0836202
       },
@@ -319,8 +347,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=17&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Canberra Centre 2",
-        "subtitle": "Level 1 Near Apple Store",
+        "title": "Canberra Centre",
+        "subtitle": "Near Apple Store",
         "store_id": "148",
         "address_line_01": "Level 1, Shop K09 Canberra Centre",
         "address_line_02": "Bunda St",
@@ -334,7 +362,7 @@ const StoreData =
       },
       {
         "title": "Canberra Centre Train",
-        "subtitle": "Level G Near Coles",
+        "subtitle": "Near Coles",
         "store_id": "8",
         "address_line_01": "Level G, Shop EG09_10 Canberra Centre",
         "address_line_02": "Bunda St",
@@ -360,8 +388,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=20&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Carindale 1",
-        "subtitle": "Level 1 Food Court",
+        "title": "Carindale",
+        "subtitle": "In Food Court",
         "store_id": "38",
         "address_line_01": "Shop 2006A Westfield Carindale",
         "address_line_02": "1151 Creek Road",
@@ -374,8 +402,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=22&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Carindale 2",
-        "subtitle": "Level G Near Coles",
+        "title": "Carindale",
+        "subtitle": "Near Coles",
         "store_id": "47",
         "address_line_01": "Shop 1217 Westfield Carindale",
         "address_line_02": "1151 Creek Road",
@@ -401,8 +429,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=24&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Carousel 1",
-        "subtitle": "Level 1 Near The Coffee Club",
+        "title": "Carousel",
+        "subtitle": "Near The Coffee Club",
         "store_id": "59",
         "address_line_01": "Kiosk K106, Westfield Carousel",
         "address_line_02": "1382 Albany Hwy",
@@ -416,6 +444,7 @@ const StoreData =
       },
       {
         "title": "Casey Central",
+        "subtitle": "Near Subway",
         "store_id": "127",
         "address_line_01": "Casey Central Shopping Centre",
         "address_line_02": "f105/400 Narre Warren - Cranbourne Rd",
@@ -428,7 +457,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=18&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Casey Central Coles",
+        "title": "Casey Central",
+        "subtitle": "Inside Coles",
         "store_id": "cas",
         "address_line_01": "400 Narre Warren Cranbourne Rd",
         "address_line_02": "",
@@ -480,7 +510,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=28&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone 1",
+        "title": "Chadstone",
         "subtitle": "Near Myer",
         "store_id": "26",
         "address_line_01": "Shop B-141 Chadstone Shopping Centre, Lower Ground, Near Myer",
@@ -494,7 +524,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=31&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone 2",
+        "title": "Chadstone",
         "subtitle": "Near Aldi",
         "store_id": "11",
         "address_line_01": "Shop F005, Chadstone Shopping Centre, Ground level, Fresh Food Precinct, near Aldi ",
@@ -508,8 +538,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=32&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone 3",
-        "subtitle": "Food Court",
+        "title": "Chadstone",
+        "subtitle": "In Food Court",
         "store_id": "136",
         "address_line_01": "Kiosk 0103, Chadstone Shopping Centre, Lower Ground, Food Central",
         "address_line_02": "1341 Dandenong Road",
@@ -575,6 +605,7 @@ const StoreData =
       },
       {
         "title": "Coburg North",
+        "subtitle": "Inside Coles",
         "store_id": "cob",
         "address_line_01": "180 Gaffney St",
         "address_line_02": "",
@@ -600,7 +631,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=37&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Craigieburn 2",
+        "title": "Craigieburn",
+        "subtitle": "Near Woolworths",
         "store_id": "cra",
         "address_line_01": "Craigieburn Central",
         "address_line_02": "240 Craigieburn Rd",
@@ -613,7 +645,8 @@ const StoreData =
         "order_up_link": ""
       },
       {
-        "title": "Craigieburn Central",
+        "title": "Craigieburn",
+        "subtitle": "Near Big W",
         "store_id": "99",
         "address_line_01": "Shop COO-K05, Craigieburn Central",
         "address_line_02": "340 Craigieburn Road",
@@ -679,7 +712,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=143&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Doncaster 1",
+        "title": "Doncaster",
+        "subtitle": "Near JB Hi-Fi",
         "store_id": "29",
         "address_line_01": "Shop G114, Westfield Doncaster",
         "address_line_02": "619 Doncaster Road",
@@ -692,7 +726,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=44&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Doncaster 2",
+        "title": "Doncaster",
+        "subtitle": "Near Woolworths",
         "store_id": "157",
         "address_line_01": "Kiosk K103, Westfield Doncaster",
         "address_line_02": "619 Doncaster Rd",
@@ -719,8 +754,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=38&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Eastland 1",
-        "subtitle": "Level G near Woolworths",
+        "title": "Eastland",
+        "subtitle": "Opposite Woolworths",
         "store_id": "32",
         "address_line_01": "Shop K104, Eastland Shopping Centre",
         "address_line_02": "171-175 Maroondah Hwy",
@@ -733,8 +768,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=138&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Eastland 2",
-        "subtitle": "Level 1 Foodcourt",
+        "title": "Eastland",
+        "subtitle": "In Food Court",
         "store_id": "60",
         "address_line_01": "Kiosk KG19, Eastland Shopping Centre",
         "address_line_02": "171-175 Maroondah Hwy",
@@ -747,7 +782,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=139&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Eastlands Tas",
+        "title": "Eastlands TAS",
         "store_id": "140",
         "address_line_01": "Tenancy K008 Eastlands",
         "address_line_02": "Cnr Bligh Street and Rosny Hill Road",
@@ -826,8 +861,8 @@ const StoreData =
         "order_up_link": ""
       },
       {
-        "title": "Forest Hill Chase 1",
-        "subtitle": "Level 1 Near Coles",
+        "title": "Forest Hill",
+        "subtitle": "Near Coles",
         "store_id": "28",
         "address_line_01": "Shop 103A Forest Hill Chase",
         "address_line_02": "270 Canterbury Road",
@@ -853,8 +888,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=53&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Fountain Gate 1",
-        "subtitle": "Level 1 Food Court",
+        "title": "Fountain Gate",
+        "subtitle": "In Food Court",
         "store_id": "44",
         "address_line_01": "Shop K107 Westfield Fountain Gate, Level 1 Food Court",
         "address_line_02": "25-55 Overland Dr",
@@ -867,8 +902,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=54&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Fountain Gate 2",
-        "subtitle": "Level 2 Near Coles",
+        "title": "Fountain Gate",
+        "subtitle": "Near Coles",
         "store_id": "69",
         "address_line_01": "Shop 2114 Westfield Fountain Gate, Level 2, near Coles",
         "address_line_02": "25-55 Overland Dr",
@@ -878,6 +913,20 @@ const StoreData =
         "phone": "03 8790 3544",
         "latitude": -38.018202,
         "longitude": 145.3059156,
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=55&mid=&no=&frmsrc=web"
+      },
+      {
+        "title": "Fountain Gate",
+        "subtitle": "Near Myer",
+        "store_id": "fou",
+        "address_line_01": "Kiosk K254 Westfield Fountain Gate",
+        "address_line_02": "25-55 Overland Dr",
+        "suburb": "Narre Warren",
+        "state": "vic",
+        "postcode": "3805",
+        "phone": "03 8790 3544",
+        "latitude": -38.017181388014336,
+        "longitude": 145.3042624,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=55&mid=&no=&frmsrc=web"
       },
       {
@@ -920,8 +969,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=60&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Greensborough 1",
-        "subtitle": "Level 2",
+        "title": "Greensborough",
+        "subtitle": "Near Kmart",
         "store_id": "67",
         "address_line_01": "L02 2K6, Greensborough Plaza Shopping Centre, Level 2",
         "address_line_02": "25 Main St",
@@ -934,8 +983,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=61&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Greensborough 2",
-        "subtitle": "Level 3",
+        "title": "Greensborough",
+        "subtitle": "Near Target",
         "store_id": "133",
         "address_line_01": "Shop 345, Greensborough Plaza Shopping Centre, Level 3",
         "address_line_02": "25 Main St",
@@ -974,8 +1023,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=137&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint 1",
-        "subtitle": "Level 3 Food Court",
+        "title": "Highpoint",
+        "subtitle": "In Food Court",
         "store_id": "36",
         "address_line_01": "Shop 3187, Highpoint Shopping Centre, Level 3 Food Court",
         "address_line_02": "120-200 Rosamond Road",
@@ -988,7 +1037,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=65&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint 2",
+        "title": "Highpoint",
         "subtitle": "Near Mecca",
         "store_id": "43",
         "address_line_01": "Kiosk 7313, Highpoint Shopping Centre",
@@ -1002,8 +1051,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=66&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint 3",
-        "subtitle": "Level 2 Near Woolworths",
+        "title": "Highpoint",
+        "subtitle": "Fresh Fd Precinct",
         "store_id": "82",
         "address_line_01": "Shop No. 2558A, Highpoint Shopping Centre",
         "address_line_02": "120-200 Rosamond Road",
@@ -1120,8 +1169,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=72&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Knox 1",
-        "subtitle": "Level 1 Near Harvey Norman",
+        "title": "Knox",
+        "subtitle": "Near TK Maxx",
         "store_id": "70",
         "address_line_01": "Shop 3117, Westfield Knox, Level 1, Near Harvey Norman",
         "address_line_02": "425 Burwood Highway",
@@ -1134,8 +1183,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=73&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Knox 2",
-        "subtitle": "Level 2 Near Food Court",
+        "title": "Knox",
+        "subtitle": "Near Pandora",
         "store_id": "13",
         "address_line_01": "Kiosk KB10, Westfield Knox, Level 2, Near Food Court",
         "address_line_02": "425 Burwood Highway",
@@ -1149,6 +1198,7 @@ const StoreData =
       },
       {
         "title": "Malvern Central",
+        "subtitle": "Near Woolworths",
         "store_id": "66",
         "address_line_01": "Shop 18, Malvern Central Shopping Centre",
         "address_line_02": "110-122 Wattletree Road",
@@ -1161,7 +1211,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=76&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Malvern Glenferrie Road",
+        "title": "Malvern Glenferrie",
+        "subtitle": "Near Woolworths",
         "store_id": "169",
         "address_line_01": "Shop 2, 180 Glenferrie Rd Malvern",
         "address_line_02": "",
@@ -1530,8 +1581,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=94&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Southland 1",
-        "subtitle": "Level 1 Near, David Jones",
+        "title": "Southland",
+        "subtitle": "Near Aldi",
         "store_id": "17",
         "address_line_01": "Shop 119, Westfield Southland",
         "address_line_02": "1239 Nepean Hwy",
@@ -1544,8 +1595,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=95&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Southland 2",
-        "subtitle": "Level 3, Food Court",
+        "title": "Southland",
+        "subtitle": "In Food Court",
         "store_id": "49",
         "address_line_01": "Kiosk K306, Westfield Southland",
         "address_line_02": "1239 Nepean Hwy",
@@ -1847,8 +1898,8 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=114&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Werribee 1",
-        "subtitle": "Near Coles &amp; Kmart",
+        "title": "Werribee",
+        "subtitle": "Near Coles",
         "store_id": "113",
         "address_line_01": "Kiosk K3, Pacific Werribee, Near Coles",
         "address_line_02": "Cnr Derrimut Road & Heaths Road",
