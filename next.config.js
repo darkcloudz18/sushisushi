@@ -57,6 +57,11 @@ const nextConfig = {
         destination: 'https://sushisushi.orderup.com.au/',
         permanent: false,
       },
+      {
+        source: '/QVB',
+        destination: 'https://www.signup-sushisushi.com.au/qvb',
+        permanent: true,
+      }
     ]
   }
 }
