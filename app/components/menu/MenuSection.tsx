@@ -19,9 +19,12 @@ export default function MenuSection() {
   //   })
   // }, []);
 
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     scrollSpy.update();
-  });
+    setLoading(false);
+  }, [loading]);
 
   const FILTER_MAP = {
     HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
@@ -55,7 +58,12 @@ export default function MenuSection() {
   return(
     <div className="off-white-bg">
       <div className="container-xxl py-5">
-        <div className="sticky-top menu-nav">
+        { loading &&
+            <div className={"text-center"}><Image className={"my-5"} src={"/images/loading-gif.gif"} alt={"page is loading"} height={100} width={100}></Image></div>
+        }
+        { !loading &&
+            <>
+            <div className="sticky-top menu-nav">
             <ul className="nav menu-categories-nav text-center align-items-center nav-fill">
               {FILTER_NAMES.map((name:string) => {
                 return(
@@ -91,6 +99,8 @@ export default function MenuSection() {
               );
             })}
         </div>
+            </>
+        }
       </div>
     </div>
   );
