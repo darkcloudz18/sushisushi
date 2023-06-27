@@ -49,7 +49,7 @@ export default function MenuSection() {
   const itemList = function (category) {
     return ProductStub.filter(FILTER_MAP[category])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
-      .filter(item => item.prefs.length < 1 || item.prefs?.filter(a => dietaryPrefs.includes(a)).length > 0)
+      .filter(item => item.prefs.length < 1 || item.prefs?.filter(a => dietaryPrefs.includes(a)).length >= item.prefs.length)
       .map((item) => (
     <MenuItem item={item} category={category} key={item.id} />
   ))};
