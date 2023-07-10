@@ -15,7 +15,7 @@ export default function ArtOfSushi() {
                     <p>Sushi Sushi is differentiated from other brands by our focus on premium quality, authentic Japanese ingredients coupled with local fresh produce. Our Japanese inspired food is made fresh daily and this is why we’re Australia’s number one sushi retailer.</p>
                 </div>
                 <div className={"col-12 col-md-6 d-flex align-items-center justify-content-center"}>
-                    <Image width={636} height={420} className={"img-fluid"} src={"/images/about-train.jpg"} alt={"Image showing plates of sushi"}/>
+                    <Image width={636} height={420} className={"img-fluid"} src={"/images/WEB_SS_Content_2.jpg"} alt={"Image showing plates of sushi"}/>
                 </div>
             </div>
         </div>
