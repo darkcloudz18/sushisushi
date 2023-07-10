@@ -6,10 +6,10 @@ export default function AuthenticJapan() {
     return(
         <div className={"salmon-bg"}><div className={"container py-5"}>
             <div className={"row"}>
-                <div className={"col-12 col-md-6 d-flex align-items-center justify-content-center"}>
+                <div className={"col-12 col-lg-6 d-flex align-items-center justify-content-center"}>
                     <Image width={636} height={954} className={"img-fluid"} src={"/images/WEB_SushiTrain.jpg"} alt={"Image showing plates of sushi"}/>
                 </div>
-                <div className={"col-12 col-md-6 py-2"}>
+                <div className={"col-12 col-lg-6 py-2"}>
                     <h2>JAPAN FOR AUTHENTICITY, LOCAL FOR FRESH</h2>
                     <p><span className={"lead fw-bold"}>NORI</span><br/>Our nori comes from the seas off Japan where the water is cold and rich with mineral content, enhancing the taste of nori seaweed. It’s cropped once a year, then graded by its quality before being sold at auction. It’s then carefully stored to preserve its integrity before being roasted, ensuring its delicate taste and texture. This nori is rare to find in Australia, and only the finest sushi makers have access to it. Only the finest sushi makers and you. Because when you eat our hand rolls, that’s exactly what you’re holding.</p>
                     <p><span className={"lead fw-bold"}>SUSHI RICE VINEGAR</span><br/>Our vinegar is produced in the Japanese Alps area by a brewer established in 1876. Surrounded by crystal clear water and fresh air – both vital to producing the highest quality vinegar – it’s derived from rice grain which makes it gluten free. It’s then processed using the same method as sake brewing, creating a mild and sweet vinegar with an excellent depth of taste. No other vinegar in the world brews in this method.</p>
