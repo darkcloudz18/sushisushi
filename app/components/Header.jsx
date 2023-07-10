@@ -21,7 +21,8 @@ export default function Header() {
                     />
                 </a>
                 <div>
-                <button type="button" className="btn btn-sushi-primary d-inline-block d-lg-none me-3 order-mobile">Order Now</button>
+                <a href="https://sushisushi.orderup.com.au/" type="button" className="btn btn-sushi-primary d-inline-block d-lg-none me-3 order-mobile">
+                    <Image src={"/images/bag.png"} alt={""} height={23} width={18} className={"me-2 align-top"}></Image>Order Now</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
