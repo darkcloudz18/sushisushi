@@ -91,6 +91,7 @@ export default function MenuSection() {
               return(
                   <div id={name} key={`${name}-products`}>
                     <h2 className="my-5">{humanizeString(name)}</h2>
+                    {name === "Platters" && <a href={"/Sushi-Sushi-Platters-June-2022.pdf"} className={"btn btn-sushi-secondary mb-5"} style={{marginTop: '-1rem'}}>Download our platter brochure</a> }
                     <div className="row mb-4">
                       {itemList(name)}
                     </div>
