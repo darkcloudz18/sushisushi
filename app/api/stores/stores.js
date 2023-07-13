@@ -2001,6 +2001,20 @@ const StoreData =
         "latitude": -37.6863958,
         "longitude": 144.5588654,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=123&mid=&no=&frmsrc=web"
+      },
+      {
+        "title": "Wallan",
+        "subtitle": "East Entry - Near Subway",
+        "store_id": "wal",
+        "address_line_01": "Tenancy 05, Wellington Square",
+        "address_line_02": "81-89 High Street",
+        "suburb": "Wallan",
+        "state": "vic",
+        "postcode": "3756",
+        "phone": "03 5730 5119",
+        "latitude": -37.411952138184446,
+        "longitude": 144.97868859466595,
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=148&mid=&no=&frmsrc=web"
       }
     ];
 
