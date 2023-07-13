@@ -41,10 +41,10 @@ export default function Footer() {
                     <a href={"/careers"} className={"plain-link fw-bold"}>Careers</a>
                   </div>
                   <div className="col py-3">
-                    <a href="/contact_us" className="plain-link fw-bold">Contact Us</a>
+                    <a href="/contact-us" className="plain-link fw-bold">Contact Us</a>
                   </div>
                   <div className="col py-3">
-                    <a href='/terms_and_conditions' className="plain-link fw-bold">Terms and Conditions</a>
+                    <a href='/terms-and-conditions' className="plain-link fw-bold">Terms and Conditions</a>
                   </div>
                 </div>
               </div>

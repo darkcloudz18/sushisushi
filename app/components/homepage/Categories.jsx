@@ -7,7 +7,7 @@ export default function Categories() {
               <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-auto  justify-content-lg-center py-4">
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/HandRolls.png" className="img-fluid" alt="Handroll white rice category" />
@@ -16,7 +16,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                   <a
-                      href="/our_menu"
+                      href="/our-menu"
                       className="plain-link"
                   >
                     <img src="/images/category-icons/BrownRice.png" className="img-fluid" alt="Handroll brown rice category" />
@@ -25,7 +25,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Packs.png" className="img-fluid" alt="Packs category" />
@@ -34,7 +34,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Platters.png" className="img-fluid" alt="Platters category" />
@@ -43,7 +43,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Deluxe.png" className="img-fluid" alt="Deluxe category" />
@@ -52,7 +52,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/Salads.png" className="img-fluid" alt="Salads category" />
@@ -61,7 +61,7 @@ export default function Categories() {
                 </div>
                 <div className="col text-center px-xl-4 py-3">
                     <a
-                        href="/our_menu"
+                        href="/our-menu"
                         className="plain-link"
                     >
                         <img src="/images/category-icons/HotFood.png" className="img-fluid" alt="Hot food category" />

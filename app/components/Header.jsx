@@ -32,20 +32,20 @@ export default function Header() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav main-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" href="/our_menu">Menu</a>
+                            <a className="nav-link" href="/our-menu">Menu</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/our_stores">Stores</a>
+                            <a className="nav-link" href="/our-stores">Stores</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about_us">About Us</a>
+                            <a className="nav-link" href="/about-us">About Us</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="https://franchise.sushisushi.com.au/">Franchising</a>
                         </li>
                     </ul>
                     <div className="d-flex d-none d-lg-block">
-                        <a href="/our_stores" className="btn btn-sushi-secondary me-2 location-button">
+                        <a href="/our-stores" className="btn btn-sushi-secondary me-2 location-button">
                             <Image src={"/images/pin.png"} alt={""} height={23} width={17} className={"me-2 align-top hide-on-hover"}></Image>
                             <Image src={"/images/pin-nori.png"} alt={""} height={23} width={17} className={"me-2 align-top show-on-hover"}></Image>
                             Find a Store</a>
