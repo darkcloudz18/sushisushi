@@ -2,6 +2,7 @@
 import './styles/globals.scss'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 export const metadata = {
   title: 'Sushi Sushi',
@@ -34,7 +35,7 @@ export default function RootLayout({ children }) {
             crossOrigin="anonymous"
           />
       </head>
-
+      <GoogleAnalytics GA_TRACKING_ID={process.env.NEXT_PUBLIC_GA_ID} />
       <body>
         <Header />
         {children}
