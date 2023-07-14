@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 
 export const metadata = {
   title: 'Sushi Sushi',
+    description: 'Australia\'s freshest sushi since 1998. We do platters and packs, order online today.'
 }
 
 export default function RootLayout({ children }) {
