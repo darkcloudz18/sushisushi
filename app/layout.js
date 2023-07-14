@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WM9ZN4X"
-                        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+                        height="0" width="0" className={"d-none visually-hidden"}></iframe></noscript>
         <Header />
         {children}
         <Footer />
