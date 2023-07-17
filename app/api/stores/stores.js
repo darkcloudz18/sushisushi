@@ -771,7 +771,7 @@ const StoreData =
         "title": "Eastland",
         "subtitle": "In Food Court",
         "store_id": "60",
-        "address_line_01": "Kiosk KG19, Eastland Shopping Centre",
+        "address_line_01": "Shop K203, Eastland Shopping Centre",
         "address_line_02": "171-175 Maroondah Hwy",
         "suburb": "Ringwood",
         "state": "vic",
