@@ -11,7 +11,7 @@ export default function StoreCard({store}) {
                         <p className="lead">{store.subtitle}</p>
                         <p className="card-text">
                             {store.address_line_01}, {store.address_line_02}<br/>
-                            {store.suburb} {store.postcode} {store.state.toUpperCase()}<br/>
+                            {store.suburb} {store.state.toUpperCase()} {store.postcode}<br/>
                         </p>
                         <p className={"fw-bold"}>Distance from you: {store.distance}km</p>
                         <a href={`tel:${store.phone}`} className="d-block mb-3"> {store.phone} </a>
