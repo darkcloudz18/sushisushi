@@ -49,9 +49,12 @@ export default function Footer() {
                 </div>
               </div>
             </div>
+            </div>
           </div>
+          <div className={"container"}>
+            <p className={"text-center pb-3"}>Sushi Sushi acknowledges the Traditional Owners of Country throughout Australia and recognises their continuing connection to lands, waters and communities, including those where we live, work and serve our customers and communities. We pay our respects to Aboriginal and Torres Strait Islander cultures and Elders past and present.</p>
+            <p className="text-center">© 2023 Sushi Sushi.</p>
           </div>
-          <p className="text-center">© 2023 Sushi Sushi.</p>
         </footer>
     );
 }
