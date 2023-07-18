@@ -61,6 +61,11 @@ const nextConfig = {
         source: '/QVB',
         destination: 'https://www.signup-sushisushi.com.au/qvb',
         permanent: true,
+      },
+      {
+        source: '/the-art-of-sushi',
+        destination: '/about-us',
+        permanent: true,
       }
     ]
   }
