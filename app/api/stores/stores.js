@@ -370,6 +370,7 @@ const StoreData =
       },
       {
         "title": "Canberra Centre Train",
+        "company": true,
         "subtitle": "Near Coles",
         "store_id": "8",
         "address_line_01": "Level G, Shop EG09_10 Canberra Centre",
@@ -803,6 +804,7 @@ const StoreData =
       },
       {
         "title": "Eastlands TAS",
+        "company": true,
         "store_id": "140",
         "address_line_01": "Tenancy K008 Eastlands",
         "address_line_02": "Cnr Bligh Street and Rosny Hill Road",
@@ -964,20 +966,6 @@ const StoreData =
         "latitude": -31.897026,
         "longitude": 115.8967119,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=56&mid=&no=&frmsrc=web"
-      },
-      {
-        "title": "Garden City",
-        "company": true,
-        "store_id": "18",
-        "address_line_01": "Shop K218 Westfield Garden City",
-        "address_line_02": "Cnr Logan & Kessels Rd",
-        "suburb": "Upper Mt Gravatt",
-        "state": "qld",
-        "postcode": "4124",
-        "phone": "(07) 3112 7236",
-        "latitude": -27.5622364,
-        "longitude": 153.079251,
-        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=58&mid=&no=&frmsrc=web"
       },
       {
         "title": "Glenferrie Rd Hawthorn",
