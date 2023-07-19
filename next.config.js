@@ -66,11 +66,6 @@ const nextConfig = {
         source: '/the-art-of-sushi',
         destination: '/about-us',
         permanent: true,
-      },
-      {
-        source: '/family-and-friends-discount',
-        destination: 'https://www.old.sushisushi.com.au/family-and-friends-discount/',
-        permanent: false,
       }
     ]
   }

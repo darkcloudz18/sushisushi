@@ -42,6 +42,7 @@ const StoreData =
       },
       {
         "title": "Altona Gate",
+        "company": true,
         "subtitle": "Near Priceline",
         "store_id": "alt",
         "address_line_01": "Tenancy L020, Altona Gate Shopping Centre",
@@ -56,6 +57,7 @@ const StoreData =
       },
       {
         "title": "BP Scoresby Inbound",
+        "company": true,
         "store_id": "bps",
         "address_line_01": "1500 Eastlink Inbound",
         "address_line_02": "Ferntree Gully and Wellington Road",
@@ -69,6 +71,7 @@ const StoreData =
       },
       {
         "title": "BP Scoresby Outbound",
+        "company": true,
         "store_id": "bpso",
         "address_line_01": "1500 Eastlink Ferntree Gully and Wellington Rd",
         "address_line_02": "",
@@ -96,6 +99,7 @@ const StoreData =
       },
       {
         "title": "Baldivis",
+        "company": true,
         "store_id": "118",
         "address_line_01": "Kiosk K03, Stockland Baldivis",
         "address_line_02": "Lot 26 Safety Bay Road",
@@ -229,6 +233,7 @@ const StoreData =
       },
       {
         "title": "Booragoon",
+        "company": true,
         "subtitle": "Near JB Hi-Fi",
         "store_id": "48",
         "address_line_01": "Kiosk K43, Garden City Shopping Centre",
@@ -243,6 +248,7 @@ const StoreData =
       },
       {
         "title": "Booragoon",
+        "company": true,
         "subtitle": "In Food Court",
         "store_id": "boo",
         "address_line_01": "K01 Garden City Shopping Centre",
@@ -257,6 +263,7 @@ const StoreData =
       },
       {
         "title": "Botany",
+        "company": true,
         "store_id": "bot",
         "address_line_01": "588 Chapel Road",
         "address_line_02": "",
@@ -348,6 +355,7 @@ const StoreData =
       },
       {
         "title": "Canberra Centre",
+        "company": true,
         "subtitle": "Near Apple Store",
         "store_id": "148",
         "address_line_01": "Level 1, Shop K09 Canberra Centre",
@@ -376,6 +384,7 @@ const StoreData =
       },
       {
         "title": "Caneland Central",
+        "company": true,
         "store_id": "115",
         "address_line_01": "Kiosk 2110, Caneland Central",
         "address_line_02": "Mangrove Road",
@@ -389,6 +398,7 @@ const StoreData =
       },
       {
         "title": "Carindale",
+        "company": true,
         "subtitle": "In Food Court",
         "store_id": "38",
         "address_line_01": "Shop 2006A Westfield Carindale",
@@ -403,6 +413,7 @@ const StoreData =
       },
       {
         "title": "Carindale",
+        "company": true,
         "subtitle": "Near Coles",
         "store_id": "47",
         "address_line_01": "Shop 1217 Westfield Carindale",
@@ -430,6 +441,7 @@ const StoreData =
       },
       {
         "title": "Carousel",
+        "company": true,
         "subtitle": "Near The Coffee Club",
         "store_id": "59",
         "address_line_01": "Kiosk K106, Westfield Carousel",
@@ -444,6 +456,7 @@ const StoreData =
       },
       {
         "title": "Casey Central",
+        "company": true,
         "subtitle": "Near Subway",
         "store_id": "127",
         "address_line_01": "Casey Central Shopping Centre",
@@ -472,6 +485,7 @@ const StoreData =
       },
       {
         "title": "Castletown",
+        "company": true,
         "store_id": "149",
         "address_line_01": "Tenancy 07 Castletown Shoppingworld",
         "address_line_02": "Corner Woolcock St & Kings Road",
@@ -498,6 +512,7 @@ const StoreData =
       },
       {
         "title": "Cavill Ave",
+        "company": true,
         "store_id": "cav",
         "address_line_01": "15 Cavill Ave",
         "address_line_02": "",
@@ -511,6 +526,7 @@ const StoreData =
       },
       {
         "title": "Chadstone",
+        "company": true,
         "subtitle": "Near Myer",
         "store_id": "26",
         "address_line_01": "Shop B-141 Chadstone Shopping Centre, Lower Ground, Near Myer",
@@ -525,6 +541,7 @@ const StoreData =
       },
       {
         "title": "Chadstone",
+        "company": true,
         "subtitle": "Near Aldi",
         "store_id": "11",
         "address_line_01": "Shop F005, Chadstone Shopping Centre, Ground level, Fresh Food Precinct, near Aldi ",
@@ -592,6 +609,7 @@ const StoreData =
       },
       {
         "title": "Clarence St",
+        "company": true,
         "store_id": "181",
         "address_line_01": "Retail 02/225 Clarence St",
         "address_line_02": "",
@@ -619,6 +637,7 @@ const StoreData =
       },
       {
         "title": "Cockburn Gateway",
+        "company": true,
         "store_id": "89",
         "address_line_01": "Cockburn Gateway Shopping Centre",
         "address_line_02": "816 Beeliar Drive",
@@ -727,6 +746,7 @@ const StoreData =
       },
       {
         "title": "Doncaster",
+        "company": true,
         "subtitle": "Near Woolworths",
         "store_id": "157",
         "address_line_01": "Kiosk K103, Westfield Doncaster",
@@ -810,6 +830,7 @@ const StoreData =
       },
       {
         "title": "Ellenbrook",
+        "company": true,
         "store_id": "ell",
         "address_line_01": "11 Main St",
         "address_line_02": "",
@@ -849,6 +870,7 @@ const StoreData =
       },
       {
         "title": "Fishermans Bend",
+        "company": true,
         "store_id": "fis",
         "address_line_01": "Kiosk 01, Woolworths Fisherman's Bend",
         "address_line_02": "477-481 Plummer Street",
@@ -931,6 +953,7 @@ const StoreData =
       },
       {
         "title": "Galleria Morley",
+        "company": true,
         "store_id": "72",
         "address_line_01": "K30, Galleria Shopping Centre",
         "address_line_02": "Cnr Collier & Walter Roads",
@@ -944,6 +967,7 @@ const StoreData =
       },
       {
         "title": "Garden City",
+        "company": true,
         "store_id": "18",
         "address_line_01": "Shop K218 Westfield Garden City",
         "address_line_02": "Cnr Logan & Kessels Rd",
@@ -957,6 +981,7 @@ const StoreData =
       },
       {
         "title": "Glenferrie Rd Hawthorn",
+        "company": true,
         "store_id": "22",
         "address_line_01": "700 Glenferrie Road",
         "address_line_02": "",
@@ -998,6 +1023,7 @@ const StoreData =
       },
       {
         "title": "Hastings Street",
+        "company": true,
         "store_id": "167",
         "address_line_01": "32 Hastings Street",
         "address_line_02": "",
@@ -1011,6 +1037,7 @@ const StoreData =
       },
       {
         "title": "Hawksburn",
+        "company": true,
         "address_line_01": "527 Malvern Rd",
         "address_line_02": "",
         "suburb": "Toorak",
@@ -1092,6 +1119,7 @@ const StoreData =
       },
       {
         "title": "Indooroopilly",
+        "company": true,
         "store_id": "ind",
         "address_line_01": "Indooroopilly Shopping Centre",
         "address_line_02": "322 Moggill Rd",
@@ -1118,6 +1146,7 @@ const StoreData =
       },
       {
         "title": "Joondalup Lakeside",
+        "company": true,
         "store_id": "114",
         "address_line_01": "Kiosk K105, Lakeside Joondalup Shopping Centre",
         "address_line_02": "420 Joondalup Drive",
@@ -1131,6 +1160,7 @@ const StoreData =
       },
       {
         "title": "Kalamunda",
+        "company": true,
         "store_id": "122",
         "address_line_01": "Kiosk KI001, Kalamunda Central",
         "address_line_02": "39 Railway Rd",
@@ -1170,6 +1200,7 @@ const StoreData =
       },
       {
         "title": "Knox",
+        "company": true,
         "subtitle": "Near TK Maxx",
         "store_id": "70",
         "address_line_01": "Shop 3117, Westfield Knox, Level 1, Near Harvey Norman",
@@ -1226,6 +1257,7 @@ const StoreData =
       },
       {
         "title": "Mandurah Forum",
+        "company": true,
         "store_id": "146",
         "address_line_01": "Kiosk K0023, Mandurah Forum Shopping Centre",
         "address_line_02": "330 Pinjarra Road",
@@ -1385,6 +1417,7 @@ const StoreData =
       },
       {
         "title": "Mt Waverley",
+        "company": true,
         "store_id": "mtw",
         "address_line_01": "545 Blackburn Rd",
         "address_line_02": "",
@@ -1517,6 +1550,7 @@ const StoreData =
       },
       {
         "title": "Pirie Street",
+        "company": true,
         "store_id": "168",
         "address_line_01": "Shop 2, 86 Pirie Street",
         "address_line_02": "",
@@ -1543,6 +1577,7 @@ const StoreData =
       },
       {
         "title": "Riverton",
+        "company": true,
         "store_id": "125",
         "address_line_01": "K06, Riverton Shopping Centre",
         "address_line_02": "Cnr High Road and Willeri Drive",
@@ -1556,8 +1591,9 @@ const StoreData =
       },
       {
         "title": "Rockingham Centre",
+        "company": true,
         "store_id": "98",
-        "address_line_01": "Shop  K033, Rockingham Shopping Centre",
+        "address_line_01": "Shop K018, Rockingham Shopping Centre",
         "address_line_02": "Read Street",
         "suburb": "Rockingham",
         "state": "wa",
@@ -1582,6 +1618,7 @@ const StoreData =
       },
       {
         "title": "Southland",
+        "company": true,
         "subtitle": "Near Aldi",
         "store_id": "17",
         "address_line_01": "Shop 119, Westfield Southland",
@@ -1610,6 +1647,7 @@ const StoreData =
       },
       {
         "title": "Springvale Homemaker",
+        "company": true,
         "store_id": "spr",
         "address_line_01": "917 Princes Hwy",
         "address_line_02": "",
@@ -1795,6 +1833,7 @@ const StoreData =
       },
       {
         "title": "Warnbro Centre",
+        "company": true,
         "store_id": "108",
         "address_line_01": "Shop T57, Warnbro Centre",
         "address_line_02": "206 Warnbro Sound Avenue",
@@ -1808,6 +1847,7 @@ const StoreData =
       },
       {
         "title": "Warringal Heidelberg",
+        "company": true,
         "store_id": "110",
         "address_line_01": "Kiosk 1, Warringal Shopping Centre",
         "address_line_02": "56 Burgundy St",
@@ -1821,6 +1861,7 @@ const StoreData =
       },
       {
         "title": "Warwick Grove",
+        "company": true,
         "store_id": "116",
         "address_line_01": "Kiosk KI004, Warwick Grove Shopping Centre",
         "address_line_02": "Cnr Beach & Erindale Roads",
@@ -1873,6 +1914,7 @@ const StoreData =
       },
       {
         "title": "Waymouth St",
+        "company": true,
         "store_id": "way",
         "address_line_01": "Tenancy 3, 11 Waymouth St",
         "address_line_02": "",
@@ -1899,6 +1941,7 @@ const StoreData =
       },
       {
         "title": "Werribee",
+        "company": true,
         "subtitle": "Near Coles",
         "store_id": "113",
         "address_line_01": "Kiosk K3, Pacific Werribee, Near Coles",
@@ -1913,6 +1956,7 @@ const StoreData =
       },
       {
         "title": "Westfield Geelong",
+        "company": true,
         "store_id": "87",
         "address_line_01": "Kiosk K101/2, Westfield Geelong",
         "address_line_02": "Malop Street",
@@ -1926,6 +1970,7 @@ const StoreData =
       },
       {
         "title": "Whitehorse Plaza",
+        "company": true,
         "store_id": "whi",
         "address_line_01": "Shop FF01, Whitehorse Plaza Shopping Centre",
         "address_line_02": "17-21 Market Street",
@@ -1939,8 +1984,9 @@ const StoreData =
       },
       {
         "title": "Whitford City",
+        "company": true,
         "store_id": "61",
-        "address_line_01": "Kiosk 12, Westfield Whitford",
+        "address_line_01": "Kiosk 40, Westfield Whitford",
         "address_line_02": "Cnr Marmion & Whitfords Ave",
         "suburb": "Hillarys",
         "state": "wa",
@@ -1978,6 +2024,7 @@ const StoreData =
       },
       {
         "title": "Woden",
+        "company": true,
         "store_id": "128",
         "address_line_01": "Level 2, Shop 101 Westfield Woden",
         "address_line_02": "Keltie Street",
