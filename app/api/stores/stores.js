@@ -1621,6 +1621,7 @@ const StoreData =
       },
       {
         "title": "Southland",
+        "company": true,
         "subtitle": "In Food Court",
         "store_id": "49",
         "address_line_01": "Kiosk K306, Westfield Southland",
