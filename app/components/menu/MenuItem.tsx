@@ -59,6 +59,7 @@ export default function MenuItem({item, category}) {
                                         })}
                                     </div>
                                     <a href="https://sushisushi.orderup.com.au/" className="btn btn-sushi-primary w-100">Start my order</a>
+                                    <p className={"mt-3 disclaimer"}>Please note: some products may not be stocked at all Sushi Sushi locations.</p>
                                 </div>
                             </div>
                         </div>
