@@ -2,14 +2,13 @@
 
 import {GoogleMap, LoadScript, Autocomplete, MarkerF} from '@react-google-maps/api';
 import React, {useEffect, useState} from "react";
-import StoreData from "../../api/stores/stores";
 import StoreCard from "./StoreCard";
 import distanceBetweenPointsInKm from "../../api/stores/MapDistances";
 import Image from "next/image";
 
 const libraries = ["places"];
 
-export default function Map() {
+export default function Map({storeData, searchLabel}) {
 
     const [loading, setLoading] = useState(true);
 
@@ -26,7 +25,7 @@ export default function Map() {
         lng: 134.354806
     });
 
-    const storeList = StoreData
+    const storeList = storeData
         .map((store) => {
             if (mapCenter !== null) {
                 store.distance = distanceBetweenPointsInKm(mapCenter.lat(), mapCenter.lng(), store.latitude, store.longitude);
@@ -40,7 +39,7 @@ export default function Map() {
             return <StoreCard store={store} key={store.store_id}/>
         });
 
-    const storeMarkers = StoreData.map((store) => (
+    const storeMarkers = storeData.map((store) => (
         <MarkerF position={{lat: store.latitude, lng: store.longitude}} icon={"/images/marker.png"}
                  key={store.store_id}/>
     ));
@@ -73,7 +72,7 @@ export default function Map() {
                 >
                     <div className="row justify-content-center my-5">
                         <div className="col-12 col-md-6">
-                            <h2 className="section-title-salmon">Find your nearest Sushi Sushi</h2>
+                            <h3 className="section-title-salmon">{searchLabel}</h3>
                             <Autocomplete
                                 onLoad={(autocomplete) => setAutocomplete(autocomplete)}
                                 onPlaceChanged={onPlaceChanged}
