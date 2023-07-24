@@ -920,7 +920,7 @@ const StoreData =
         "suburb": "Narre Warren",
         "state": "vic",
         "postcode": "3805",
-        "phone": "03 8794 8223",
+        "phone": "03 8731 7390",
         "latitude": -38.0178886,
         "longitude": 145.3027166,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=54&mid=&no=&frmsrc=web"
