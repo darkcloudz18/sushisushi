@@ -66,6 +66,11 @@ const nextConfig = {
         source: '/the-art-of-sushi',
         destination: '/about-us',
         permanent: true,
+      },
+      {
+        source: '/allergens',
+        destination: '/Allergen-Matrix-May-2023.pdf',
+        permanent: false,
       }
     ]
   }
