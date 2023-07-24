@@ -9,7 +9,7 @@ export default function ToolBox() {
     return (
         <>
             <Title title="Tool Box" headerClass={"aboutus"} />
-            <div className={"off-white-bg py-3"}>
+            <div className={"off-white-bg py-5"}>
                 <div className={"container"}>
                     {toolBoxSections}
                 </div>
