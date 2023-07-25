@@ -49,6 +49,9 @@ export default function Footer() {
                   <div className="col py-3">
                     <a href='/tool-box' className="plain-link fw-bold">Tool Box</a>
                   </div>
+                  <div className={"col py-3"}>
+                    <a href={"https://sushisushi.orderup.com.au/stores/sushi-sushi-gift-cards"} className={"plain-link fw-bold"}>Gift Cards</a>
+                  </div>
                 </div>
               </div>
             </div>

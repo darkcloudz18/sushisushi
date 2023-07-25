@@ -55,7 +55,7 @@ const ToolBoxLinks = [
         ]
     },
     {
-        section_title: "Training/Rostering & Reviews",
+        section_title: "Training & Rostering",
         section_links:[
             {
                 title: "Training",
@@ -64,10 +64,6 @@ const ToolBoxLinks = [
             {
                 title: "Tanda",
                 link: "https://my.tanda.co/login"
-            },
-            {
-                title: "Reviews",
-                link: "https://portal.rateitapp.com/"
             }
         ]
     }
