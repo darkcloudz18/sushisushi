@@ -46,6 +46,9 @@ export default function Footer() {
                   <div className="col py-3">
                     <a href='/terms-and-conditions' className="plain-link fw-bold">Terms and Conditions</a>
                   </div>
+                  <div className="col py-3">
+                    <a href='/tool-box' className="plain-link fw-bold">Tool Box</a>
+                  </div>
                 </div>
               </div>
             </div>
