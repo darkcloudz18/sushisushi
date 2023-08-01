@@ -1186,7 +1186,7 @@ const StoreData =
         "phone": "(03) 8738 7499",
         "latitude": -38.152465,
         "longitude": 145.164865,
-        "order_up_link": ""
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=146&mid=&no=&frmsrc=qr"
       },
       {
         "title": "Keilor Central",
