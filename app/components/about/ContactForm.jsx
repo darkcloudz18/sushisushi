@@ -21,13 +21,15 @@ export default function ContactForm() {
     const storeList = StoreData.map((store) => (
         {id: store.title, name: `${store.suburb}${store.title !== store.suburb ? ', ' + store.title : ''}${store.subtitle === undefined ? '' : ' ' + store.subtitle}`}
     ));
+
+    const mgemail = "website@mg.sushisushi.com.au"
     const onSubmit = function (){
         const subject = formType;
         const text = formType === "Feedback" ?
             "Date of Visit: " + dateOfVisit + ",\nLocation of Visit: " + visitLocation + ",\nMessage: " + message
             : message;
         ContactMailer().messages.create('mg.sushisushi.com.au', {
-            from: `${name} <${email}>`,
+            from: `Customer Feedback <${mgemail}>`,
             to: ["customerfeedback@sushisushi.com.au"],
             subject: subject,
             text: `${text}\nFrom ${name}, ${email}`
