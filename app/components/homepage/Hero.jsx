@@ -9,7 +9,7 @@ export default function Hero() {
                         <img className={"img-fluid d-block d-lg-none"} alt={"All new salads and inari range"} src={"/images/hero/heading-mobile.png"}/>
                         <img className={"img-fluid d-none d-lg-block"} alt={"All new salads and inari range"} src={"/images/hero/heading-desktop.png"}/>
                         <p className="subtitle my-3">Send your taste buds on a trip with our new Japanese salads</p>
-                        <a href="/our-stores" className="btn btn-light">Find your nearest store</a>
+                        <a href="/our-stores" className="btn btn-lg btn-light">Find your nearest store</a>
                     </div>
                 </div>
             </div>
