@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="hero-container">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 my-5 pb-lg-2">
+                    <div className="col-lg-6 my-5 pb-lg-2 px-5 px-lg-0">
                         <img className={"img-fluid d-block d-lg-none"} alt={"All new salads and inari range"} src={"/images/hero/heading-mobile.png"}/>
                         <img className={"img-fluid d-none d-lg-block"} alt={"All new salads and inari range"} src={"/images/hero/heading-desktop.png"}/>
                         <p className="subtitle my-3">Send your taste buds on a trip with our new Japanese salads</p>
