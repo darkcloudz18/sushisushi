@@ -7,14 +7,22 @@
 }
 
 .hero-container {
-	background: url('/images/hero-bg.png');
+  background: url('/images/hero/bg-desktop.jpg') no-repeat;
   background-size: cover;
   background-position-y: top;
-  background-position-x: right;
+  background-position-x: center;
   padding-top: 110px;
+  max-width: 2200px;
+  margin: 0 auto;
+  height: 600px;
 
   @media (max-width: 991.98px) {
-    background-position-x: left;
+    background: url('/images/hero/bg-mobile.jpg') no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: center;
+    padding-top: 50px;
+    height: 1000px;
   }
 }
 
