@@ -435,7 +435,7 @@ const StoreData =
         "suburb": "Caroline Springs",
         "state": "vic",
         "postcode": "3023",
-        "phone": "03 8348 5329",
+        "phone": "(03) 8385 8404",
         "latitude": -37.7321337,
         "longitude": 144.740879,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=24&mid=&no=&frmsrc=web"
