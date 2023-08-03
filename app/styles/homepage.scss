@@ -33,6 +33,27 @@
   }
 }
 
+.hero-container-img {
+  max-width: 1920px;
+  margin: 0 auto;
+
+  .desktop-hero {
+    display: block;
+    @media (max-width: 479px) {
+      display: none;
+    }
+
+  }
+
+  .mobile-hero {
+    display: none;
+    @media (max-width: 479px) {
+      display: block;
+    }
+  }
+
+}
+
 .subtitle {
 	font-size: 1.75rem;
 }
