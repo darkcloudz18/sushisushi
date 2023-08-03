@@ -7,22 +7,24 @@
 }
 
 .hero-container {
-  background: url('/images/hero/bg-desktop.jpg') no-repeat;
+  background: url('/images/hero/bg-desktop.jpg') no-repeat center;
   background-size: cover;
-  background-position-y: top;
-  background-position-x: center;
   padding-top: 80px;
   max-width: 2200px;
   margin: 0 auto;
   height: 700px;
 
-  @media (max-width: 991.98px) {
+  @media (max-width: 767px) {
     background: url('/images/hero/bg-mobile.jpg') no-repeat;
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
-    padding-top: 50px;
-    height: 1000px;
+    padding-top: 0;
+    height: 790px;
+
+    .subtitle {
+      font-size: 1.25rem;
+    }
   }
 }
 
