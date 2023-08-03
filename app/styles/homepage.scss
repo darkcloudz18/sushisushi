@@ -7,7 +7,7 @@
 }
 
 .hero-container {
-  background: url('/images/hero/bg-desktop.jpg') no-repeat center;
+  background: url('/images/hero/desktop-full.png') no-repeat left center;
   background-size: cover;
   padding: 70px;
   max-width: 1900px;
@@ -18,17 +18,18 @@
     font-size: 2rem;
   }
 
-  @media (max-width: 767px) {
-    background: url('/images/hero/bg-mobile.jpg') no-repeat;
+  @media (max-width: 820px) {
+    background: url('/images/hero/mobile-full.png') no-repeat left top;
     background-size: cover;
-    background-position-y: bottom;
-    background-position-x: center;
     padding: 0 50px;
-    height: 790px;
 
     .subtitle {
       font-size: 1.25rem;
     }
+  }
+
+  @media (max-width: 500px) {
+    height: 550px;
   }
 }
 
