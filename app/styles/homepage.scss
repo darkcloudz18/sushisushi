@@ -9,17 +9,21 @@
 .hero-container {
   background: url('/images/hero/bg-desktop.jpg') no-repeat center;
   background-size: cover;
-  padding-top: 80px;
-  max-width: 2200px;
+  padding: 70px;
+  max-width: 1900px;
   margin: 0 auto;
   height: 700px;
+
+  .subtitle {
+    font-size: 2rem;
+  }
 
   @media (max-width: 767px) {
     background: url('/images/hero/bg-mobile.jpg') no-repeat;
     background-size: cover;
     background-position-y: bottom;
     background-position-x: center;
-    padding-top: 0;
+    padding: 0 50px;
     height: 790px;
 
     .subtitle {
