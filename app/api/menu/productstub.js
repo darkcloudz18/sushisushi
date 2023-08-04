@@ -1035,67 +1035,6 @@ const ProductStub = [
         ]
     },
     {
-        "id": "880423",
-        "category": "salads",
-        "name": "Salmon Poke Bowl",
-        "description": "",
-        "kJs": "1790kJ",
-        "allergens": [
-            "Fish",
-            "Soy"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "880438",
-        "category": "salads",
-        "name": "Fresh Tuna Poke Bowl",
-        "description": "",
-        "kJs": "1780kJ",
-        "allergens": [
-            "Fish",
-            "Soy"
-        ],
-        "prefs": [
-            "Seafood"
-        ]
-    },
-    {
-        "id": "880440",
-        "category": "salads",
-        "name": "Karaage Chicken Poke Bowl",
-        "description": "",
-        "kJs": "2160kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Fish",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Chicken"
-        ]
-    },
-    {
-        "id": "880442",
-        "category": "salads",
-        "name": "Vegetarian Poke Bowl",
-        "description": "",
-        "kJs": "1760kJ",
-        "allergens": [
-            "Egg",
-            "Milk",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Vegetarian"
-        ]
-    },
-    {
         "id": "501",
         "category": "salads",
         "name": "Pickled Squid Salad",
@@ -1921,6 +1860,158 @@ const ProductStub = [
         "kJs": "6050kJ",
         "allergens": [
             "Fish"
+        ],
+        "prefs": [
+            "Seafood"
+        ]
+    },
+    {
+        "id": "880509",
+        "category": "deluxe",
+        "name": "Pickled Mushroom Inari",
+        "description": "Pickled mushroom salad and sushi rice",
+        "kJs": "475kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
+        ]
+    },
+    {
+        "id": "880511",
+        "category": "deluxe",
+        "name": "Kurage Inari (Jellyfish)",
+        "description": "Kurage Jellyfish salad and sushi rice",
+        "kJs": "516kJ",
+        "allergens": [
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ]
+    },
+    {
+        "id": "880513",
+        "category": "deluxe",
+        "name": "Scallop Wing Inari",
+        "description": "Scallop wing salad and sushi rice",
+        "kJs": "536kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ]
+    },
+    {
+        "id": "15582",
+        "category": "packs",
+        "name": "Tempura Salmon Bento Box",
+        "description": "Tempura salmon and mayo on rice. With edamame, seafood salad, inari variety and a seaweed gunkan.",
+        "kJs": "2950kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ]
+    },
+    {
+        "id": "880491",
+        "category": "packs",
+        "name": "Vegetarian Bento Box",
+        "description": "Tempura Vegetable Pancake with mayo and on rice. With edamame, pickled mushroom salad, nigiri variety, plain inari and seaweed gunkan.",
+        "kJs": "3570kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
+        ]
+    },
+    {
+        "id": "880492",
+        "category": "packs",
+        "name": "Crispy Chicken Bento Box",
+        "description": "Crispy Chicken with mayo and teriyaki sauce on rice. With edamame, pickled mushroom salad, avocado nigiris, plain inari and seaweed gunkan.",
+        "kJs": "2620kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Egg",
+            "Milk",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Chicken"
+        ]
+    },
+    {
+        "id": "880503",
+        "category": "salads",
+        "name": "Pickled Mushroom Salad",
+        "description": "",
+        "kJs": "241kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
+        ]
+    },
+    {
+        "id": "880505",
+        "category": "salads",
+        "name": "Kurage Salad (Jellyfish)",
+        "description": "",
+        "kJs": "605kJ",
+        "allergens": [
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ]
+    },
+    {
+        "id": "880507",
+        "category": "salads",
+        "name": "Scallop Wing Salad",
+        "description": "",
+        "kJs": "388kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
+            "Sesame"
         ],
         "prefs": [
             "Seafood"
