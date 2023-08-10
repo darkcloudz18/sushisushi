@@ -623,20 +623,6 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=129&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Coburg North",
-        "subtitle": "Inside Coles",
-        "store_id": "cob",
-        "address_line_01": "180 Gaffney St",
-        "address_line_02": "",
-        "suburb": "Coburg",
-        "state": "vic",
-        "postcode": "3058",
-        "phone": "",
-        "latitude": -37.73241,
-        "longitude": 144.95013,
-        "order_up_link": ""
-      },
-      {
         "title": "Cockburn Gateway",
         "company": true,
         "store_id": "89",
@@ -690,20 +676,6 @@ const StoreData =
         "latitude": -38.1100085,
         "longitude": 145.2797632,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=42&mid=&no=&frmsrc=web"
-      },
-      {
-        "title": "Croydon",
-        "subtitle": "Coles",
-        "store_id": "cro",
-        "address_line_01": "Croydon Central",
-        "address_line_02": "5-15 Kent Ave",
-        "suburb": "Croydon",
-        "state": "vic",
-        "postcode": "3136",
-        "phone": "",
-        "latitude": -37.793388,
-        "longitude": 145.279831,
-        "order_up_link": ""
       },
       {
         "title": "DFO Perth",
