@@ -6,11 +6,9 @@ import humanizeString from "humanize-string";
 import DietaryFilter from "./DietaryFilter";
 import MenuItem from './MenuItem';
 import ScrollToTop from '../ScrollToTop';
-// import getProducts from '../../api/menu/Products';
-import ProductStub from '../../api/menu/productstub'
 import Image from "next/image";
 
-export default function MenuSection() {
+export default function MenuSection({products}) {
   // const [products, setProducts] = useState<{ [x: string]: any; }[]|null>([]);
   //
   // useEffect(() => {
@@ -47,7 +45,7 @@ export default function MenuSection() {
   const FILTER_NAMES = Object.keys(FILTER_MAP);
 
   const itemList = function (category) {
-    return ProductStub.filter(FILTER_MAP[category])
+    return products.filter(FILTER_MAP[category])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .filter(item => item.prefs.length < 1 || item.prefs?.filter(a => dietaryPrefs.includes(a)).length >= item.prefs.length)
       .map((item) => (
