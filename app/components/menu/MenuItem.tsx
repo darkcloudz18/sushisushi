@@ -16,11 +16,21 @@ export default function MenuItem({item, category}) {
                     />
                     <div className="card-body">
                         <div className="row row-cols-1 d-flex h-100">
-                            <div className="col py-3"><h3 className="card-title">{item.name}</h3></div>
+                            <div className="col py-3">
+                                <h3 className="card-title">{item.name}</h3>
+                                <div className={"row justify-content-start"}>
+                                    {item.allergens?.filter(allergen => allergen !== "Gluten" && allergen !== "Mollusc").map((name:string) => {
+                                        return (
+                                            <div className={"col-auto"} key={name}><Image src={`/images/allergens/${name}_icon.png`} alt={`${name} allergen present`} width={35} height={34} className={"mb-2"}></Image></div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
                             <div className="col align-self-end">
-                                <button type="button" className="btn btn-sushi-secondary w-100" data-bs-toggle="modal" data-bs-target={`#item${item.id}Modal`}>
+                                {item.price? <h3>{item.price}</h3> : <button type="button" className="btn btn-sushi-secondary w-100" data-bs-toggle="modal" data-bs-target={`#item${item.id}Modal`}>
                                     Find out more
-                                </button>
+                                </button>}
+
                             </div>
                         </div>
                     </div>
@@ -52,7 +62,7 @@ export default function MenuItem({item, category}) {
                                     <h3>{item.kJs}</h3>
                                     <p>{item.description}</p>
                                     <div className={"row justify-content-start mb-4"}>
-                                        {item.allergens?.filter(allergen => allergen !== "Gluten").map((name:string) => {
+                                        {item.allergens?.filter(allergen => allergen !== "Gluten" && allergen !== "Mollusc").map((name:string) => {
                                             return (
                                                 <div className={"col-auto"} key={name}><Image src={`/images/allergens/${name}_icon.png`} alt={`${name} allergen present`} width={50} height={49} className={"mb-2"}></Image></div>
                                             );

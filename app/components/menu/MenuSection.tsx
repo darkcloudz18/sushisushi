@@ -8,7 +8,7 @@ import MenuItem from './MenuItem';
 import ScrollToTop from '../ScrollToTop';
 import Image from "next/image";
 
-export default function MenuSection({products}) {
+export default function MenuSection({products, filter_map}) {
   // const [products, setProducts] = useState<{ [x: string]: any; }[]|null>([]);
   //
   // useEffect(() => {
@@ -24,16 +24,6 @@ export default function MenuSection({products}) {
     setLoading(false);
   }, [loading]);
 
-  const FILTER_MAP = {
-    HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
-    BrownRice: (item) => item.category == "hand_rolls" && item.group.includes("Brown Rice"),
-    Packs: (item) => item.category == "packs",
-    Platters: (item) => item.category == "platters",
-    Deluxe: (item) => item.category == "deluxe",
-    Salads: (item) => item.category == "salads",
-    HotFood: (item) => item.category == "hot_food"
-  };
-
   const [dietaryReqs, setDietaryReqs] = useState<string[]>([]);
   const [dietaryPrefs, setDietaryPrefs] = useState<string[]>([
     "Vegetarian",
@@ -42,10 +32,10 @@ export default function MenuSection({products}) {
     "Beef"
   ]);
 
-  const FILTER_NAMES = Object.keys(FILTER_MAP);
+  const FILTER_NAMES = Object.keys(filter_map);
 
   const itemList = function (category) {
-    return products.filter(FILTER_MAP[category])
+    return products.filter(filter_map[category])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .filter(item => item.prefs.length < 1 || item.prefs?.filter(a => dietaryPrefs.includes(a)).length >= item.prefs.length)
       .map((item) => (
