@@ -2038,6 +2038,19 @@ const StoreData =
         "latitude": -37.411952138184446,
         "longitude": 144.97868859466595,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=148&mid=&no=&frmsrc=web"
+      },
+      {
+        "title": "Chisholm",
+        "store_id": "chi",
+        "address_line_01": "Shop 1, Chisholm Village",
+        "address_line_02": "42 Halley Street",
+        "suburb": "Chisholm",
+        "state": "act",
+        "postcode": "2905",
+        "phone": "",
+        "latitude": -35.41379578237732,
+        "longitude": 149.12829671371597,
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=150&mid=&no=&frmsrc=web"
       }
     ];
 
