@@ -8,7 +8,7 @@ import MenuItem from './MenuItem';
 import ScrollToTop from '../ScrollToTop';
 import Image from "next/image";
 
-export default function MenuSection({products, filter_map}) {
+export default function MenuSection({products, categoryList}) {
   // const [products, setProducts] = useState<{ [x: string]: any; }[]|null>([]);
   //
   // useEffect(() => {
@@ -24,6 +24,16 @@ export default function MenuSection({products, filter_map}) {
     setLoading(false);
   }, [loading]);
 
+  const FILTER_MAP = {
+    HandRolls: (item) => item.category == "hand_rolls" && item.group.includes("White Rice"),
+    BrownRice: (item) => item.category == "hand_rolls" && item.group.includes("Brown Rice"),
+    Packs: (item) => item.category == "packs",
+    Platters: (item) => item.category == "platters",
+    Deluxe: (item) => item.category == "deluxe",
+    Salads: (item) => item.category == "salads",
+    HotFood: (item) => item.category == "hot_food"
+  };
+
   const [dietaryReqs, setDietaryReqs] = useState<string[]>([]);
   const [dietaryPrefs, setDietaryPrefs] = useState<string[]>([
     "Vegetarian",
@@ -32,10 +42,8 @@ export default function MenuSection({products, filter_map}) {
     "Beef"
   ]);
 
-  const FILTER_NAMES = Object.keys(filter_map);
-
   const itemList = function (category) {
-    return products.filter(filter_map[category])
+    return products.filter(FILTER_MAP[category])
       .filter(item => item.allergens == null || item.allergens?.filter(a => dietaryReqs.includes(a)).length <= 0)
       .filter(item => item.prefs.length < 1 || item.prefs?.filter(a => dietaryPrefs.includes(a)).length >= item.prefs.length)
       .map((item) => (
@@ -53,7 +61,7 @@ export default function MenuSection({products, filter_map}) {
             <>
             <div className="sticky-top menu-nav">
             <ul className="nav menu-categories-nav text-center align-items-center nav-fill">
-              {FILTER_NAMES.map((name:string) => {
+              {categoryList.map((name:string) => {
                 return(
                     <li id={`${name}-li`} className="nav-item" key={name}>
                       <Link
@@ -75,7 +83,7 @@ export default function MenuSection({products, filter_map}) {
             </ul>
         </div>
         <div>
-            {FILTER_NAMES.map((name:string) => {
+            {categoryList.map((name:string) => {
               return(
                   <div id={name} key={`${name}-products`}>
                     <h2 className="my-5">{humanizeString(name)}</h2>
