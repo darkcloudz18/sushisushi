@@ -348,7 +348,7 @@ const StoreData =
         "suburb": "Camberwell",
         "state": "vic",
         "postcode": "3124",
-        "phone": "0448989706",
+        "phone": "03 8844 7114",
         "latitude": -37.8281458,
         "longitude": 145.0549921,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=17&mid=&no=&frmsrc=web"
