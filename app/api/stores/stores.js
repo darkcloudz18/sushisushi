@@ -2051,6 +2051,19 @@ const StoreData =
         "latitude": -35.41379578237732,
         "longitude": 149.12829671371597,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=150&mid=&no=&frmsrc=web"
+      },
+      {
+        "title": "QVB",
+        "store_id": "qvb",
+        "address_line_01": "Queen Victoria Building",
+        "address_line_02": "455 George St",
+        "suburb": "Sydney",
+        "state": "nsw",
+        "postcode": "2000",
+        "phone": "",
+        "latitude": -33.87173088124283,
+        "longitude": 151.20658977987637,
+        "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=149&mid=&no=&frmsrc=web"
       }
     ];
 
