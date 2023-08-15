@@ -7,8 +7,8 @@ export default function Hero() {
                 <div className="carousel-item active">
                     <a href="/our-stores">
                         <div className="hero-container-img">
-                            <img src={"/images/hero/asahi-desktop-full.jpg"} className={"img-fluid desktop-hero"}/>
-                            <img src={"/images/hero/asahi-mobile-full.jpg"} className={"img-fluid mobile-hero"}/>
+                            <img src={"/images/hero/asahi-desktop-full.png"} className={"img-fluid desktop-hero"}/>
+                            <img src={"/images/hero/asahi-mobile-full.png"} className={"img-fluid mobile-hero"}/>
                         </div>
                     </a>
                 </div>
