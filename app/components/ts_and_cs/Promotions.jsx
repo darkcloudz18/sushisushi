@@ -4,6 +4,7 @@ export default function Promotions() {
     return(
         <div id="promos">
             <h3 className={"fw-bold"}>Promotions</h3>
+            <h4>The Family &amp; Friends Discount</h4>
             <p>The Family &amp; Friends Discount is provided by Sushi Sushi Australia Pty Ltd (Sushi Sushi) in its absolute discretion, Sushi Sushi reserves the right to amend these terms or withdraw the Family &amp; Friends Discount at any time without notice. By redeeming the Family &amp; Friends Discount you agree to be bound by these Terms &amp; Conditions.</p>
 
             <p>The Family &amp; Friends Discount is valid from 16 September 2022 until 30 April 2023 (Promotional Period).</p>
@@ -23,6 +24,17 @@ export default function Promotions() {
             <p>These Terms &amp; Conditions are governed by the laws of Victoria. If any of these Terms &amp; Conditions are or become invalid, the relevant part is severed which doesn&rsquo;t affect the validity of the remaining parts.</p>
 
             <p>Nothing in these Terms &amp; Conditions restricts, excludes or modifies, or purports to restrict, exclude or modify any statutory consumer rights under any applicable law, including the Competition &amp; Consumer Act 2010 (Cth).</p>
+
+            <h4>Lipton Iced Tea Offer</h4>
+            <p>Purchase any 500ml Lipton Iced Tea and any two (2) handrolls available from the display cabinet for $10.90.</p>
+            <p>Not valid in conjunction with any other offer. Lipton Iced Tea cannot be substituted for another drink, and items must be purchased in the same transaction.</p>
+            <p>Offer valid until 4 September 2023. Offer may be amended or withdrawn at any time. Participating stores only, prices may vary from location to location.</p>
+            <p>The following stores are not participating in this offer:</p>
+            <ul>
+                <li>Brisbane Airport - Domestic Terminal</li>
+                <li>Brisbane Airport - International Terminal</li>
+                <li>Botany - NZ</li>
+            </ul>
         </div>
     );
 }
