@@ -8,7 +8,7 @@ export default function Join() {
     );
     const { fields, handleFieldChange } = useFormFields({
         EMAIL: "",
-        FNMAE: "",
+        FNAME: "",
         LNAME: ""
     });
     return (
