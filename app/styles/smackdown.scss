@@ -1,7 +1,30 @@
 .battle-ring {
-  background: url("/images/battleground.png") center;
   background-size: cover;
-  max-width: 726px;
-  max-height: 652px;
+  max-width: 448px;
+  max-height: 478px;
+  width: 90vw;
+  height: 50vh;
+  position: relative;
+}
 
+.left-contender {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("/images/battle/left.png") top left;
+  background-size: cover;
+  clip-path: polygon(0 0, 80% 0, 20% 100%, 0% 100%);
+}
+
+.right-contender {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("/images/battle/right.png") right bottom;
+  background-size: cover;
+  clip-path: polygon(80% 0, 100% 0, 100% 100%, 20% 100%);
 }

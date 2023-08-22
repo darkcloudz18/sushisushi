@@ -17,15 +17,29 @@ export default function BattleArena() {
         HRWINNER: ""
     });
 
-
-
     const [battleStatus, setBattleStatus] = useState(BattleStatus.NotStarted);
+    const [winner, setWinner] = useState("");
 
     return(
         <div className={"container py-5"}>
 
             { battleStatus === BattleStatus.NotStarted && <EntryForm fields={fields} handleFieldChange={handleFieldChange} setBattleStatus={setBattleStatus}/> }
-            { battleStatus === BattleStatus.InProgress && <BattleRing />}
+            { battleStatus === BattleStatus.InProgress && <BattleRing setBattleStatus={setBattleStatus} setWinner={setWinner} />}
+            { battleStatus === BattleStatus.Finished &&
+                <div>
+                    <p>Your champion hand roll is {winner}</p>
+                    <form
+                        onSubmit={event => {
+                            event.preventDefault();
+                            fields.HRWINNER = winner;
+                            handleSubmit(fields);
+                        }}
+                    >
+                        <button className={"btn btn-sushi-primary"}>Submit competition entry</button>
+                    </form>
+
+                </div>
+            }
             <div className="lead pt-3">
                 {loading && "Submitting..."}
                 {error && message}
