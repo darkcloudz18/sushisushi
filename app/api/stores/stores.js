@@ -1039,7 +1039,7 @@ const StoreData =
       },
       {
         "title": "Highpoint",
-        "subtitle": "Fresh Fd Precinct",
+        "subtitle": "Fresh Food Precinct",
         "store_id": "82",
         "address_line_01": "Shop No. 2558A, Highpoint Shopping Centre",
         "address_line_02": "120-200 Rosamond Road",
