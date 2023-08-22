@@ -17,7 +17,7 @@ export default function BattleArena() {
         HRWINNER: ""
     });
 
-    const [battleStatus, setBattleStatus] = useState(BattleStatus.NotStarted);
+    const [battleStatus, setBattleStatus] = useState(BattleStatus.InProgress);
     const [winner, setWinner] = useState("");
 
     return(

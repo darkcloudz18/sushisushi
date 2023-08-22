@@ -61,6 +61,6 @@ export const SmackdownRolls = [
     },
 
     {
-        name: "Tuna & Avocado"
+        name: "Cooked Tuna & Avocado"
     },
 ]
