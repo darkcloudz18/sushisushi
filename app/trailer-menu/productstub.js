@@ -190,28 +190,6 @@ const ProductStub = [
         "price": "$14.30"
     },
     {
-        "id": "156",
-        "category": "packs",
-        "name": "Prawn Combo Pack",
-        "description": "",
-        "kJs": "2240kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Crustacea",
-            "Egg",
-            "Milk",
-            "Fish",
-            "Soy",
-            "Sesame",
-
-        ],
-        "prefs": [
-            "Seafood"
-        ],
-        "price": "$13.20"
-    },
-    {
         "id": "301",
         "category": "packs",
         "name": "California Roll Pack",
@@ -426,24 +404,6 @@ const ProductStub = [
         "price": "$7.60"
     },
     {
-        "id": "21",
-        "category": "hand_rolls",
-        "group": "White Rice H/Roll",
-        "name": "Peking Duck",
-        "description": "",
-        "kJs": "665kJ",
-        "allergens": [
-            "Wheat",
-            "Gluten",
-            "Soy",
-            "Sesame"
-        ],
-        "prefs": [
-            "Chicken"
-        ],
-        "price": "$5.10"
-    },
-    {
         "id": "101",
         "category": "hand_rolls",
         "group": "White Rice H/Roll",
@@ -495,23 +455,6 @@ const ProductStub = [
             "Chicken"
         ],
         "price": "$4.80"
-    },
-    {
-        "id": "104",
-        "category": "hand_rolls",
-        "group": "White Rice H/Roll",
-        "name": "Smoked Salmon & Avocado",
-        "description": "Smoked salmon, avocado and housemade mayonnaise",
-        "kJs": "769kJ",
-        "allergens": [
-            "Egg",
-            "Fish",
-            "Sesame"
-        ],
-        "prefs": [
-            "Seafood"
-        ],
-        "price": "$4.50"
     },
     {
         "id": "105",
@@ -788,6 +731,76 @@ const ProductStub = [
             "Seafood"
         ],
         "price": "$4.60"
+    },
+    {
+        "id": "880503",
+        "category": "salads",
+        "name": "Pickled Mushroom Salad",
+        "description": "",
+        "kJs": "241kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Vegetarian"
+        ],
+        "price": "$7.60"
+    },
+    {
+        "id": "880505",
+        "category": "salads",
+        "name": "Kurage Salad (Jellyfish)",
+        "description": "",
+        "kJs": "605kJ",
+        "allergens": [
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ],
+        "price": "$7.60"
+    },
+    {
+        "id": "880507",
+        "category": "salads",
+        "name": "Scallop Wing Salad",
+        "description": "",
+        "kJs": "388kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Fish",
+            "Soy",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ],
+        "price": "$7.60"
+    },
+    {
+        "id": "831104",
+        "category": "deluxe",
+        "name": "Spicy Popcorn Prawn Slider",
+        "description": "",
+        "kJs": "1300kJ",
+        "allergens": [
+            "Wheat",
+            "Gluten",
+            "Crustacea",
+            "Egg",
+            "Milk",
+            "Sesame"
+        ],
+        "prefs": [
+            "Seafood"
+        ],
+        "price": "$7.60"
     }
 ];
 
