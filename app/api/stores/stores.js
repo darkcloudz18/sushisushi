@@ -412,7 +412,7 @@ const StoreData =
         "longitude": 153.1012958,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=22&mid=&no=&frmsrc=web"
       },
-      {
+      /*{
         "title": "Carindale",
         "company": true,
         "subtitle": "Near Coles",
@@ -426,7 +426,7 @@ const StoreData =
         "latitude": -27.5022356,
         "longitude": 153.1001752,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=23&mid=&no=&frmsrc=web"
-      },
+      },*/
       {
         "title": "Caroline Springs Square",
         "store_id": "64",
