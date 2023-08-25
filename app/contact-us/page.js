@@ -1,4 +1,3 @@
-import '../styles/stores.scss';
 import Title from '../components/Title';
 import ContactForm from "../components/about/ContactForm";
 

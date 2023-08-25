@@ -8,13 +8,13 @@ import SushiFan from './components/homepage/SushiFan'
 
 
 export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Categories />
-      <Faves />
-      <Join />
-        < Socials />
-    </>
-  );
+    return (
+        <>
+            <Hero/>
+            <Categories/>
+            <Faves/>
+            <Join/>
+            <Socials/>
+        </>
+    );
 }
