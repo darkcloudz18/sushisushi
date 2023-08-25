@@ -407,7 +407,7 @@ const StoreData =
         "suburb": "Carindale",
         "state": "qld",
         "postcode": "4153",
-        "phone": "(07) 3112 7258",
+        "phone": "(07) 3112 0896",
         "latitude": -27.50241,
         "longitude": 153.1012958,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=22&mid=&no=&frmsrc=web"
@@ -422,7 +422,7 @@ const StoreData =
         "suburb": "Carindale",
         "state": "qld",
         "postcode": "4152",
-        "phone": "(07) 3112 0896",
+        "phone": "(07) 3112 7258",
         "latitude": -27.5022356,
         "longitude": 153.1001752,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=23&mid=&no=&frmsrc=web"
