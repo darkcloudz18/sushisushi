@@ -1211,7 +1211,7 @@ const StoreData =
         "suburb": "Malvern",
         "state": "vic",
         "postcode": "3144",
-        "phone": "03 9509 0864 ",
+        "phone": "0430 438 336 ",
         "latitude": -37.8627528,
         "longitude": 145.0250018,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=76&mid=&no=&frmsrc=web"
