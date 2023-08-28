@@ -19,29 +19,34 @@ export default function BattleRing({setBattleStatus, setWinner}){
     };
 
     return(
-        <div className={"battle-ring"}>
-            <div
-                className={"left-contender"}
-                onClick={(event) => {
-                    event.preventDefault();
-                    contenderLeft.isCurrentChamp = true;
-                    contenderRight.isCurrentChamp = false;
-                    changeOutLoser(setContenderRight);
-                }}
-            >
-                <p>{contenderLeft.rollName}</p>
+        <div className={"battle-ring-container"}>
+            <h3>{contenderLeft.rollName}</h3>
+            <div className={"battle-ring"}>
+                <div
+                    className={"left-contender"}
+                    onClick={(event) => {
+                        event.preventDefault();
+                        contenderLeft.isCurrentChamp = true;
+                        contenderRight.isCurrentChamp = false;
+                        changeOutLoser(setContenderRight);
+                    }}
+                >
+                    <img height={250} width={250} className={"left-sushi"} src={`/images/battle/contestants/${contenderLeft.rollName}.png`}/>
+                </div>
+                <div
+                    className={"right-contender"}
+                    onClick={(event) => {
+                        event.preventDefault();
+                        contenderLeft.isCurrentChamp = false;
+                        contenderRight.isCurrentChamp = true;
+                        changeOutLoser(setContenderLeft);
+                    }}
+                >
+                    <img height={250} width={250} className={"right-sushi"} src={`/images/battle/contestants/${contenderRight.rollName}.png`}/>
+                </div>
+                <h2 className={"position-absolute top-50 start-50 translate-middle"}>VS</h2>
             </div>
-            <div
-                className={"right-contender"}
-                onClick={(event) => {
-                    event.preventDefault();
-                    contenderLeft.isCurrentChamp = false;
-                    contenderRight.isCurrentChamp = true;
-                    changeOutLoser(setContenderLeft);
-                }}
-            >
-                <p>{contenderRight.rollName}</p>
-            </div>
+            <h3 className={"text-end"}>{contenderRight.rollName}</h3>
         </div>
     )
 }
