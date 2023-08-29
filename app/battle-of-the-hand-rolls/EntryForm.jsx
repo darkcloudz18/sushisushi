@@ -1,6 +1,11 @@
 import {BattleStatus} from "./BattleArena";
 
 export default function EntryForm({fields, handleFieldChange, setBattleStatus}){
+
+    const fieldsAreFilled = function (){
+      return  fields.FNAME && fields.LNAME && fields.EMAIL && fields.POSTCODE
+    };
+
     return (
         <div className={"row justify-content-center"}>
         <div className={"col-12 col-md-4"}>
@@ -51,7 +56,7 @@ export default function EntryForm({fields, handleFieldChange, setBattleStatus}){
                         onChange={handleFieldChange}
                     />
                 </div>
-                <div className={"text-center"}> <button type="submit" className="btn btn-sushi-primary">Get ready to rumble</button></div>
+                <div className={"text-center"}> <button type="submit" className="btn btn-sushi-primary" disabled={!fieldsAreFilled()}>Get ready to rumble</button></div>
             </form>
         </div>
         </div>
