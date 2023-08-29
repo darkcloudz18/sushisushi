@@ -20,6 +20,7 @@ export default function BattleRing({setBattleStatus, setWinner}){
 
     return(
         <div className={"battle-ring-container"}>
+            <p className={"lead fw-bold text-center pb-3"}>Tap or click on the hand roll that you like best as the hand rolls go head to head to find your ultimate favourite</p>
             <h3>{contenderLeft.rollName}</h3>
             <div className={"battle-ring"}>
                 <div

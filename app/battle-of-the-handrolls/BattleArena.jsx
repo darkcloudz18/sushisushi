@@ -17,7 +17,7 @@ export default function BattleArena() {
         HRWINNER: ""
     });
 
-    const [battleStatus, setBattleStatus] = useState(BattleStatus.InProgress);
+    const [battleStatus, setBattleStatus] = useState(BattleStatus.NotStarted);
     const [winner, setWinner] = useState("");
 
     return(
@@ -26,8 +26,9 @@ export default function BattleArena() {
             { battleStatus === BattleStatus.NotStarted && <EntryForm fields={fields} handleFieldChange={handleFieldChange} setBattleStatus={setBattleStatus}/> }
             { battleStatus === BattleStatus.InProgress && <BattleRing setBattleStatus={setBattleStatus} setWinner={setWinner} />}
             { battleStatus === BattleStatus.Finished &&
-                <div>
-                    <p>Your champion hand roll is {winner}</p>
+                <div className={"end-screen"}>
+                    <h3 className={"text-center"}>Your champion hand roll is <b>{winner}</b></h3>
+                    <img height={350} width={350} src={`/images/battle/contestants/${winner}.png`} className={"mx-auto"}/>
                     <form
                         onSubmit={event => {
                             event.preventDefault();
@@ -35,7 +36,7 @@ export default function BattleArena() {
                             handleSubmit(fields);
                         }}
                     >
-                        <button className={"btn btn-sushi-primary"}>Submit competition entry</button>
+                        <button className={"btn btn-sushi-primary text-center"}>Submit competition entry</button>
                     </form>
 
                 </div>
