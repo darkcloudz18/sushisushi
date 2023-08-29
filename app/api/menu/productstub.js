@@ -667,7 +667,7 @@ const ProductStub = [
     {
         "id": "15",
         "category": "packs",
-        "name": "Prawn Sushi Pack",
+        "name": "Prawn Combo Pack",
         "description": "10 piece mix of inside out sushi with fresh and panko prawn ",
         "kJs": "1170kJ",
         "allergens": [
@@ -732,7 +732,7 @@ const ProductStub = [
     {
         "id": "156",
         "category": "packs",
-        "name": "Prawn Combo Pack",
+        "name": "Prawn Sushi Pack",
         "description": "",
         "kJs": "2240kJ",
         "allergens": [
