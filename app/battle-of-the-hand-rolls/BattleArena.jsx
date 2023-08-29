@@ -40,7 +40,10 @@ export default function BattleArena() {
                         }}
                     >
                         { !loading && !error && !success &&
-                            <button className={"btn btn-sushi-primary"}>Submit competition entry</button>}
+                            <><button className={"btn btn-sushi-primary"}>Submit competition entry</button>
+                            <p className={"fs-6 mt-4"}>By clicking on &quot;Submit competition entry&quot; you agree to the <a href={"/terms-and-conditions"}>ts&cs</a> of this competition</p></>
+                        }
+
                     </form>
                 </>
             }
