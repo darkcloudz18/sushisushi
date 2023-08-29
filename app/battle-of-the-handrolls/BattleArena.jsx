@@ -36,15 +36,16 @@ export default function BattleArena() {
                             handleSubmit(fields);
                         }}
                     >
-                        <button className={"btn btn-sushi-primary text-center"}>Submit competition entry</button>
+                        { !loading && !error && !success &&
+                            <button className={"btn btn-sushi-primary text-center"}>Submit competition entry</button>}
                     </form>
 
                 </div>
             }
-            <div className="lead pt-3">
+            <div className="lead pt-3 text-center">
                 {loading && "Submitting..."}
-                {error && message}
-                {success && message}
+                {error && "Sorry something went wrong, please reload and try again"}
+                {success && "Thank you for entering our competition!"}
             </div>
         </div>
     )
