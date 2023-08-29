@@ -26,10 +26,13 @@ export default function BattleArena() {
             { battleStatus === BattleStatus.NotStarted && <EntryForm fields={fields} handleFieldChange={handleFieldChange} setBattleStatus={setBattleStatus}/> }
             { battleStatus === BattleStatus.InProgress && <BattleRing setBattleStatus={setBattleStatus} setWinner={setWinner} />}
             { battleStatus === BattleStatus.Finished &&
-                <div className={"end-screen"}>
+                <>
                     <h3 className={"text-center"}>Your champion hand roll is <b>{winner}</b></h3>
-                    <img height={350} width={350} src={`/images/battle/contestants/${winner}.png`} className={"mx-auto"}/>
+                    <div className={"end-screen"}>
+                        <img height={350} width={350} src={`/images/battle/contestants/${winner}.png`} className={"mx-auto"}/>
+                    </div>
                     <form
+                        className={"text-center"}
                         onSubmit={event => {
                             event.preventDefault();
                             fields.HRWINNER = winner;
@@ -37,10 +40,9 @@ export default function BattleArena() {
                         }}
                     >
                         { !loading && !error && !success &&
-                            <button className={"btn btn-sushi-primary text-center"}>Submit competition entry</button>}
+                            <button className={"btn btn-sushi-primary"}>Submit competition entry</button>}
                     </form>
-
-                </div>
+                </>
             }
             <div className="lead pt-3 text-center">
                 {loading && "Submitting..."}
