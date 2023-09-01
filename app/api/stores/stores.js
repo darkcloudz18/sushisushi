@@ -335,7 +335,7 @@ const StoreData =
         "suburb": "Broadmeadows",
         "state": "vic",
         "postcode": "3047",
-        "phone": "03 9302 1871",
+        "phone": "03 8383 7303",
         "latitude": -37.6801122,
         "longitude": 144.9173271,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=15&mid=&no=&frmsrc=web"
