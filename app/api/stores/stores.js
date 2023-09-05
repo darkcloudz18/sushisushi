@@ -2,7 +2,7 @@ const StoreData =
     [
       {
         "title": "Adelaide Airport",
-        "store_id": "ade",
+        "store_id": "214",
         "address_line_01": "Adelaide Airport",
         "address_line_02": "Kiosk 24, 1 James Schofield Drive",
         "suburb": "Adelaide",
@@ -21,13 +21,13 @@ const StoreData =
         "suburb": "Airport West",
         "state": "vic",
         "postcode": "3042",
-        "phone": "03 8336 1234",
+        "phone": "(03) 8336 1234",
         "latitude": -37.7148614,
         "longitude": 144.8819975,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=1&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Altona Gate",
+        "title": "Altona Gate 1",
         "subtitle": "Near Chemist Warehouse",
         "store_id": "55",
         "address_line_01": "Shop G009, Altona Gate Shopping Centre",
@@ -35,22 +35,22 @@ const StoreData =
         "suburb": "Altona North",
         "state": "vic",
         "postcode": "3025",
-        "phone": "03 9314 0658",
+        "phone": "(03) 9314 0658",
         "latitude": -37.828076,
         "longitude": 144.8452138,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=2&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Altona Gate",
+        "title": "Altona Gate 2",
         "company": true,
         "subtitle": "Near Priceline",
-        "store_id": "alt",
+        "store_id": "216",
         "address_line_01": "Tenancy L020, Altona Gate Shopping Centre",
         "address_line_02": "124 -134 Millers Road",
         "suburb": "Altona North",
         "state": "vic",
         "postcode": "3025",
-        "phone": "03 9923 8231",
+        "phone": "(03) 9923 8231",
         "latitude": -37.825270,
         "longitude": 144.848770,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=144&mid=&no=&frmsrc=qr"
@@ -58,7 +58,7 @@ const StoreData =
       {
         "title": "BP Scoresby Inbound",
         "company": true,
-        "store_id": "bps",
+        "store_id": "195",
         "address_line_01": "1500 Eastlink Inbound",
         "address_line_02": "Ferntree Gully and Wellington Road",
         "suburb": "Scoresby",
@@ -72,7 +72,7 @@ const StoreData =
       {
         "title": "BP Scoresby Outbound",
         "company": true,
-        "store_id": "bpso",
+        "store_id": "177",
         "address_line_01": "1500 Eastlink Ferntree Gully and Wellington Rd",
         "address_line_02": "",
         "suburb": "Scoresby",
@@ -92,7 +92,7 @@ const StoreData =
         "suburb": "Bacchus Marsh",
         "state": "vic",
         "postcode": "3340",
-        "phone": "(03) 5367 4629",
+        "phone": "(03) 5323 0131",
         "latitude": -37.6759075,
         "longitude": 144.4374869,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=3&mid=&no=&frmsrc=web"
@@ -106,20 +106,20 @@ const StoreData =
         "suburb": "Baldivis",
         "state": "wa",
         "postcode": "6171",
-        "phone": "08 9520 2169",
+        "phone": "(08) 9520 2169",
         "latitude": -32.3325014,
         "longitude": 115.8135417,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=4&mid=&no=&frmsrc=web"
       },
       {
         "title": "Balwyn",
-        "store_id": "bal",
+        "store_id": "212",
         "address_line_01": "367A Whitehorse Road",
         "address_line_02": "",
         "suburb": "Balwyn",
         "state": "vic",
         "postcode": "3103",
-        "phone": "0388447111",
+        "phone": "(03) 8844 7111",
         "latitude": -37.81278,
         "longitude": 145.08203,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=135&mid=&no=&frmsrc=qr"
@@ -132,13 +132,13 @@ const StoreData =
         "suburb": "Brunswick",
         "state": "vic",
         "postcode": "3056",
-        "phone": "03 9923 7945 ",
+        "phone": "(03) 9923 7945 ",
         "latitude": -37.7756818,
         "longitude": 144.9598877,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=5&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Bayside",
+        "title": "Bayside 1",
         "subtitle": "Near Woolworths",
         "store_id": "31",
         "address_line_01": "Shop 154, Bayside Shopping Centre, Level 1, Near woolworths ",
@@ -146,13 +146,13 @@ const StoreData =
         "suburb": "Frankston",
         "state": "vic",
         "postcode": "3199",
-        "phone": "03 8738 9017",
+        "phone": "(03) 8738 9017",
         "latitude": -38.1406036,
         "longitude": 145.1225118,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=6&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Bayside",
+        "title": "Bayside 3",
         "subtitle": "Near Coles",
         "store_id": "103",
         "address_line_01": "Shop G012Q, Bayside Shopping Centre, Ground Floor, Near Coles",
@@ -160,26 +160,27 @@ const StoreData =
         "suburb": "Frankston",
         "state": "vic",
         "postcode": "3199",
-        "phone": "03 9783 9871",
+        "phone": "(03) 9783 9871",
         "latitude": -38.141704,
         "longitude": 145.1228026,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=7&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Belconnen",
+        "title": "Belconnen 1",
         "subtitle": "In Food Court",
+        "store_id": "14"
         "address_line_01": "Shop 19A, Westfield Belconnen Shopping Centre",
         "address_line_02": "Benjamin Way",
         "suburb": "Belconnen",
         "state": "act",
         "postcode": "2617",
-        "phone": "02 6251 9933",
+        "phone": "(02) 6251 9933",
         "latitude": -35.2379381,
         "longitude": 149.0650706,
         "store_id": "14"
       },
       {
-        "title": "Belconnen",
+        "title": "Belconnen 2",
         "subtitle": "Near Coles",
         "store_id": "50",
         "address_line_01": "Shop 214, Westfield Belconnen Shopping Centre",
@@ -187,7 +188,7 @@ const StoreData =
         "suburb": "Belconnen",
         "state": "act",
         "postcode": "2617",
-        "phone": "02 6251 0243",
+        "phone": "(02) 6251 0243",
         "latitude": -35.2379381,
         "longitude": 149.0650706,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=9&mid=&no=&frmsrc=web"
@@ -200,7 +201,7 @@ const StoreData =
         "suburb": "Cloverdale",
         "state": "wa",
         "postcode": "6105",
-        "phone": "08 6263 8776",
+        "phone": "(08) 6263 8776",
         "latitude": -31.964245,
         "longitude": 115.9328342,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=10&mid=&no=&frmsrc=web"
@@ -213,26 +214,26 @@ const StoreData =
         "suburb": "Bendigo",
         "state": "vic",
         "postcode": "3550",
-        "phone": "03 5443 8273",
+        "phone": "(03) 5407 1757",
         "latitude": -36.7651635,
         "longitude": 144.2788409,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=11&mid=&no=&frmsrc=web"
       },
       {
         "title": "Blackburn North",
-        "store_id": "bla",
+        "store_id": "204",
         "address_line_01": "Kiosk K03, North Blackburn Shopping Centre",
         "address_line_02": "66-104 Springfield Road",
         "suburb": "North Blackburn",
         "state": "vic",
         "postcode": "3130",
-        "phone": "03 8844 7088",
+        "phone": "(03) 8844 7088",
         "latitude": -37.81104,
         "longitude": 145.15772,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=140&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Booragoon",
+        "title": "Booragoon 1",
         "company": true,
         "subtitle": "Near JB Hi-Fi",
         "store_id": "48",
@@ -241,22 +242,22 @@ const StoreData =
         "suburb": "Booragoon",
         "state": "wa",
         "postcode": "6154",
-        "phone": "08 6263 8482",
+        "phone": "(08) 6263 8482",
         "latitude": -32.0347561,
         "longitude": 115.8345144,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=57&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Booragoon",
+        "title": "Booragoon 2",
         "company": true,
         "subtitle": "In Food Court",
-        "store_id": "boo",
+        "store_id": "63",
         "address_line_01": "K01 Garden City Shopping Centre",
         "address_line_02": "125 Riseley Street",
         "suburb": "Booragoon",
         "state": "wa",
         "postcode": "6154",
-        "phone": "08 6263 8539",
+        "phone": "(08) 6263 8539",
         "latitude": -32.03399,
         "longitude": 115.83547,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=125&mid=&no=&frmsrc=qr"
@@ -264,7 +265,7 @@ const StoreData =
       {
         "title": "Botany",
         "company": true,
-        "store_id": "bot",
+        "store_id": "162",
         "address_line_01": "588 Chapel Road",
         "address_line_02": "",
         "suburb": "East Tamaki",
@@ -283,7 +284,7 @@ const StoreData =
         "suburb": "Braybrook",
         "state": "vic",
         "postcode": "3019",
-        "phone": "03 9687 8014",
+        "phone": "(03) 9923 8257",
         "latitude": -37.7936549,
         "longitude": 144.8581552,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=13&mid=&no=&frmsrc=web"
@@ -296,34 +297,34 @@ const StoreData =
         "suburb": "Deer Park",
         "state": "vic",
         "postcode": "3023",
-        "phone": "03 8385 8001",
+        "phone": "(03) 8385 8001",
         "latitude": -37.7510087,
         "longitude": 144.773183,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=14&mid=&no=&frmsrc=web"
       },
       {
         "title": "Brisbane Airport",
-        "subtitle": "Domestic Terminal",
+        "subtitle": "Virgin Domestic Terminal",
         "store_id": "131",
-        "address_line_01": "Domestic Terminal Building, Brisbane Airport",
+        "address_line_01": "Shop 2H-18, Domestic Terminal Building, Brisbane Airport",
         "address_line_02": "11 The Circuit",
         "suburb": "Brisbane",
         "state": "qld",
         "postcode": "4008",
-        "phone": "07 3860 6952",
+        "phone": "(07) 3860 6952",
         "latitude": -27.3994427,
         "longitude": 153.0836202
       },
       {
         "title": "Brisbane Airport",
-        "subtitle": "International Terminal",
-        "store_id": "119",
-        "address_line_01": "International Terminal Building, Brisbane Airport",
+        "subtitle": "Jetstar Domestic Terminal",
+        "store_id": "174",
+        "address_line_01": "Shop 2Q-59, Domestic Terminal Building, Brisbane Airport",
         "address_line_02": "11 The Circuit",
         "suburb": "Brisbane",
         "state": "qld",
         "postcode": "4008",
-        "phone": "07 3860 4513",
+        "phone": "(07) 3860 4513",
         "latitude": -27.3994427,
         "longitude": 153.0836202
       },
@@ -335,7 +336,7 @@ const StoreData =
         "suburb": "Broadmeadows",
         "state": "vic",
         "postcode": "3047",
-        "phone": "03 8383 7303",
+        "phone": "(03) 8383 7303",
         "latitude": -37.6801122,
         "longitude": 144.9173271,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=15&mid=&no=&frmsrc=web"
@@ -348,13 +349,13 @@ const StoreData =
         "suburb": "Camberwell",
         "state": "vic",
         "postcode": "3124",
-        "phone": "03 8844 7114",
+        "phone": "(03) 8844 7114",
         "latitude": -37.8281458,
         "longitude": 145.0549921,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=17&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Canberra Centre",
+        "title": "Canberra Centre 2",
         "company": true,
         "subtitle": "Near Apple Store",
         "store_id": "148",
@@ -363,7 +364,7 @@ const StoreData =
         "suburb": "Canberra",
         "state": "act",
         "postcode": "2607",
-        "phone": "02 6230 4224",
+        "phone": "(02) 6230 4224",
         "latitude": -35.2784286,
         "longitude": 149.1310965,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=21&mid=&no=&frmsrc=web"
@@ -378,7 +379,7 @@ const StoreData =
         "suburb": "Canberra",
         "state": "act",
         "postcode": "2607",
-        "phone": "02 6247 3877",
+        "phone": "(02) 6108 3920",
         "latitude": -35.2784286,
         "longitude": 149.1310965,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=19&mid=&no=&frmsrc=web"
@@ -392,13 +393,13 @@ const StoreData =
         "suburb": "Mackay",
         "state": "qld",
         "postcode": "4740",
-        "phone": "07 4951 4316",
+        "phone": "(07) 4951 4316",
         "latitude": -21.1382966,
         "longitude": 149.1762901,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=20&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Carindale",
+        "title": "Carindale 1",
         "company": true,
         "subtitle": "In Food Court",
         "store_id": "38",
@@ -413,7 +414,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=22&mid=&no=&frmsrc=web"
       },
       /*{
-        "title": "Carindale",
+        "title": "Carindale 2",
         "company": true,
         "subtitle": "Near Coles",
         "store_id": "47",
@@ -450,7 +451,7 @@ const StoreData =
         "suburb": "Cannington",
         "state": "wa",
         "postcode": "6107",
-        "phone": "08 6263 8784",
+        "phone": "(08) 6263 8784",
         "latitude": -32.0197861,
         "longitude": 115.9380358,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=25&mid=&no=&frmsrc=web"
@@ -469,20 +470,6 @@ const StoreData =
         "latitude": -38.067555,
         "longitude": 145.300759,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=18&mid=&no=&frmsrc=web"
-      },
-      {
-        "title": "Casey Central",
-        "subtitle": "Inside Coles",
-        "store_id": "cas",
-        "address_line_01": "400 Narre Warren Cranbourne Rd",
-        "address_line_02": "",
-        "suburb": "Narre Warren South",
-        "state": "vic",
-        "postcode": "3805",
-        "phone": "",
-        "latitude": -38.069062,
-        "longitude": 145.300972,
-        "order_up_link": ""
       },
       {
         "title": "Castletown",
@@ -506,7 +493,7 @@ const StoreData =
         "suburb": "Casuarina",
         "state": "nt",
         "postcode": "0810",
-        "phone": "08 8945 3328",
+        "phone": "(08) 8945 3328",
         "latitude": -12.3752093,
         "longitude": 130.8794237,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=29&mid=&no=&frmsrc=web"
@@ -514,7 +501,7 @@ const StoreData =
       {
         "title": "Cavill Ave",
         "company": true,
-        "store_id": "cav",
+        "store_id": "164",
         "address_line_01": "15 Cavill Ave",
         "address_line_02": "",
         "suburb": "Surfers Paradise",
@@ -526,7 +513,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=28&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone",
+        "title": "Chadstone 1",
         "company": true,
         "subtitle": "Near Myer",
         "store_id": "26",
@@ -535,13 +522,13 @@ const StoreData =
         "suburb": "Chadstone",
         "state": "vic",
         "postcode": "3148",
-        "phone": "03 9568 3882",
+        "phone": "(03) 8844 7118",
         "latitude": -37.8863834,
         "longitude": 145.082003,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=31&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone",
+        "title": "Chadstone 2",
         "company": true,
         "subtitle": "Near Aldi",
         "store_id": "11",
@@ -550,13 +537,13 @@ const StoreData =
         "suburb": "Chadstone",
         "state": "vic",
         "postcode": "3148",
-        "phone": "03 9568 3888",
+        "phone": "(03) 8525 7103",
         "latitude": -37.8863441,
         "longitude": 145.0836615,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=32&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Chadstone",
+        "title": "Chadstone 3",
         "subtitle": "In Food Court",
         "store_id": "136",
         "address_line_01": "Kiosk 0103, Chadstone Shopping Centre, Lower Ground, Food Central",
@@ -564,7 +551,7 @@ const StoreData =
         "suburb": "Chadstone",
         "state": "vic",
         "postcode": "3148",
-        "phone": "03 9569 9627",
+        "phone": "(03) 9569 9627",
         "latitude": -37.8855,
         "longitude": 145.08242,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=33&mid=&no=&frmsrc=web"
@@ -590,7 +577,7 @@ const StoreData =
         "suburb": "Chirnside Park",
         "state": "vic",
         "postcode": "3116",
-        "phone": "03 9726 5733",
+        "phone": "(03) 9726 5733",
         "latitude": -37.7565568,
         "longitude": 145.3102089,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=35&mid=&no=&frmsrc=web"
@@ -603,7 +590,7 @@ const StoreData =
         "suburb": "Adelaide",
         "state": "sa",
         "postcode": "4001",
-        "phone": "08 8231 5293",
+        "phone": "(08) 8231 5293",
         "latitude": -34.9235743,
         "longitude": 138.5994204,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=36&mid=&no=&frmsrc=web"
@@ -637,11 +624,11 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=37&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Craigieburn",
+        "title": "Craigieburn 2",
         "subtitle": "Near Woolworths",
-        "store_id": "cra",
-        "address_line_01": "Craigieburn Central",
-        "address_line_02": "240 Craigieburn Rd",
+        "store_id": "197",
+        "address_line_01": "EK05, Craigieburn Central",
+        "address_line_02": "340 Craigieburn Rd",
         "suburb": "Craigieburn",
         "state": "vic",
         "postcode": "3064",
@@ -651,7 +638,7 @@ const StoreData =
         "order_up_link": ""
       },
       {
-        "title": "Craigieburn",
+        "title": "Craigieburn 1",
         "subtitle": "Near Big W",
         "store_id": "99",
         "address_line_01": "Shop COO-K05, Craigieburn Central",
@@ -659,7 +646,7 @@ const StoreData =
         "suburb": "Craigieburn",
         "state": "vic",
         "postcode": "3064",
-        "phone": "03 8384 7033",
+        "phone": "(03) 8384 7033",
         "latitude": -37.5943181,
         "longitude": 144.9126205,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=41&mid=&no=&frmsrc=web"
@@ -692,7 +679,7 @@ const StoreData =
       },
       {
         "title": "Dandenong Plaza",
-        "store_id": "dan",
+        "store_id": "222",
         "address_line_01": "Kiosk 36, L2,  Dandenong Plaza Shopping Centre",
         "address_line_02": "23-55 McCrae Street",
         "suburb": "Dandenong",
@@ -704,7 +691,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=143&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Doncaster",
+        "title": "Doncaster 1",
         "subtitle": "Near JB Hi-Fi",
         "store_id": "29",
         "address_line_01": "Shop G114, Westfield Doncaster",
@@ -712,13 +699,13 @@ const StoreData =
         "suburb": "Doncaster",
         "state": "vic",
         "postcode": "3108",
-        "phone": "03 8844 7116",
+        "phone": "(03) 8844 7116",
         "latitude": -37.7858792,
         "longitude": 145.1242506,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=44&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Doncaster",
+        "title": "Doncaster 2",
         "company": true,
         "subtitle": "Near Woolworths",
         "store_id": "157",
@@ -727,7 +714,7 @@ const StoreData =
         "suburb": "Doncaster",
         "state": "vic",
         "postcode": "3108",
-        "phone": "03 8844 7113",
+        "phone": "(03) 8844 7113",
         "latitude": -37.784883,
         "longitude": 145.126181,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=45&mid=&no=&frmsrc=web"
@@ -741,13 +728,13 @@ const StoreData =
         "suburb": "Donvale",
         "state": "vic",
         "postcode": "",
-        "phone": "03 8841 1200",
+        "phone": "(03) 8841 1200",
         "latitude": -37.7908931,
         "longitude": 145.1724267,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=38&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Eastland",
+        "title": "Eastland 1",
         "subtitle": "Opposite Woolworths",
         "store_id": "32",
         "address_line_01": "Shop K104, Eastland Shopping Centre",
@@ -755,13 +742,13 @@ const StoreData =
         "suburb": "Ringwood",
         "state": "vic",
         "postcode": "3134",
-        "phone": "03 9870 8789",
+        "phone": "(03) 9870 8789",
         "latitude": -37.8128514,
         "longitude": 145.2276495,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=138&mid=&no=&frmsrc=qr"
       },
       {
-        "title": "Eastland",
+        "title": "Eastland 2",
         "subtitle": "In Food Court",
         "store_id": "60",
         "address_line_01": "Shop K203, Eastland Shopping Centre",
@@ -769,7 +756,7 @@ const StoreData =
         "suburb": "Ringwood",
         "state": "vic",
         "postcode": "3134",
-        "phone": "03 9879 5679",
+        "phone": "(03) 9879 5679",
         "latitude": -37.812503,
         "longitude": 145.2292706,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=139&mid=&no=&frmsrc=qr"
@@ -783,7 +770,7 @@ const StoreData =
         "suburb": "Rosny Park",
         "state": "tas",
         "postcode": "7020",
-        "phone": "03 6111 0703",
+        "phone": "(03) 6111 0703",
         "latitude": -42.8659547,
         "longitude": 147.3664401,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=48&mid=&no=&frmsrc=web"
@@ -791,7 +778,7 @@ const StoreData =
       {
         "title": "Eden Rise",
         "subtitle": "Coles",
-        "store_id": "ede",
+        "store_id": "203",
         "address_line_01": "Oshea Rd & Clyde Rd",
         "address_line_02": "",
         "suburb": "Berwick",
@@ -805,26 +792,26 @@ const StoreData =
       {
         "title": "Ellenbrook",
         "company": true,
-        "store_id": "ell",
+        "store_id": "163",
         "address_line_01": "11 Main St",
         "address_line_02": "",
         "suburb": "Ellenbrook",
         "state": "wa",
         "postcode": "6069",
-        "phone": "08 6393 7373",
+        "phone": "(08) 6393 7373",
         "latitude": -31.78245,
         "longitude": 115.969681,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=49&mid=&no=&frmsrc=web"
       },
       {
         "title": "Eltham",
-        "store_id": "elt",
+        "store_id": "221",
         "address_line_01": "T22 Eltham Village Shopping Centre",
         "address_line_02": "906 Main Rd",
         "suburb": "Eltham",
         "state": "vic",
         "postcode": "3095",
-        "phone": "03 8457 8498",
+        "phone": "(03) 8457 8498",
         "latitude": -37.7149,
         "longitude": 145.14843,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=142&mid=&no=&frmsrc=qr"
@@ -845,13 +832,13 @@ const StoreData =
       {
         "title": "Fishermans Bend",
         "company": true,
-        "store_id": "fis",
+        "store_id": "196",
         "address_line_01": "Kiosk 01, Woolworths Fisherman's Bend",
         "address_line_02": "477-481 Plummer Street",
         "suburb": "Port Melbourne",
         "state": "vic",
         "postcode": "3207",
-        "phone": "03 9923 8257",
+        "phone": "(03) 9923 8257",
         "latitude": -37.831646,
         "longitude": 144.930401,
         "order_up_link": ""
@@ -865,14 +852,14 @@ const StoreData =
         "suburb": "Forest Hill",
         "state": "vic",
         "postcode": "3131",
-        "phone": "03 8844 7082 ",
+        "phone": "(03) 8844 7082 ",
         "latitude": -37.8348179,
         "longitude": 145.1633385,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=52&mid=&no=&frmsrc=web"
       },
       {
         "title": "Forrest Chase",
-        "store_id": "for",
+        "store_id": "166",
         "address_line_01": "200 Murray St",
         "address_line_02": "",
         "suburb": "Perth",
@@ -884,7 +871,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=53&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Fountain Gate",
+        "title": "Fountain Gate 1",
         "subtitle": "In Food Court",
         "store_id": "44",
         "address_line_01": "Shop K107 Westfield Fountain Gate, Level 1 Food Court",
@@ -892,13 +879,13 @@ const StoreData =
         "suburb": "Narre Warren",
         "state": "vic",
         "postcode": "3805",
-        "phone": "03 8731 7390",
+        "phone": "(03) 8731 7390",
         "latitude": -38.0178886,
         "longitude": 145.3027166,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=54&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Fountain Gate",
+        "title": "Fountain Gate 2",
         "subtitle": "Near Coles",
         "store_id": "69",
         "address_line_01": "Shop 2114 Westfield Fountain Gate, Level 2, near Coles",
@@ -906,13 +893,13 @@ const StoreData =
         "suburb": "Narre Warren",
         "state": "vic",
         "postcode": "3805",
-        "phone": "03 8790 3544",
+        "phone": "(03) 8790 3544",
         "latitude": -38.018202,
         "longitude": 145.3059156,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=55&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Fountain Gate",
+        "title": "Fountain Gate 3",
         "subtitle": "Near Myer",
         "store_id": "fou",
         "address_line_01": "Kiosk K254 Westfield Fountain Gate",
@@ -920,7 +907,7 @@ const StoreData =
         "suburb": "Narre Warren",
         "state": "vic",
         "postcode": "3805",
-        "phone": "03 8790 3544",
+        "phone": "(03) 8790 3544",
         "latitude": -38.017181388014336,
         "longitude": 145.3042624,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=55&mid=&no=&frmsrc=web"
@@ -934,7 +921,7 @@ const StoreData =
         "suburb": "Morley",
         "state": "wa",
         "postcode": "6062",
-        "phone": "08 6263 9022",
+        "phone": "(08) 6263 9022",
         "latitude": -31.897026,
         "longitude": 115.8967119,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=56&mid=&no=&frmsrc=web"
@@ -948,13 +935,13 @@ const StoreData =
         "suburb": "Hawthorn",
         "state": "vic",
         "postcode": "3122",
-        "phone": "03 8842 7070",
+        "phone": "(03) 8842 7070",
         "latitude": -37.8202631,
         "longitude": 145.0337388,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=60&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Greensborough",
+        "title": "Greensborough 1",
         "subtitle": "Near Kmart",
         "store_id": "67",
         "address_line_01": "L02 2K6, Greensborough Plaza Shopping Centre, Level 2",
@@ -962,13 +949,13 @@ const StoreData =
         "suburb": "Greensborough",
         "state": "vic",
         "postcode": "3088",
-        "phone": "03 9434 7270",
+        "phone": "(03) 9434 7270",
         "latitude": -37.702511,
         "longitude": 145.100594,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=61&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Greensborough",
+        "title": "Greensborough 2",
         "subtitle": "Near Target",
         "store_id": "133",
         "address_line_01": "Shop 345, Greensborough Plaza Shopping Centre, Level 3",
@@ -976,7 +963,7 @@ const StoreData =
         "suburb": "Greensborough",
         "state": "vic",
         "postcode": "3088",
-        "phone": "03 9923 8234",
+        "phone": "(03) 9923 8234",
         "latitude": -37.702511,
         "longitude": 145.1016872,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=62&mid=&no=&frmsrc=web"
@@ -998,19 +985,19 @@ const StoreData =
       {
         "title": "Hawksburn",
         "company": true,
+        "store_id": "200"
         "address_line_01": "527 Malvern Rd",
         "address_line_02": "",
         "suburb": "Toorak",
         "state": "vic",
         "postcode": "3142",
-        "phone": "03 8844 7099",
+        "phone": "(03) 8844 7099",
         "latitude": -37.84804,
         "longitude": 145.00404,
-        "store_id": "haw",
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=137&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint",
+        "title": "Highpoint 1",
         "subtitle": "In Food Court",
         "store_id": "36",
         "address_line_01": "Shop 3187, Highpoint Shopping Centre, Level 3 Food Court",
@@ -1018,13 +1005,13 @@ const StoreData =
         "suburb": "Maribyrnong",
         "state": "vic",
         "postcode": "3032",
-        "phone": "03 8383 8083",
+        "phone": "(03) 8383 8083",
         "latitude": -37.7736742,
         "longitude": 144.887022,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=65&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint",
+        "title": "Highpoint 2",
         "subtitle": "Near Mecca",
         "store_id": "43",
         "address_line_01": "Kiosk 7313, Highpoint Shopping Centre",
@@ -1032,13 +1019,13 @@ const StoreData =
         "suburb": "Maribyrnong",
         "state": "vic",
         "postcode": "3032",
-        "phone": "03 8383 8066",
+        "phone": "(03) 8383 8066",
         "latitude": -37.7737694,
         "longitude": 144.8870596,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=66&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Highpoint",
+        "title": "Highpoint 3",
         "subtitle": "Fresh Food Precinct",
         "store_id": "82",
         "address_line_01": "Shop No. 2558A, Highpoint Shopping Centre",
@@ -1046,20 +1033,20 @@ const StoreData =
         "suburb": "Maribyrnong",
         "state": "vic",
         "postcode": "3032",
-        "phone": "03 8383 8050",
+        "phone": "(03) 8383 8050",
         "latitude": -37.7737755,
         "longitude": 144.887022,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=67&mid=&no=&frmsrc=web"
       },
       {
         "title": "Highpoint Train",
-        "store_id": "hig",
+        "store_id": "199",
         "address_line_01": "Highpoint Shopping Centre",
         "address_line_02": "120 - 200 Rosamond Road",
         "suburb": "Maribyrnong",
         "state": "vic",
         "postcode": "3032",
-        "phone": "03 8080 9897",
+        "phone": "(03) 8080 9897",
         "latitude": -37.77342,
         "longitude": 144.88641,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=134&mid=&no=&frmsrc=qr"
@@ -1072,7 +1059,7 @@ const StoreData =
         "suburb": "Hoppers Crossing",
         "state": "vic",
         "postcode": "3029",
-        "phone": "03 8731 7483",
+        "phone": "(03) 8731 7483",
         "latitude": -37.8785999,
         "longitude": 144.6899648,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=68&mid=&no=&frmsrc=web"
@@ -1080,7 +1067,7 @@ const StoreData =
       {
         "title": "Indooroopilly",
         "company": true,
-        "store_id": "ind",
+        "store_id": "97",
         "address_line_01": "Indooroopilly Shopping Centre",
         "address_line_02": "322 Moggill Rd",
         "suburb": "Indooroopilly",
@@ -1113,7 +1100,7 @@ const StoreData =
         "suburb": "Joondalup",
         "state": "wa",
         "postcode": "6027",
-        "phone": "08 6200 8410",
+        "phone": "(08) 6200 8410",
         "latitude": -31.7438625,
         "longitude": 115.7653213,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=70&mid=&no=&frmsrc=web"
@@ -1127,7 +1114,7 @@ const StoreData =
         "suburb": "Kalamunda",
         "state": "wa",
         "postcode": "6076",
-        "phone": "08 6390 7173",
+        "phone": "(08) 6390 7173",
         "latitude": -31.9725861,
         "longitude": 116.0571439,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=71&mid=&no=&frmsrc=web"
@@ -1149,7 +1136,7 @@ const StoreData =
       {
         "title": "Karingal Hub Train",
         "subtitle": "Town Square",
-        "store_id": "kart",
+        "store_id": "223",
         "address_line_01": "Shop S205A, Karingal Hub Shopping Centre",
         "address_line_02": "197 Karingal Dr",
         "suburb": "Frankston",
@@ -1168,13 +1155,13 @@ const StoreData =
         "suburb": "Keilor Downs",
         "state": "vic",
         "postcode": "3038",
-        "phone": "03 9999 2173",
+        "phone": "(03) 9999 2173",
         "latitude": -37.7272463,
         "longitude": 144.8050029,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=72&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Knox",
+        "title": "Knox 1",
         "company": true,
         "subtitle": "Near TK Maxx",
         "store_id": "70",
@@ -1189,7 +1176,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=73&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Knox",
+        "title": "Knox 2",
         "subtitle": "Near Pandora",
         "store_id": "13",
         "address_line_01": "Kiosk KB10, Westfield Knox, Level 2, Near Food Court",
@@ -1197,7 +1184,7 @@ const StoreData =
         "suburb": "Knox",
         "state": "vic",
         "postcode": "3152",
-        "phone": "03 8844 7134",
+        "phone": "(03) 8844 7134",
         "latitude": -37.8682964,
         "longitude": 145.2391724,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=74&mid=&no=&frmsrc=web"
@@ -1239,7 +1226,7 @@ const StoreData =
         "suburb": "Mandurah",
         "state": "wa",
         "postcode": "6210",
-        "phone": "08 9510 9375",
+        "phone": "(08) 9510 9375",
         "latitude": -32.535593,
         "longitude": 115.7417673,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=77&mid=&no=&frmsrc=web"
@@ -1247,7 +1234,7 @@ const StoreData =
       {
         "title": "Manor Lakes",
         "subtitle": "Coles",
-        "store_id": "man",
+        "store_id": "205",
         "address_line_01": "8 Manor Lakes Blvd",
         "address_line_02": "",
         "suburb": "Wyndham Vale",
@@ -1266,7 +1253,7 @@ const StoreData =
         "suburb": "Melbourne Airport",
         "state": "vic",
         "postcode": "3045",
-        "phone": "",
+        "phone": "(03) 9923 8217",
         "latitude": -37.6701683,
         "longitude": 144.8486137,
         "order_up_link": ""
@@ -1326,7 +1313,7 @@ const StoreData =
       },
       {
         "title": "Merrifield City",
-        "store_id": "merr",
+        "store_id": "180",
         "address_line_01": "K2, 270 Donnybrook Rd",
         "address_line_02": "",
         "suburb": "Mickleham",
@@ -1346,7 +1333,7 @@ const StoreData =
         "suburb": "Midland",
         "state": "wa",
         "postcode": "6056",
-        "phone": "08 6263 8778",
+        "phone": "(08) 6263 8778",
         "latitude": -31.8893537,
         "longitude": 116.01059,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=81&mid=&no=&frmsrc=web"
@@ -1359,7 +1346,7 @@ const StoreData =
         "suburb": "Clayton",
         "state": "vic",
         "postcode": "3800",
-        "phone": "03 9543 2629",
+        "phone": "(03) 9543 2629",
         "latitude": -37.9117211,
         "longitude": 145.13095,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=82&mid=&no=&frmsrc=web"
@@ -1372,7 +1359,7 @@ const StoreData =
         "suburb": "Moonee Ponds",
         "state": "vic",
         "postcode": "3039",
-        "phone": "03 9372 9231",
+        "phone": "(03) 9372 9231",
         "latitude": -37.765444,
         "longitude": 144.921178,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=83&mid=&no=&frmsrc=web"
@@ -1393,20 +1380,20 @@ const StoreData =
       {
         "title": "Mt Waverley",
         "company": true,
-        "store_id": "mtw",
+        "store_id": "215",
         "address_line_01": "545 Blackburn Rd",
         "address_line_02": "",
         "suburb": "Mt Waverley",
         "state": "vic",
         "postcode": "3149",
-        "phone": "03 8844 7099",
+        "phone": "(03) 8844 7099",
         "latitude": -37.89963,
         "longitude": 145.14275,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=136&mid=&no=&frmsrc=web"
       },
       {
         "title": "New Farm",
-        "store_id": "new",
+        "store_id": "211",
         "address_line_01": "Inside Coles",
         "address_line_02": "85 Merthyr Rd Merthyr Village Shopping Centre",
         "suburb": "New Farm",
@@ -1418,7 +1405,7 @@ const StoreData =
         "order_up_link": ""
       },
       {
-        "title": "New Royal Adelaide Hospital",
+        "title": "Royal Adelaide Hospital",
         "store_id": "145",
         "address_line_01": "Level 3, Food Court 2, Royal Adelaide Hospital",
         "address_line_02": "LOT 5 Port Rd",
@@ -1432,7 +1419,7 @@ const StoreData =
       },
       {
         "title": "Noosa",
-        "store_id": "noo",
+        "store_id": "210",
         "address_line_01": "Inside Coles Supermarket Noosa Fair Shopping Centre",
         "address_line_02": "10 Lanyana Way",
         "suburb": "Noosa Heads",
@@ -1451,7 +1438,7 @@ const StoreData =
         "suburb": "Preston",
         "state": "vic",
         "postcode": "3072",
-        "phone": "03 8383 7504",
+        "phone": "(03) 8383 7504",
         "latitude": -37.7385231,
         "longitude": 145.0278363,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=86&mid=&no=&frmsrc=web"
@@ -1478,14 +1465,14 @@ const StoreData =
         "suburb": "Werribee",
         "state": "vic",
         "postcode": "3030",
-        "phone": "0397483339",
+        "phone": "(03) 9748 3339",
         "latitude": -37.8743618,
         "longitude": 144.6774384,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=116&mid=&no=&frmsrc=web"
       },
       {
         "title": "Parkhill",
-        "store_id": "par",
+        "store_id": "192",
         "address_line_01": "215-225 Parkhill Drive",
         "address_line_02": "Parkhill Plaza SC",
         "suburb": "Berwick",
@@ -1504,7 +1491,7 @@ const StoreData =
         "suburb": "Keysborough",
         "state": "vic",
         "postcode": "3173",
-        "phone": "03 9798 6668",
+        "phone": "(03) 9798 6668",
         "latitude": -37.9927504,
         "longitude": 145.1705523,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=89&mid=&no=&frmsrc=web"
@@ -1512,7 +1499,7 @@ const StoreData =
       {
         "title": "Pattersons Lakes",
         "subtitle": "Coles",
-        "store_id": "pat",
+        "store_id": "209",
         "address_line_01": "Gladesville Shopping Centre",
         "address_line_02": "Gladesville Blvd",
         "suburb": "Patterson Lakes",
@@ -1532,7 +1519,7 @@ const StoreData =
         "suburb": "Adelaide",
         "state": "sa",
         "postcode": "5000",
-        "phone": "08 8125 7286",
+        "phone": "(08) 8125 7286",
         "latitude": -34.9255021,
         "longitude": 138.6029694,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=90&mid=&no=&frmsrc=web"
@@ -1559,7 +1546,7 @@ const StoreData =
         "suburb": "Riverton",
         "state": "wa",
         "postcode": "6148",
-        "phone": "08 9354 8929",
+        "phone": "(08) 9354 8929",
         "latitude": -32.040203,
         "longitude": 115.9032418,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=92&mid=&no=&frmsrc=web"
@@ -1573,7 +1560,7 @@ const StoreData =
         "suburb": "Rockingham",
         "state": "wa",
         "postcode": "6168",
-        "phone": "08 9507 6860",
+        "phone": "(08) 9507 6860",
         "latitude": -32.2823557,
         "longitude": 115.7312369,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=93&mid=&no=&frmsrc=web"
@@ -1586,13 +1573,13 @@ const StoreData =
         "suburb": "Roxburgh Park",
         "state": "vic",
         "postcode": "3064",
-        "phone": "03 83847025",
+        "phone": "(03) 8384 7025",
         "latitude": -37.6382678,
         "longitude": 144.9303587,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=94&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Southland",
+        "title": "Southland 1",
         "company": true,
         "subtitle": "Near Aldi",
         "store_id": "17",
@@ -1601,13 +1588,13 @@ const StoreData =
         "suburb": "Cheltenham",
         "state": "vic",
         "postcode": "3192",
-        "phone": "03 8526 8021",
+        "phone": "(03) 8526 8021",
         "latitude": -37.9591085,
         "longitude": 145.0529579,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=95&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Southland",
+        "title": "Southland 2",
         "company": true,
         "subtitle": "In Food Court",
         "store_id": "49",
@@ -1616,7 +1603,7 @@ const StoreData =
         "suburb": "Cheltenham",
         "state": "vic",
         "postcode": "3192",
-        "phone": "03 8526 7654",
+        "phone": "(03) 8526 7654",
         "latitude": -37.9580914,
         "longitude": 145.0509481,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=96&mid=&no=&frmsrc=web"
@@ -1624,7 +1611,7 @@ const StoreData =
       {
         "title": "Springvale Homemaker",
         "company": true,
-        "store_id": "spr",
+        "store_id": "220",
         "address_line_01": "917 Princes Hwy",
         "address_line_02": "",
         "suburb": "Springvale",
@@ -1643,7 +1630,7 @@ const StoreData =
         "suburb": "St Albans",
         "state": "vic",
         "postcode": "3021",
-        "phone": "03 9923 8249",
+        "phone": "(03) 9923 8249",
         "latitude": -37.7443385,
         "longitude": 144.7973159,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=97&mid=&no=&frmsrc=web"
@@ -1656,7 +1643,7 @@ const StoreData =
         "suburb": "St Helena",
         "state": "vic",
         "postcode": "3088",
-        "phone": "03 9438 6732",
+        "phone": "(03) 9438 6732",
         "latitude": -37.6849058,
         "longitude": 145.1336233,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=98&mid=&no=&frmsrc=web"
@@ -1682,7 +1669,7 @@ const StoreData =
         "suburb": "Sunbury",
         "state": "vic",
         "postcode": "3429",
-        "phone": "03 8732 7239",
+        "phone": "(03) 8732 7239",
         "latitude": -37.577807,
         "longitude": 144.7280843,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=100&mid=&no=&frmsrc=web"
@@ -1695,14 +1682,14 @@ const StoreData =
         "suburb": "Birtinya",
         "state": "qld",
         "postcode": "4577",
-        "phone": "07 5202 2167",
+        "phone": "(07) 5202 2167",
         "latitude": -26.7461999,
         "longitude": 153.1123265,
         "order_up_link": ""
       },
       {
         "title": "Tarneit Central",
-        "store_id": "tar",
+        "store_id": "198",
         "address_line_01": "Kiosk K08 Tarneit Central Shopping Centre",
         "address_line_02": "540 Derrimut Rd",
         "suburb": "Tarneit",
@@ -1716,13 +1703,13 @@ const StoreData =
       {
         "title": "Taylors Hill",
         "subtitle": "Coles",
-        "store_id": "tay",
+        "store_id": "217",
         "address_line_01": "Gourlay Rd",
         "address_line_02": "",
         "suburb": "Taylors Hill",
         "state": "vic",
         "postcode": "3037",
-        "phone": "03 8844 7099",
+        "phone": "(03) 8844 7099",
         "latitude": -37.71553,
         "longitude": 144.73973,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=136&mid=&no=&frmsrc=web"
@@ -1749,7 +1736,7 @@ const StoreData =
         "suburb": "Oakleigh South",
         "state": "vic",
         "postcode": "3167",
-        "phone": "03 8525 7102",
+        "phone": "(03) 8525 7102",
         "latitude": -37.9220474,
         "longitude": 145.0832765,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=103&mid=&no=&frmsrc=web"
@@ -1762,7 +1749,7 @@ const StoreData =
         "suburb": "Doncaster East",
         "state": "vic",
         "postcode": "3109",
-        "phone": "03 8844 7115",
+        "phone": "(03) 8844 7115",
         "latitude": -37.7610507,
         "longitude": 145.1689572,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=104&mid=&no=&frmsrc=web"
@@ -1775,7 +1762,7 @@ const StoreData =
         "suburb": "Toorak",
         "state": "vic",
         "postcode": "3142",
-        "phone": "03 9824 0975",
+        "phone": "(03) 8844 7129",
         "latitude": -37.840486,
         "longitude": 145.0066061,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=105&mid=&no=&frmsrc=web"
@@ -1789,7 +1776,7 @@ const StoreData =
         "suburb": "Glen Iris",
         "state": "vic",
         "postcode": "3146",
-        "phone": "03 8823 6345",
+        "phone": "(03) 8823 6345",
         "latitude": -37.845928,
         "longitude": 145.045502,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=40&mid=&no=&frmsrc=web"
@@ -1816,7 +1803,7 @@ const StoreData =
         "suburb": "Warnbro",
         "state": "wa",
         "postcode": "6169",
-        "phone": "08 9555 5002",
+        "phone": "(08) 9555 5002",
         "latitude": -32.3457587,
         "longitude": 115.7608067,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=108&mid=&no=&frmsrc=web"
@@ -1830,7 +1817,7 @@ const StoreData =
         "suburb": "Heidelberg",
         "state": "vic",
         "postcode": "3084",
-        "phone": "03 9456 9337",
+        "phone": "(03) 8456 7695",
         "latitude": -37.7557355,
         "longitude": 145.0663433,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=109&mid=&no=&frmsrc=web"
@@ -1844,7 +1831,7 @@ const StoreData =
         "suburb": "Warwick",
         "state": "wa",
         "postcode": "6024",
-        "phone": "08 6263 8537",
+        "phone": "(08) 6263 8537",
         "latitude": -31.8439696,
         "longitude": 115.8094805,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=110&mid=&no=&frmsrc=web"
@@ -1857,7 +1844,7 @@ const StoreData =
         "suburb": "Taylors Lakes",
         "state": "vic",
         "postcode": "3038",
-        "phone": "03 8358 2826",
+        "phone": "(03) 8358 2826",
         "latitude": -37.6990358,
         "longitude": 144.7745029,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=111&mid=&no=&frmsrc=web"
@@ -1891,7 +1878,7 @@ const StoreData =
       {
         "title": "Waymouth St",
         "company": true,
-        "store_id": "way",
+        "store_id": "193",
         "address_line_01": "Tenancy 3, 11 Waymouth St",
         "address_line_02": "",
         "suburb": "Adelaide",
@@ -1916,7 +1903,7 @@ const StoreData =
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=114&mid=&no=&frmsrc=web"
       },
       {
-        "title": "Werribee",
+        "title": "Werribee 1",
         "company": true,
         "subtitle": "Near Coles",
         "store_id": "113",
@@ -1925,7 +1912,7 @@ const StoreData =
         "suburb": "Werribee",
         "state": "vic",
         "postcode": "3030",
-        "phone": "03 8731 7399",
+        "phone": "(03) 8731 7399",
         "latitude": -37.8753051,
         "longitude": 144.6791944,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=115&mid=&no=&frmsrc=web"
@@ -1939,7 +1926,7 @@ const StoreData =
         "suburb": "Geelong",
         "state": "vic",
         "postcode": "3220",
-        "phone": "(03)5234 4976",
+        "phone": "(03) 5234 4976",
         "latitude": -38.1464349,
         "longitude": 144.3601622,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=59&mid=&no=&frmsrc=web"
@@ -1947,13 +1934,13 @@ const StoreData =
       {
         "title": "Whitehorse Plaza",
         "company": true,
-        "store_id": "whi",
+        "store_id": "10",
         "address_line_01": "Shop FF01, Whitehorse Plaza Shopping Centre",
         "address_line_02": "17-21 Market Street",
         "suburb": "Box Hill",
         "state": "vic",
         "postcode": "3128",
-        "phone": "03 9898 5076",
+        "phone": "(03) 9898 5076",
         "latitude": -37.81861,
         "longitude": 145.12197,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=117&mid=&no=&frmsrc=web"
@@ -1967,7 +1954,7 @@ const StoreData =
         "suburb": "Hillarys",
         "state": "wa",
         "postcode": "6025",
-        "phone": "08 6200 8419",
+        "phone": "(08) 6200 8419",
         "latitude": -31.7967026,
         "longitude": 115.7474391,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=118&mid=&no=&frmsrc=web"
@@ -2007,7 +1994,7 @@ const StoreData =
         "suburb": "Woden",
         "state": "act",
         "postcode": "2612",
-        "phone": "02 6281 7619",
+        "phone": "(02) 6281 7619",
         "latitude": -35.2782638,
         "longitude": 149.0630682,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=122&mid=&no=&frmsrc=web"
@@ -2020,7 +2007,7 @@ const StoreData =
         "suburb": "Melton",
         "state": "vic",
         "postcode": "3337",
-        "phone": "03 8746 5435",
+        "phone": "(03) 8732 7242",
         "latitude": -37.6863958,
         "longitude": 144.5588654,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=123&mid=&no=&frmsrc=web"
@@ -2028,20 +2015,20 @@ const StoreData =
       {
         "title": "Wallan",
         "subtitle": "East Entry - Near Subway",
-        "store_id": "wal",
+        "store_id": "224",
         "address_line_01": "Tenancy 05, Wellington Square",
         "address_line_02": "81-89 High Street",
         "suburb": "Wallan",
         "state": "vic",
         "postcode": "3756",
-        "phone": "03 5730 5119",
+        "phone": "(03) 5730 5119",
         "latitude": -37.411952138184446,
         "longitude": 144.97868859466595,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=148&mid=&no=&frmsrc=web"
       },
       {
         "title": "Chisholm",
-        "store_id": "chi",
+        "store_id": "225",
         "address_line_01": "Shop 1, Chisholm Village",
         "address_line_02": "42 Halley Street",
         "suburb": "Chisholm",
@@ -2054,13 +2041,13 @@ const StoreData =
       },
       {
         "title": "QVB",
-        "store_id": "qvb",
+        "store_id": "226",
         "address_line_01": "Queen Victoria Building",
         "address_line_02": "455 George St",
         "suburb": "Sydney",
         "state": "nsw",
         "postcode": "2000",
-        "phone": "",
+        "phone": "(02) 8252 7879",
         "latitude": -33.87173088124283,
         "longitude": 151.20658977987637,
         "order_up_link": "https://sushisushi.orderup.com.au/nfc/?sid=149&mid=&no=&frmsrc=web"
