@@ -168,7 +168,7 @@ const StoreData =
       {
         "title": "Belconnen 1",
         "subtitle": "In Food Court",
-        "store_id": "14"
+        "store_id": "14",
         "address_line_01": "Shop 19A, Westfield Belconnen Shopping Centre",
         "address_line_02": "Benjamin Way",
         "suburb": "Belconnen",
