@@ -985,7 +985,7 @@ const StoreData =
       {
         "title": "Hawksburn",
         "company": true,
-        "store_id": "200"
+        "store_id": "200",
         "address_line_01": "527 Malvern Rd",
         "address_line_02": "",
         "suburb": "Toorak",
