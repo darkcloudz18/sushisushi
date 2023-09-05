@@ -177,7 +177,6 @@ const StoreData =
         "phone": "(02) 6251 9933",
         "latitude": -35.2379381,
         "longitude": 149.0650706,
-        "store_id": "14"
       },
       {
         "title": "Belconnen 2",
