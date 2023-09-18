@@ -50,7 +50,7 @@ export default function Footer() {
                     <a href='/tool-box' className="plain-link fw-bold">Tool Box</a>
                   </div>
                   <div className={"col py-3"}>
-                    <a href={"https://sushisushi.orderup.com.au/nfc/?sid=131&mid=&no=&frmsrc=qr"} className={"plain-link fw-bold"}>Gift Cards</a>
+                    <a href={"https://sushisushi.orderup.com.au/stores/sushi-sushi-gift-cards"} className={"plain-link fw-bold"}>Gift Cards</a>
                   </div>
                 </div>
               </div>
