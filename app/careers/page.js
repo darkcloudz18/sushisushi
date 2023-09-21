@@ -8,7 +8,7 @@ export default function AboutUs() {
             <div className={"container py-5"}>
                 <div className={"row row-cols-1 row-cols-lg-2"}>
                     <div className={"col"}>
-                        <h2 className={"section-title-salmon"}>Want to be part of Australia’s largest and most loved sushi brand?</h2>
+                        <h2 className={"section-title-salmon"}>Want to be part of Australia’s largest and most loved sushi brand ?</h2>
                         <p className={"lead"}>With more than 150 locations across Australia and New Zealand, plus our Support Office in Victoria, there are plenty of opportunities available at Sushi Sushi.</p>
                     </div>
                     <div>
