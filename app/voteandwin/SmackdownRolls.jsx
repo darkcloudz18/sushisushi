@@ -1,7 +1,7 @@
 export const SmackdownRolls = [
 
     {
-        name: "Vegetarian"
+        name: "Vegetarian",
     },
 
     {
@@ -9,7 +9,7 @@ export const SmackdownRolls = [
     },
 
     {
-        name: "Spicy Prawn & Cucumber"
+        name: "Spicy Prawn & Cucumber",
     },
 
     {
