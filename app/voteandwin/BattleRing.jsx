@@ -71,8 +71,8 @@ export default function BattleRing({setBattleStatus, setWinner}){
         
             
             <p className={"text-center"}><img className={"text-center"} height={"250"} width={"800"} src="/images/battle/banner.png" alt="Battle of the Hand Rolls" /></p>
-            <p className={"lead fw-bold display-6 text-center m-0 p-0"}> It's Sushi v Sushi!</p>
-            <p className={"lead text-center display-6 m-0 p-0"}>Select your fave from the 2 hand roll contenders and watch the others get knocked out of the battle until there’s just one champion! </p>
+            <p className={"lead fw-bold display-6 text-center m-0 p-0"}> It&apos;s Sushi v Sushi!</p>
+            <p className={"lead text-center display-6 m-0 p-0"}>Select your fave from the 2 hand roll contenders and watch the others get knocked out of the battle until there is just one champion! </p>
             {/* <h3 className={"visible-text"}>{contenderLeft.rollName}</h3> */}
             <div className={"battle-ring"}>
                 <div
@@ -119,7 +119,7 @@ export default function BattleRing({setBattleStatus, setWinner}){
                     </div>
             <InfoPopup trigger={timeInfoPopup} setTrigger={setTimeInfoPopup}>
                 <h3>Nice Pick!</h3>
-                <p className={"lead p-3"}>Just like our nori seaweed! We only pick the first crop harvested each winter in Japan. It's rare to find in Australia. Unless you are a world-class sushi maker… or one of our customers (lucky you hey!)</p>
+                <p className={"lead p-3"}>Just like our nori seaweed! We only pick the first crop harvested each winter in Japan. It&apos;s rare to find in Australia. Unless you are a world-class sushi maker… or one of our customers (lucky you hey!)</p>
             </InfoPopup>
             <InfoPopup trigger={timeInfoPopupTwo} setTrigger={setTimeInfoPopupTwo}>
                 <h3>Quality choice!</h3>
@@ -135,7 +135,7 @@ export default function BattleRing({setBattleStatus, setWinner}){
             </InfoPopup>
             <InfoPopup trigger={timeInfoPopupFive} setTrigger={setTimeInfoPopupFive}>
                 <h3>Tasty selection!</h3>
-                <p className={"lead p-3"}>You've got a taste for the best, just like our stores who use over 1 million kilos of rice each year. Keep rolling with those excellent decisions!</p>
+                <p className={"lead p-3"}>You&apos;ve got a taste for the best, just like our stores who use over 1 million kilos of rice each year. Keep rolling with those excellent decisions!</p>
             </InfoPopup>
             </div>
         </div>

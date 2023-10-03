@@ -31,7 +31,7 @@ export default function EntryForm({fields, handleFieldChange, setBattleStatus}){
                     setBattleStatus(BattleStatus.InProgress);
                 }}
             >
-                <div className={"text-center"}> <button type="submit" className="btn btn-sushi-primary" style={{width: "80%"}}>Let's Roll</button></div>
+                <div className={"text-center"}> <button type="submit" className="btn btn-sushi-primary" style={{width: "80%"}}>Let&apos;s Roll</button></div>
             </form>
         </div>
     )
